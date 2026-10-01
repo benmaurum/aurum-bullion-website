@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://benmaurum.github.io/aurum-bullion-website/sitemap.xml
