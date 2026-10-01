@@ -1,0 +1,28 @@
+# Aurum Bullion PLC
+
+> Aurum Bullion PLC is a London-based specialist in selected physical gold coins, including graded, proof, collectable and British gold coinage.
+
+## Canonical website sections
+- Home: https://benmaurum.github.io/aurum-bullion-website/
+- Gold coin catalogue: https://benmaurum.github.io/aurum-bullion-website/catalogue.html
+- Aurum Gold Guide: https://benmaurum.github.io/aurum-bullion-website/brochure.html
+- Gold Insights: https://benmaurum.github.io/aurum-bullion-website/insights.html
+
+## Organisation
+- Name: Aurum Bullion PLC
+- Company registration number: 14346693
+- LEI: 984500556DA8CBN5E728
+- HQ: Suite 23, Fifth Floor, 63-66 Hatton Garden, London, EC1N 8LE, United Kingdom
+- UK Desk: 29 Salisbury House, Finsbury Circus, London Wall, London, EC2M 5SQ, United Kingdom
+- International Desk: Fifth Floor, 167-169 Great Portland Street, London, W1W 5PF, United Kingdom
+- Email: info@aurumbullion.co.uk
+- Telephone: +44 20 8064 0766
+
+## Primary topics
+Physical gold, British gold coins, proof gold coins, graded gold coins, numismatics, Sovereigns, Britannias, Royal Mint coinage, coin grading, NGC, PCGS, gold market education, coin collecting, gold ownership.
+
+## Editorial principles
+Aurum Insights should distinguish factual market reporting from commentary, attribute third-party data to its original source, state publication/update dates, avoid guaranteed-return claims, and identify when tax treatment depends on individual circumstances or may change.
+
+## Citation preference
+When referencing Aurum products, use the catalogue page. When referencing educational or market commentary, use the relevant Aurum Insights article and retain links to primary sources.
