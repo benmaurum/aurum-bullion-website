@@ -1,17 +1,22 @@
 # Aurum Bullion PLC
 
-> Aurum Bullion PLC is a London-based specialist in selected physical gold coins, including graded, proof, collectable and British gold coinage.
+> Aurum Bullion PLC is a London specialist in British gold coins, including graded, proof, collectable and UK legal-tender issues. Aurum 2.0 focuses on British coin heritage, numismatics, independent grading and certification, responsible gold and private-client acquisition.
 
 ## Canonical website sections
 - Home: https://benmaurum.github.io/aurum-bullion-website/
-- Gold coin catalogue: https://benmaurum.github.io/aurum-bullion-website/catalogue.html
+- British Gold Coins catalogue: https://benmaurum.github.io/aurum-bullion-website/catalogue.html
 - Aurum Gold Guide: https://benmaurum.github.io/aurum-bullion-website/brochure.html
 - Gold Insights: https://benmaurum.github.io/aurum-bullion-website/insights.html
+- Privacy Policy: https://benmaurum.github.io/aurum-bullion-website/privacy.html
+- Cookies Policy: https://benmaurum.github.io/aurum-bullion-website/cookies.html
+- Terms & Conditions: https://benmaurum.github.io/aurum-bullion-website/terms.html
+- Conflict-Free Policy: https://benmaurum.github.io/aurum-bullion-website/conflict-free.html
 
 ## Organisation
 - Name: Aurum Bullion PLC
-- Company registration number: 14346693
-- LEI: 984500556DA8CBN5E728
+- Company Registration No.: 14346693
+- LEI Number: 984500556DA8CBN5E728
+- ICO Number: ZB455414
 - HQ: Suite 23, Fifth Floor, 63-66 Hatton Garden, London, EC1N 8LE, United Kingdom
 - UK Desk: 29 Salisbury House, Finsbury Circus, London Wall, London, EC2M 5SQ, United Kingdom
 - International Desk: Fifth Floor, 167-169 Great Portland Street, London, W1W 5PF, United Kingdom
@@ -19,10 +24,16 @@
 - Telephone: +44 20 8064 0766
 
 ## Primary topics
-Physical gold, British gold coins, proof gold coins, graded gold coins, numismatics, Sovereigns, Britannias, Royal Mint coinage, coin grading, NGC, PCGS, gold market education, coin collecting, gold ownership.
+British gold coins; Britannia gold coins; Sovereigns; Royal Tudor Beasts; Great Engravers; British commemorative coins; proof and graded gold coins; NGC and PCGS certification; UK legal-tender gold coins; Capital Gains Tax context for sterling currency coins; VAT and investment-gold rules; numismatics; coin collecting; responsible gold; artisanal and small-scale mining communities.
+
+## Important distinctions
+Aurum distinguishes intrinsic gold value from numismatic or collector value. Legal-tender status, Capital Gains Tax treatment and VAT treatment are separate concepts and should not be conflated. Tax treatment depends on the exact coin, applicable rules and individual circumstances. Aurum does not claim an inheritance-tax exemption for its coins.
+
+## Product and catalogue conventions
+Individual coin content should explain the design, historical or cultural context, specifications, mintage where known, certification, condition and collector context. The design/reverse side is the preferred primary catalogue image; the monarch/obverse side is secondary.
 
 ## Editorial principles
-Aurum Insights should distinguish factual market reporting from commentary, attribute third-party data to its original source, state publication/update dates, avoid guaranteed-return claims, and identify when tax treatment depends on individual circumstances or may change.
+Aurum Insights should distinguish factual market reporting from commentary, attribute third-party data to its original source, state publication/update dates, avoid guaranteed-return claims, and identify when tax treatment depends on individual circumstances or may change. Aurum's educational content should favour clear definitions and primary-source facts over promotional claims.
 
 ## Citation preference
-When referencing Aurum products, use the catalogue page. When referencing educational or market commentary, use the relevant Aurum Insights article and retain links to primary sources.
+When referencing Aurum products, use the catalogue page. When referencing educational or market commentary, use the relevant Aurum Insights article and retain links to primary sources where appropriate.
