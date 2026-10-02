@@ -1,16 +1,23 @@
-/* Aurum master brand asset: always use the uploaded Logo.png */
-document.querySelectorAll('.brand img, footer img, .brochure-top img').forEach(img=>{img.src='Logo.png';img.alt='Aurum Bullion PLC'});let fav=document.querySelector("link[rel~='icon']");if(!fav){fav=document.createElement('link');fav.rel='icon';document.head.appendChild(fav)}fav.type='image/png';fav.href='Logo.png';
-const menu=document.querySelector('.menu');if(menu)menu.addEventListener('click',()=>{document.querySelector('nav').classList.toggle('open')});let goldCurrency='GBP',lastUsd=null,lastGbp=null;function renderGold(){const el=document.getElementById('gold'),pair=document.getElementById('goldpair');if(!el)return;if(goldCurrency==='USD'&&lastUsd){el.textContent='$'+lastUsd.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2})+' / TROY OZ';if(pair)pair.textContent='XAU/USD'}else if(lastGbp){el.textContent='£'+lastGbp.toLocaleString('en-GB',{minimumFractionDigits:2,maximumFractionDigits:2})+' / TROY OZ';if(pair)pair.textContent='XAU/GBP'}}async function updateGold(){const el=document.getElementById('gold'),tm=document.getElementById('goldtime');if(!el)return;try{const [g,fx]=await Promise.all([fetch('https://api.gold-api.com/price/XAU').then(r=>r.json()),fetch('https://api.frankfurter.app/latest?from=USD&to=GBP').then(r=>r.json())]);lastUsd=Number(g.price);lastGbp=lastUsd*Number(fx.rates.GBP);if(!Number.isFinite(lastUsd)||!Number.isFinite(lastGbp))throw new Error('price');renderGold();if(tm)tm.textContent='• INDICATIVE LIVE SPOT'}catch(e){el.textContent='Live spot temporarily unavailable';if(tm)tm.textContent=''}}const toggle=document.getElementById('currencyToggle');if(toggle)toggle.addEventListener('click',()=>{goldCurrency=goldCurrency==='GBP'?'USD':'GBP';renderGold()});updateGold();setInterval(updateGold,0);
-
-/* Native page structure now lives in HTML. */
-
 /* Aurum 2.0 global behaviour */
 document.querySelectorAll('.brand img, footer img, .brochure-top img').forEach(img=>{img.src='Logo.png';img.alt='Aurum Bullion PLC'});
 let fav=document.querySelector("link[rel~='icon']");if(!fav){fav=document.createElement('link');fav.rel='icon';document.head.appendChild(fav)}fav.type='image/png';fav.href='Logo.png';
 const menu=document.querySelector('.menu');if(menu)menu.addEventListener('click',()=>{document.querySelector('nav')?.classList.toggle('open')});
+
+/* Ghana field footage: original camera audio must never be heard. */
+document.querySelectorAll('.ghana-video video').forEach(video=>{
+  video.muted=true;
+  video.defaultMuted=true;
+  video.volume=0;
+  video.removeAttribute('controls');
+  video.setAttribute('muted','');
+  video.setAttribute('playsinline','');
+  video.addEventListener('volumechange',()=>{if(!video.muted||video.volume!==0){video.muted=true;video.volume=0}});
+});
+
 let goldCurrency='GBP',lastUsd=null,lastGbp=null;
 function renderGold(){const el=document.getElementById('gold'),pair=document.getElementById('goldpair');if(!el)return;if(goldCurrency==='USD'&&lastUsd){el.textContent='$'+lastUsd.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2})+' / TROY OZ';if(pair)pair.textContent='XAU/USD'}else if(lastGbp){el.textContent='£'+lastGbp.toLocaleString('en-GB',{minimumFractionDigits:2,maximumFractionDigits:2})+' / TROY OZ';if(pair)pair.textContent='XAU/GBP'}}
 async function updateGold(){const el=document.getElementById('gold'),tm=document.getElementById('goldtime');if(!el)return;try{const [g,fx]=await Promise.all([fetch('https://api.gold-api.com/price/XAU').then(r=>r.json()),fetch('https://api.frankfurter.app/latest?from=USD&to=GBP').then(r=>r.json())]);lastUsd=Number(g.price);lastGbp=lastUsd*Number(fx.rates.GBP);if(!Number.isFinite(lastUsd)||!Number.isFinite(lastGbp))throw new Error('price');renderGold();if(tm)tm.textContent='• INDICATIVE LIVE SPOT'}catch(e){el.textContent='Live spot temporarily unavailable';if(tm)tm.textContent=''}}
-const toggle=document.getElementById('currencyToggle');if(toggle)toggle.addEventListener('click',()=>{goldCurrency=goldCurrency==='GBP'?'USD':'GBP';renderGold()});updateGold();setInterval(updateGold,0);
+const toggle=document.getElementById('currencyToggle');if(toggle)toggle.addEventListener('click',()=>{goldCurrency=goldCurrency==='GBP'?'USD':'GBP';renderGold()});updateGold();setInterval(updateGold,300000);
+
 /* Consent banner: necessary-only by default; no non-essential tracking is loaded until separately added and consented. */
 (function(){if(localStorage.getItem('aurumCookieChoice'))return;const b=document.createElement('div');b.className='cookie-banner';b.innerHTML='<div><strong>Cookie choices</strong><p>Aurum uses necessary cookies for core site functions. Optional analytics or marketing technologies will only be activated with consent if introduced.</p></div><div><button data-cookie="necessary">Necessary only</button><button class="accept" data-cookie="all">Accept all</button><a href="cookies.html">Cookies Policy</a></div>';document.body.appendChild(b);b.querySelectorAll('[data-cookie]').forEach(x=>x.onclick=()=>{localStorage.setItem('aurumCookieChoice',x.dataset.cookie);b.remove()})})();
