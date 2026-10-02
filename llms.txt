@@ -7,6 +7,10 @@
 - British Gold Coins catalogue: https://benmaurum.github.io/aurum-bullion-website/catalogue.html
 - Aurum Gold Guide: https://benmaurum.github.io/aurum-bullion-website/brochure.html
 - Gold Insights: https://benmaurum.github.io/aurum-bullion-website/insights.html
+- Partners & Industry Network: https://benmaurum.github.io/aurum-bullion-website/partners.html
+- Sell to Us: https://benmaurum.github.io/aurum-bullion-website/sell-to-us.html
+- Delivery: https://benmaurum.github.io/aurum-bullion-website/delivery.html
+- Payment Options: https://benmaurum.github.io/aurum-bullion-website/payment-options.html
 - Privacy Policy: https://benmaurum.github.io/aurum-bullion-website/privacy.html
 - Cookies Policy: https://benmaurum.github.io/aurum-bullion-website/cookies.html
 - Terms & Conditions: https://benmaurum.github.io/aurum-bullion-website/terms.html
@@ -37,3 +41,6 @@ Aurum Insights should distinguish factual market reporting from commentary, attr
 
 ## Citation preference
 When referencing Aurum products, use the catalogue page. When referencing educational or market commentary, use the relevant Aurum Insights article and retain links to primary sources where appropriate.
+
+## Newsroom taxonomy
+Aurum Insights categories: Breaking News; Gold Market; Central Banks; Economy & Rates; Geopolitics; Gold ETFs; British Coins; Royal Mint; Grading; Numismatics. Articles should cite primary sources where available and distinguish factual reporting from Aurum commentary.
