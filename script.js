@@ -1,7 +1,12 @@
 /* Aurum 2.0 global behaviour */
 document.querySelectorAll('.brand img, footer img, .brochure-top img').forEach(img=>{img.src='Logo.png';img.alt='Aurum Bullion PLC'});
 let fav=document.querySelector("link[rel~='icon']");if(!fav){fav=document.createElement('link');fav.rel='icon';document.head.appendChild(fav)}fav.type='image/png';fav.href='Logo.png';
-const menu=document.querySelector('.menu');if(menu)menu.addEventListener('click',()=>{document.querySelector('nav')?.classList.toggle('open')});
+
+/* Global navigation hierarchy: Partners is a child of Why Aurum. */
+document.querySelectorAll('header nav').forEach(nav=>{const links=[...nav.querySelectorAll(':scope > a')],why=links.find(a=>a.textContent.trim()==='Why Aurum'),partners=links.find(a=>a.textContent.trim()==='Partners');if(why&&partners){const wrap=document.createElement('span');wrap.className='nav-parent';why.before(wrap);wrap.appendChild(why);const sub=document.createElement('span');sub.className='nav-submenu';partners.remove();sub.appendChild(partners);wrap.appendChild(sub);why.setAttribute('aria-haspopup','true')}[...nav.querySelectorAll('a')].forEach(a=>{if(a.textContent.trim()==='Gold Guide')a.textContent='Gold Coin Guide'})});
+/* Keep Aurum's customer-facing language centred on gold coins, without corrupting technical references to gold content, spot gold or responsible sourcing. */
+document.querySelectorAll('a').forEach(a=>{const t=a.textContent.trim();if(t==='Read the Aurum Gold Guide →')a.textContent='Read the Aurum Gold Coin Guide →';if(t==='Speak to a Gold Specialist')a.textContent='Speak to a Gold Coin Specialist';if(t==='Explore Gold')a.textContent='Explore Gold Coins'});
+const menu=document.querySelector('.menu');if(menu)menu.addEventListener('click',()=>{document.querySelector('header nav')?.classList.toggle('open')});
 
 /* Ghana field story: six clips presented as one scrub-able film. Video may autoplay silently; Ghana soundtrack is opt-in only and never starts from a general page interaction. */
 (function(){
