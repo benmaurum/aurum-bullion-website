@@ -1,6 +1,8 @@
-/* Aurum 2.0 global behaviour */
+/* Aurum Bullion global behaviour */
 document.querySelectorAll('.brand img, footer img, .brochure-top img').forEach(img=>{img.src='Logo.png';img.alt='Aurum Bullion PLC'});
 let fav=document.querySelector("link[rel~='icon']");if(!fav){fav=document.createElement('link');fav.rel='icon';document.head.appendChild(fav)}fav.type='image/png';fav.href='Logo.png';
+/* Homepage Aurum Approach image */
+(()=>{const el=document.querySelector('.human-img.specialist');if(el){el.style.backgroundImage="url('aurum-approach-consultation.jpg')";el.style.backgroundSize='cover';el.style.backgroundPosition='center'}})();
 
 /* Global navigation: Partners is a true second-line child below Why Aurum. */
 document.querySelectorAll('header nav').forEach(nav=>{let why=[...nav.querySelectorAll('a')].find(a=>a.textContent.trim()==='Why Aurum'),partners=[...nav.querySelectorAll('a')].find(a=>a.textContent.trim()==='Partners'),parent=nav.querySelector('.nav-parent');if(!parent&&why){parent=document.createElement('span');parent.className='nav-parent';why.before(parent);parent.appendChild(why)}if(parent&&partners&&!parent.contains(partners)){let sub=parent.querySelector('.nav-submenu,.nav-sub');if(!sub){sub=document.createElement('span');sub.className='nav-submenu';parent.appendChild(sub)}partners.remove();sub.appendChild(partners)}if(parent){const sub=parent.querySelector('.nav-sub');if(sub)sub.className='nav-submenu';why=parent.querySelector(':scope > a');if(why)why.setAttribute('aria-haspopup','true')}[...nav.querySelectorAll('a')].forEach(a=>{if(a.textContent.trim()==='Gold Guide')a.textContent='Gold Coin Guide'})});
