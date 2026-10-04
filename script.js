@@ -3,16 +3,22 @@ document.querySelectorAll('.brand img, footer img, .brochure-top img').forEach(i
 let fav=document.querySelector("link[rel~='icon']");if(!fav){fav=document.createElement('link');fav.rel='icon';document.head.appendChild(fav)}fav.type='image/png';fav.href='Logo.png';
 const menu=document.querySelector('.menu');if(menu)menu.addEventListener('click',()=>{document.querySelector('nav')?.classList.toggle('open')});
 
-/* Ghana field footage: original camera audio must never be heard. */
-document.querySelectorAll('.ghana-video video').forEach(video=>{
-  video.muted=true;
-  video.defaultMuted=true;
-  video.volume=0;
-  video.removeAttribute('controls');
-  video.setAttribute('muted','');
-  video.setAttribute('playsinline','');
-  video.addEventListener('volumechange',()=>{if(!video.muted||video.volume!==0){video.muted=true;video.volume=0}});
-});
+/* Ghana field footage: preserve aspect ratio, contain it in a cinematic frame and play all clips in sequence. Original camera audio is always muted. */
+(function(){
+ const videos=[...document.querySelectorAll('[data-ghana-video]')];
+ const frame=document.querySelector('.ghana-video-showcase');
+ if(!videos.length||!frame)return;
+ Object.assign(frame.style,{position:'relative',width:'100%',height:'clamp(280px,38vw,520px)',maxHeight:'520px',overflow:'hidden',background:'#17191a',margin:'38px 0 18px'});
+ videos.forEach((video,i)=>{
+   Object.assign(video.style,{position:'absolute',inset:'0',width:'100%',height:'100%',objectFit:'contain',objectPosition:'center',background:'#17191a',opacity:i===0?'1':'0',visibility:i===0?'visible':'hidden',transition:'opacity .55s ease'});
+   video.muted=true;video.defaultMuted=true;video.volume=0;video.removeAttribute('controls');video.setAttribute('muted','');video.setAttribute('playsinline','');
+   video.addEventListener('volumechange',()=>{if(!video.muted||video.volume!==0){video.muted=true;video.volume=0}});
+ });
+ const dots=[...frame.querySelectorAll('.ghana-video-progress span')];
+ const show=i=>{videos.forEach((v,n)=>{const active=n===i;v.style.opacity=active?'1':'0';v.style.visibility=active?'visible':'hidden';if(!active){v.pause();v.currentTime=0}});dots.forEach((d,n)=>d.style.opacity=n===i?'1':'.32');videos[i].play().catch(()=>{});};
+ videos.forEach((v,i)=>v.addEventListener('ended',()=>show((i+1)%videos.length)));
+ show(0);
+})();
 
 let goldCurrency='GBP',lastUsd=null,lastGbp=null;
 function renderGold(){const el=document.getElementById('gold'),pair=document.getElementById('goldpair');if(!el)return;if(goldCurrency==='USD'&&lastUsd){el.textContent='$'+lastUsd.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2})+' / TROY OZ';if(pair)pair.textContent='XAU/USD'}else if(lastGbp){el.textContent='£'+lastGbp.toLocaleString('en-GB',{minimumFractionDigits:2,maximumFractionDigits:2})+' / TROY OZ';if(pair)pair.textContent='XAU/GBP'}}
