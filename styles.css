@@ -1,8 +1,14 @@
 @import url('styles-base.css');
 
 /* Homepage image corrections */
-.hero-photo{background-image:none!important;background:#34383b!important;}
+.hero-photo{background-image:url('Golden Britannia Coins on a Sunlit Terrace.png')!important;background-size:cover!important;background-repeat:no-repeat!important;background-position:center center!important;background-color:#f5f8fa!important;}
+/* Keep the light hero image while protecting readability of the left-hand copy. */
+.hero-shade{background:linear-gradient(90deg,rgba(18,27,32,.76) 0%,rgba(18,27,32,.62) 28%,rgba(18,27,32,.24) 50%,rgba(18,27,32,0) 68%)!important;}
+.hero-copy{color:#fff!important;text-shadow:0 1px 3px rgba(0,0,0,.32);}
+.hero-copy .eyebrow,.hero-copy .lead,.hero-copy h1{color:#fff!important;}
+.hero-copy h1 em{color:#d9ad58!important;text-shadow:0 1px 3px rgba(0,0,0,.28);}
+.hero-copy .lightlink{color:#fff!important;}
 .heritage-image{background-image:url('British Gold_ History and Heritage.png')!important;background-size:contain!important;background-repeat:no-repeat!important;background-position:left center!important;background-color:#f5f8fa!important;-webkit-mask-image:linear-gradient(90deg,#000 0%,#000 76%,transparent 100%)!important;mask-image:linear-gradient(90deg,#000 0%,#000 76%,transparent 100%)!important;}
 .human-img.specialist{background-image:url('Luxury Numismatic Consultation by the Thames.png')!important;background-size:contain!important;background-repeat:no-repeat!important;background-position:left center!important;background-color:#fff!important;-webkit-mask-image:linear-gradient(90deg,#000 0%,#000 78%,transparent 100%)!important;mask-image:linear-gradient(90deg,#000 0%,#000 78%,transparent 100%)!important;}
 .human-img.collector{background-image:url('Royal Lianage Coins.png')!important;background-size:contain!important;background-repeat:no-repeat!important;background-position:right center!important;background-color:#f5f8fa!important;-webkit-mask-image:linear-gradient(270deg,#000 0%,#000 78%,transparent 100%)!important;mask-image:linear-gradient(270deg,#000 0%,#000 78%,transparent 100%)!important;}
-@media(max-width:1000px){.heritage-image,.human-img.specialist,.human-img.collector{background-size:contain!important;background-position:center top!important;-webkit-mask-image:linear-gradient(180deg,#000 0%,#000 82%,transparent 100%)!important;mask-image:linear-gradient(180deg,#000 0%,#000 82%,transparent 100%)!important;}}
+@media(max-width:1000px){.hero-photo{background-position:62% center!important;}.hero-shade{background:linear-gradient(90deg,rgba(18,27,32,.82) 0%,rgba(18,27,32,.66) 55%,rgba(18,27,32,.18) 100%)!important;}.heritage-image,.human-img.specialist,.human-img.collector{background-size:contain!important;background-position:center top!important;-webkit-mask-image:linear-gradient(180deg,#000 0%,#000 82%,transparent 100%)!important;mask-image:linear-gradient(180deg,#000 0%,#000 82%,transparent 100%)!important;}}
