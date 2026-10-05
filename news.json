@@ -1,0 +1,39 @@
+{
+  "updated_at": "2026-10-05T16:45:00+00:00",
+  "timezone_display": "Europe/London",
+  "target_per_category_per_day": 2,
+  "stories": [
+    {
+      "category": "market",
+      "category_label": "GOLD MARKET",
+      "headline": "Gold gains as October Fed rate hike prospects fade",
+      "source": "Reuters",
+      "published_at": "2026-10-05T02:12:00+00:00",
+      "url": "https://www.reuters.com/world/india/gold-gains-october-fed-rate-hike-prospects-fade-2026-10-05/"
+    },
+    {
+      "category": "central",
+      "category_label": "CENTRAL BANKS",
+      "headline": "Gold retains key reserve status despite surging bond yields, central bankers say",
+      "source": "Reuters",
+      "published_at": "2026-10-05T10:29:00+00:00",
+      "url": "https://www.reuters.com/business/finance/gold-retains-key-reserve-status-despite-surging-bond-yields-central-bankers-say-2026-10-05/"
+    },
+    {
+      "category": "etf",
+      "category_label": "GOLD ETFs",
+      "headline": "Gold ETFs, holdings and flows: latest Goldhub dataset",
+      "source": "World Gold Council",
+      "published_at": "2026-09-28T09:00:00+00:00",
+      "url": "https://www.gold.org/goldhub/data"
+    },
+    {
+      "category": "numismatics",
+      "category_label": "NUMISMATICS",
+      "headline": "World Gold Council research and market insights",
+      "source": "World Gold Council",
+      "published_at": "2026-10-02T09:00:00+00:00",
+      "url": "https://www.gold.org/goldhub/research/library"
+    }
+  ]
+}
