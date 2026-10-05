@@ -4,7 +4,14 @@
   if(!footer) return;
   footer.classList.add('aurum-master-footer');
   footer.innerHTML=`
-    <img src="Logo.png" alt="Aurum Bullion PLC">
+    <div class="footer-brand-contact">
+      <img src="Logo.png" alt="Aurum Bullion PLC">
+      <div class="footer-contact">
+        <b>Contact</b>
+        <a href="mailto:info@aurumbullion.co.uk" aria-label="Email Aurum Bullion">✉&nbsp;&nbsp;info@aurumbullion.co.uk</a>
+        <a href="tel:+442080640766" aria-label="Telephone Aurum Bullion">☎&nbsp;&nbsp;+44 20 8064 0766</a>
+      </div>
+    </div>
     <div class="addresses">
       <b>Aurum Bullion PLC</b>
       <p><strong>HQ:</strong> Suite 23, Fifth Floor, 63-66 Hatton Garden, London, EC1N 8LE</p>
@@ -31,10 +38,5 @@
       <a href="cookies.html">Cookies Policy</a>
       <a href="terms.html">Terms &amp; Conditions</a>
       <a href="conflict-free.html">Conflict-Free Policy</a>
-    </div>
-    <div>
-      <b>Contact</b>
-      <a href="mailto:info@aurumbullion.co.uk" aria-label="Email Aurum Bullion">✉&nbsp;&nbsp;info@aurumbullion.co.uk</a>
-      <a href="tel:+442080640766" aria-label="Telephone Aurum Bullion">☎&nbsp;&nbsp;+44 20 8064 0766</a>
     </div>`;
 })();
