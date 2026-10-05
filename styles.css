@@ -22,4 +22,16 @@
 .collections .card:nth-child(1) .visual img{visibility:visible!important;opacity:1!important;width:84%!important;height:84%!important;object-fit:contain!important;content:url('Britannia 2020 Pf70 £200.png')!important;border-radius:18px!important;}
 /* Great Engravers / Modern Masterpieces: fully replace the old card image with Una and the Lion. */
 .collections .card:nth-child(3) .visual img{visibility:visible!important;opacity:1!important;width:84%!important;height:84%!important;object-fit:contain!important;content:url('Great Engravers (Una & The Lion).png')!important;border-radius:18px!important;}
+
+/* Catalogue: keep every product card and its purchase controls on a common baseline. */
+.cat .products{align-items:stretch!important;}
+.cat .product{display:flex!important;flex-direction:column!important;height:100%!important;box-sizing:border-box!important;}
+.cat .product .visual{flex:0 0 310px!important;}
+.cat .product h2{min-height:54px!important;}
+.cat .product .price{min-height:24px!important;}
+.cat .product .desc{min-height:86px!important;margin-bottom:14px!important;}
+.cat .product .purchase-controls{margin-top:auto!important;min-height:92px!important;display:flex!important;flex-wrap:wrap!important;align-content:flex-end!important;align-items:center!important;gap:8px!important;}
+.cat .product .purchase-controls .qty-picker{margin:0!important;flex:0 0 auto!important;}
+.cat .product .purchase-controls .buy{margin:0!important;min-height:38px!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;box-sizing:border-box!important;}
 @media(max-width:1000px){.hero-photo{background-position:62% center!important;}.hero-shade{background:linear-gradient(90deg,rgba(18,27,32,.84) 0%,rgba(18,27,32,.70) 55%,rgba(18,27,32,.22) 100%)!important;}.heritage-image,.human-img.specialist,.human-img.collector{background-size:contain!important;background-position:center top!important;-webkit-mask-image:linear-gradient(180deg,#000 0%,#000 82%,transparent 100%)!important;mask-image:linear-gradient(180deg,#000 0%,#000 82%,transparent 100%)!important;}}
+@media(max-width:600px){.cat .product h2,.cat .product .price,.cat .product .desc{min-height:0!important}.cat .product .purchase-controls{min-height:0!important;margin-top:14px!important;}}
