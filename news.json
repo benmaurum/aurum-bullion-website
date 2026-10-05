@@ -1,39 +1,143 @@
 {
-  "updated_at": "2026-10-05T16:45:00+00:00",
+  "updated_at": "2026-10-05T11:15:25.924446+00:00",
   "timezone_display": "Europe/London",
   "target_per_category_per_day": 2,
   "stories": [
     {
-      "category": "market",
-      "category_label": "GOLD MARKET",
-      "headline": "Gold gains as October Fed rate hike prospects fade",
-      "source": "Reuters",
-      "published_at": "2026-10-05T02:12:00+00:00",
-      "url": "https://www.reuters.com/world/india/gold-gains-october-fed-rate-hike-prospects-fade-2026-10-05/"
+      "category": "geo",
+      "category_label": "GEOPOLITICS",
+      "headline": "Scotland turning to gold and silver as investment interest rises across the UK - The Herald",
+      "source": "The Herald",
+      "published_at": "2026-10-05T10:52:30+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNb3BNMlpjMDlOSzBjcHNKTWphUGVpMmRJUlNSbHFYVHp5YUdNcnBqdTluM1hXNHZSNHZRWHZTTGwzbnBjVFlER1YzWXQtTExENW1UYi13SmppS0JVS0lhdnJia25lSXkycnJZUW8wU0U4TzZCa0I5UFVnazUzYi03X0Y3ZmgzN2FsejQ1RmMzVFdMZEZyOHNnMmFYRC03WktzTXc?oc=5"
+    },
+    {
+      "category": "geo",
+      "category_label": "GEOPOLITICS",
+      "headline": "Mackay Gold & Silver Stock Faces Renewed Pressure as Exploration Risk Weighs on Investor Sentiment - kalkine.ca",
+      "source": "kalkine.ca",
+      "published_at": "2026-10-05T10:22:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNk5iUkNTR21UNjFaQUdCaE9DcmNpdEltLS1uemFFYlA4VGhiOEkzWmxEa2J3Vk5XbGs2NTd2VjQ1ZXBhMVQyV202Z2hFVUNVVGtzVHJRa3FEZ050Wk5XbXc2SDdKRWNFbjJlQUx1UXYtV2ozc3pRSDIxOVVyRWZCUHN6QVZGM2EyVlhsM3ZQblozZHE1TkFTendvZk1KMWhkV0ZtWEZVOWtSYTRYZFBGMENZckVLZVlYTGNNUmkweFM1OUNjYXc?oc=5"
     },
     {
       "category": "central",
       "category_label": "CENTRAL BANKS",
-      "headline": "Gold retains key reserve status despite surging bond yields, central bankers say",
-      "source": "Reuters",
-      "published_at": "2026-10-05T10:29:00+00:00",
-      "url": "https://www.reuters.com/business/finance/gold-retains-key-reserve-status-despite-surging-bond-yields-central-bankers-say-2026-10-05/"
+      "headline": "Central Bankers Say Gold Still Earns Its Reserve Role - finimize.com",
+      "source": "finimize.com",
+      "published_at": "2026-10-05T10:05:07+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQalV5dzhYTFBxSDVVNEU4NE11LXg5cFczeHd1UE1kbHp3N0lGZmtuZjB4ZVZIREswU2Z2LW9ENWQ1bWtRMmY3enJvRzhiZmVpdnJ5WUtwVTBYZFdfX0cwc2pFbUlaUVZBN0ZVX2NGNC14c0s0TzJBWmJkcE8tQU9reDhDSnFBUE12SkE?oc=5"
+    },
+    {
+      "category": "rates",
+      "category_label": "ECONOMY & RATES",
+      "headline": "Gold Prices Gain as US Employment Data Lowers October Fed Hike Probability - Yahoo Finance UK",
+      "source": "Yahoo Finance UK",
+      "published_at": "2026-10-05T09:30:53+00:00",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdV82Rm9LV3VteWk0OGRQWWtmRHdaWnV3Rk84UHhjMlpxNm9kemZOeTFBTkZyR1FfaTZUSW93YnE3a0JPUGVONnBDaFloWFB5V0o5NnNCQ09WQTdGd3Y2YWEwMS1fTVdIR1dUaE9vNzZVaThMeHR2TUJhZDg4VVRLV1BsU3VlUQ?oc=5"
+    },
+    {
+      "category": "rates",
+      "category_label": "ECONOMY & RATES",
+      "headline": "Five things that have changed for gilts since the last Budget - IFA Magazine",
+      "source": "IFA Magazine",
+      "published_at": "2026-10-05T08:49:18+00:00",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdEozc3NzV1JrWThLVFdjdlRXRnVuLVI5WHNOTkExMjFhekYwcW1LRVN4Y21UZnRoZkgyRkFJZEhId01pSzRwemd2RHhQd0tiMHpDTnp5S0VPc1JoWG5uOHN3TEFOel85aERtUTlXbnNTeVlvVzdtRnlzXzVvXzZjX3BPY3R0ZEtUNzBwaS00SQ?oc=5"
+    },
+    {
+      "category": "market",
+      "category_label": "GOLD MARKET",
+      "headline": "Gold falls nearly 1%, silver gains on MCX: What is driving bullion prices - CNBC TV18",
+      "source": "CNBC TV18",
+      "published_at": "2026-10-05T08:31:57+00:00",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdE1kTGtnSURTbGQtUmpOU05rZUpXWVVUdGtpdVpPeWFVcVJzaGd0MVFxTDFUYzF5amJTSkxOV0o2LTdWZ2JDQjdWODY2ZEQ3SXRsUWlJMExfb0RPU3ctWU9hU29pTUo5WDBSRndFSG1GWGRrYlVJZndRWnJzd01KaklobHJReVFna1JzenRjc1ZadmwzR0V4bVNhdXA3ZTQ1Zm4wRUpqcVBoQk9MMXJsdmxtSUktUzdHbmstTdIBwgFBVV95cUxOQnVHYVpLc1VCYS11aWc1Nkp5QTdQZTA0bkNpVFpXakxVcWZFdVRucVRyMWZtX0c3OWQyMTl5bEJWdWNmdUw5UG5xbmR1cmdESXZQMlBWT1I4Zk5WU0pjMnhIUjZtTW5KLW5ub1p5eDRqQkxZMUE0MVNILXVBSnRxamg0aHBPVjAyYzVZTklKbm5vRWVJeGZjRnpJV3dFdy1rRFFBYl9FemdCVVBaMlZzMWNkeHBQNFNNbTNWbThvdTZ3Zw?oc=5"
+    },
+    {
+      "category": "breaking",
+      "category_label": "BREAKING NEWS",
+      "headline": "Gold and Silver Price Forecast: Rebound Faces Risk of a Deeper Drop - FXEmpire",
+      "source": "FXEmpire",
+      "published_at": "2026-10-05T08:21:25+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMjhhRmVUSDh4eVdrNU5hVV9LeVQzV3k3TlowbU5QZk9oSVRLa2J3MEZheFN0Wnp2Sm56azdqdG1ON1lOb3p5LWhlTFhyODNHb3lNdm1KNDlucExEY0psQk9EaTBNWUVCbDJjb2twU1lGX1lkUF80N2NSSTFxU3ZGeHAxakhESGp6YXBLcGtCOGNlNm5XdGR1YWNGWkxMMGVQS0ozNGdaaENyRVVyMlB6US1Ib1hqczgy?oc=5"
+    },
+    {
+      "category": "central",
+      "category_label": "CENTRAL BANKS",
+      "headline": "Nagel Sees Good Case for Central-Bank Diversification Into Gold - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "published_at": "2026-10-05T07:45:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORVUyU3pBSDQ5OER1d1RaOFFac1ZNMzVDYWN1OXRnN0M1TWZidGxoZFRPdEhBUmhqckVtM2hMRHVkVXlpT3hOSzZHYkdIUE5aM01aOHd6bjZUUE4wZGV2a1VWT3ZRLVRmWXMxbmpiSDhqWW4wbnhieEg5eDVfYlZBU1Vpb1BIMklBS0lOcHBIVC1WcklDTnRzaURONlQxdzlUVHZKRUdwYjZocm5seVVXUVhVTEw?oc=5"
+    },
+    {
+      "category": "market",
+      "category_label": "GOLD MARKET",
+      "headline": "Gold Slips 1% as Strong Dollar, Yields Hinder Recovery - Rediff MoneyWiz",
+      "source": "Rediff MoneyWiz",
+      "published_at": "2026-10-05T07:44:28+00:00",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbWlNSnNnc0VaaDFDRF8yS1pEYkQxWXhUaXlHM1dESTFVZm5aUHk4ZFdCSHlkVGRfYl95MnJkdTlDaW9nODhTRUVWWktjSURpcXdLZDN4QXVMaHJNSHFwRkdFVEU5dS1pcU5RZnJ3dDVxLWcwUkZiOTJBRHJ2Z2hwdkFLTmRrMDVFdGl1WFdWQ1NaNGNwNXd2TEFnVzYtdTFTTHpOLUxtcXNER2Rq0gGsAUFVX3lxTFBtaU1Kc2dzRVpoMUNEXzJLWkRiRDFZeFRpeUczV0RJMVVmblpQeThkV0JIeWRUZF9iX3kycmR1OUNpb2c4OFNFRVZaS2NJRGlxd0tkM3hBdUxock1IcXBGR0VURTl1LWlxTlFmcnd0NXEtZzBSRmI5MkFEcnZnaHB2QUtOZGswNUV0aXVYV1ZDU1o0Y3A1d3ZMQWdXNi11MVNMek4tTG1xc0RHZGo?oc=5"
+    },
+    {
+      "category": "breaking",
+      "category_label": "BREAKING NEWS",
+      "headline": "Gold consolidates near $4,143 support: Live levels By Investing.com - Investing.com South Africa",
+      "source": "Investing.com South Africa",
+      "published_at": "2026-10-05T07:31:18+00:00",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUWs4engwS0tQRllZN0pfb0ZGdDNVQUJfaFBGdzZTbWxmMDBpaDExTWFoRlpGVTVyRWJfODJ4SHllY05wWjVzRmtySEJ2U210N2pZaDRKMFpkdkg3ODY2ZmI3dk5hWWdzSUlWZTQ3MjlXUFVCdXNYbTFVSEhxamRGdWEyY1QydXhzUFgtMmxCUDlRcWdLakVTVlFHM3ZhZkZTcGh0alItWERCMWFo?oc=5"
     },
     {
       "category": "etf",
       "category_label": "GOLD ETFs",
-      "headline": "Gold ETFs, holdings and flows: latest Goldhub dataset",
-      "source": "World Gold Council",
-      "published_at": "2026-09-28T09:00:00+00:00",
-      "url": "https://www.gold.org/goldhub/data"
+      "headline": "Gold Holds Near $4,144 as Central Banks and ETF Buyers Offset Yield Pressure - AD HOC NEWS",
+      "source": "AD HOC NEWS",
+      "published_at": "2026-10-04T18:20:58+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWnVHSjAwWGFjaHdLLWpWLTRTRmNUel9PUlZ3THZOMGFvRmZEM29xMVJpT0xqa1ZwNjdDekRqSng1eWxNQ25PWTBHQXh5bDJYR3lIU09rR3ltRmtTQlF3NkQ2TldjRVVEZ0MteTF6bU5RVUFMdFNuemItWGJxYXZOcHA3ZjV5U1dzSDUzY01PTm45N2FrY1RMblc4Z3ZQQzVLeTNuZmFMLVlUeHRGV184cTI3aXdrakJ6Tk1FRm9NZld0ZGJHNUFic18wRVhCRjFJODZ5OA?oc=5"
+    },
+    {
+      "category": "etf",
+      "category_label": "GOLD ETFs",
+      "headline": "Gold ETF Holdings Smash Records at 4,189 Tons With $18 Billion August Inflow - finance.biggo.com",
+      "source": "finance.biggo.com",
+      "published_at": "2026-10-04T18:05:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5eFM3cWk4eU5DLVlHM2pNOXpHLUlGN0VUV0NmbnFxWDJWRDlVTDNkaHBPVFB3NG5NcFhNUi1jbk9GWThzRndQb3VGYzZfZFBkTWIyc01xa1hZQXVnejdlV2ttWUxMb1AzRXFGSHdreTFib2sxOWc?oc=5"
     },
     {
       "category": "numismatics",
       "category_label": "NUMISMATICS",
-      "headline": "World Gold Council research and market insights",
-      "source": "World Gold Council",
-      "published_at": "2026-10-02T09:00:00+00:00",
-      "url": "https://www.gold.org/goldhub/research/library"
+      "headline": "An 1852 California Gold $50 coin from the Gold Rush era sold for $367,875 on September 6; the rare piece - The Times of India",
+      "source": "The Times of India",
+      "published_at": "2026-10-02T15:28:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxQODZGUzZVVEFEM3h1NXFtc1JiQVhhcUxua0JteVpLcjNMbTlGd0loN01TNGVIQXJLOW9LZkpSdzhaSmtWMnNQbTlsOWx5aUl3N3JwRllnRXFmUkxkaDNWRUlyaEVJTHVCSHBjc2MxR1lvY3Q2M29Pc2lzMEFQOTBGUUREN29uamxpOEpjQlFva1hqUXV6MUFLeVEwUHhCWkxIdkc1VWUzaVVpOUV6ZjVwdlkxMVVhc3ZuT21LcTI3SlBOTmtVQTVwd2F6ZUdCNE9Camd3R3h2NXdmRDhoNjNIR3hkWEttNFZSLXdyV0NWa0NEdGlLOFpueDdOX2d1UU1NMjh3cUJtaVJJUzZhODNzYVR4bGxKSGh5VTRQeVN1cnFTMWtVYlEtODRnMGQzU3NIR0pVUzYxbXVvSWEyN25KX2ZMNmVzOGlBMkJMSkowZ3dHN040MlZTTnBURm9taVlvampSZkg4a05XOG9YVWZ1TUpTTdIB-AJBVV95cUxOVWRWN0dGLVVtanNVaWpKTFBWN2YyM2drYjhIa25ZR1lZTlF5UDkwWVUzX2RaSVJtQjVSV05yeHU2QkhYaXFodHVhVEhmR2FuREp1cjFyZjlvVVhQdmZuMTkxdjBCZ1BOQVVRSGJIb2JScjJOelVCTnVQeVVvM1BtcHlrWlhQUHNtdzF1S0V6eUVYSmxKNWlWbmNHT2xfTldDajNGVmt5Z0FwNzhRMU5uSlA3Qmo0dEx4N2NORTRKOEFjSVVOa0Rfd0l2QldpdzBtc0RKbTJlZDd4X1NadlFEOVRhMVN3V21jRll6SGszRGtzNTRKTXpfVS1xdE1tMXM4eFNzbWhjYkJjTURjamJ5dnR3bEtVQmpmWE53TmJRekFzSEhQRmlIdkI3LXdGVDgyQ1ZXV0lfRjFTMmM4QjAxT2VrTGtHOFZZUXB6dGJzOWtMejF0TkNWM2ZxNjkwMnlrbFVhdWUxY0IzNGkxdzlIWC1KNzJjekJn?oc=5"
+    },
+    {
+      "category": "grading",
+      "category_label": "GRADING",
+      "headline": "Park Avenue Numismatics Names Bob Green Industry Leader - FinancialContent",
+      "source": "FinancialContent",
+      "published_at": "2026-10-01T16:46:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbzBfOTQxakYyMlFDMFU2eFY3RjVidnd0U0pMQ0JhaWpmUENBbkU1aktWa2U5RGQtVUFIcnNwTWIzWTRVS1lIcUMyMnU2TGdzMVJ1UDlMcTJlUVVySElQcl9CS0VLbi1xMUdhMWV6bVc2UmRKYjFISW1UUlExU0RqdzZyMUl5M2ozdnlOODlDUEI0S0RhMllhSmVxc2NOaURsSXdKQTBJTHRXWGFZZ2tqTXR5TmRkSXFmekNOb2Nn?oc=5"
+    },
+    {
+      "category": "grading",
+      "category_label": "GRADING",
+      "headline": "Lafayette Dollar and Gold CAC Quarter Eagle Reach $7,930 to Lead Heritage's U.S. Coins in Early Holders Showcase Auction to $715,068 - Greysheet",
+      "source": "Greysheet",
+      "published_at": "2026-09-30T18:39:15+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPUHl6cE1SbEg3Z08yMmJsanpiSllyMzRWZW50MC1MTFU2SDVUbzJQaXZQT2lfdFk2OUN1R2ZNTFkzYVlSXzBsWWg0N1V5S2hmMkZLa0JOdTVFWWY0ZXpJMnBNZExwVklEUTZEVTFPY1hiOVYwc2g1NmQzc3VMN1FuaGFZbU5DN254akc1NXBVSktHaGJjMi1tWUFnR1FFUTB4RnY4TVpiRXZwTndRTWxUSk5FNTF4WGYxNEFldFNSb2E5bU1Fak1zUE1IajFPOWlta21NQ1pONFBuX0V3OXF2NTJQS0FWMjl3Uk9YbFhfVXpLOWNx?oc=5"
+    },
+    {
+      "category": "mint",
+      "category_label": "ROYAL MINT",
+      "headline": "Royal Mint releases Cluedo 50p coin – here’s how to win a gold version worth £2,000 - The Sun",
+      "source": "The Sun",
+      "published_at": "2026-09-29T11:10:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRWZwSFR6TFBLQTNpMmFxSFcxT2dqb3ZFQXFLd0FlTDNjYVlfeUxzTDFDd2pqdHc4dkZOS3ZuTW92NDB1VEZQSnhBQl94T2VGazVEU1FIUzFZaWVaMUE3LU1nMHRVTkdXMzBvc05Dcm9QQzl0ZWJnVjJ2c0Ewa3QxV3VnSG04d1ZFcXI4?oc=5"
+    },
+    {
+      "category": "mint",
+      "category_label": "ROYAL MINT",
+      "headline": "New Cluedo 50p coin unveiled by Royal Mint - bbc.com",
+      "source": "bbc.com",
+      "published_at": "2026-09-29T06:39:31+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhTTlmS0Q4dnNsVUx4ajc3ekNWNEdXNlRtdHdfNWVhWWx6ekJzQ200SVVidnJlZTRVVnp6ZmM1eU0tZEg3b0x4eTFqVTFiRkpZbVByM2NTc0gzVFU?oc=5"
     }
   ]
 }
