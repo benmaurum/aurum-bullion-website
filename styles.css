@@ -3,85 +3,22 @@
 /* Homepage image corrections */
 .hero-photo{background-image:url('Golden Britannia Coins on a Sunlit Terrace.png')!important;background-size:cover!important;background-repeat:no-repeat!important;background-position:center center!important;background-color:#f5f8fa!important;}
 .hero-shade{background:linear-gradient(90deg,rgba(18,27,32,.78) 0%,rgba(18,27,32,.66) 30%,rgba(18,27,32,.30) 52%,rgba(18,27,32,.06) 70%,rgba(18,27,32,0) 82%)!important;}
-.hero-copy{color:#fff!important;text-shadow:0 1px 3px rgba(0,0,0,.34);}
-.hero-copy .eyebrow,.hero-copy .lead,.hero-copy h1{color:#fff!important;}
-.hero-copy h1 em{color:#d9ad58!important;text-shadow:0 1px 3px rgba(0,0,0,.28);}
-.hero-copy .lightlink{color:#fff!important;}
-.hero-foot{color:#fff!important;text-shadow:0 1px 4px rgba(0,0,0,.72);border-top-color:rgba(255,255,255,.58)!important;}
-.hero-foot>*{color:#fff!important;text-shadow:0 1px 4px rgba(0,0,0,.72);}
+.hero-copy{color:#fff!important;text-shadow:0 1px 3px rgba(0,0,0,.34);}.hero-copy .eyebrow,.hero-copy .lead,.hero-copy h1{color:#fff!important;}.hero-copy h1 em{color:#d9ad58!important;text-shadow:0 1px 3px rgba(0,0,0,.28);}.hero-copy .lightlink{color:#fff!important;}.hero-foot{color:#fff!important;text-shadow:0 1px 4px rgba(0,0,0,.72);border-top-color:rgba(255,255,255,.58)!important;}.hero-foot>*{color:#fff!important;text-shadow:0 1px 4px rgba(0,0,0,.72);}
 .heritage-image{background-image:url('British Gold_ History and Heritage.png')!important;background-size:contain!important;background-repeat:no-repeat!important;background-position:left center!important;background-color:#f5f8fa!important;-webkit-mask-image:linear-gradient(90deg,#000 0%,#000 76%,transparent 100%)!important;mask-image:linear-gradient(90deg,#000 0%,#000 76%,transparent 100%)!important;}
-.human-img.specialist{background-image:url('Luxury Numismatic Consultation by the Thames.png')!important;background-size:contain!important;background-repeat:no-repeat!important;background-position:left center!important;background-color:#fff!important;-webkit-mask-image:linear-gradient(90deg,#000 0%,#000 78%,transparent 100%)!important;mask-image:linear-gradient(90deg,#000 0%,#000 78%,transparent 100%)!important;}
-.human-img.collector{background-image:url('Royal Lianage Coins.png')!important;background-size:contain!important;background-repeat:no-repeat!important;background-position:right center!important;background-color:#f5f8fa!important;-webkit-mask-image:linear-gradient(270deg,#000 0%,#000 78%,transparent 100%)!important;mask-image:linear-gradient(270deg,#000 0%,#000 78%,transparent 100%)!important;}
-.collections .card .visual{background:#edf5fa!important;}
-.collections .card .visual img{mix-blend-mode:multiply!important;}
-.collections .card .visual:after{background:radial-gradient(circle at center,transparent 42%,rgba(237,245,250,.12) 62%,#edf5fa 96%)!important;}
-.collections .card:nth-child(1) .visual img{visibility:visible!important;opacity:1!important;width:84%!important;height:84%!important;object-fit:contain!important;content:url('Britannia 2020 Pf70 £200.png')!important;border-radius:18px!important;}
-.collections .card:nth-child(3) .visual img{visibility:visible!important;opacity:1!important;width:84%!important;height:84%!important;object-fit:contain!important;content:url('Great Engravers (Una & The Lion).png')!important;border-radius:18px!important;}
+.human-img.specialist{background-image:url('Luxury Numismatic Consultation by the Thames.png')!important;background-size:contain!important;background-repeat:no-repeat!important;background-position:left center!important;background-color:#fff!important;-webkit-mask-image:linear-gradient(90deg,#000 0%,#000 78%,transparent 100%)!important;mask-image:linear-gradient(90deg,#000 0%,#000 78%,transparent 100%)!important;}.human-img.collector{background-image:url('Royal Lianage Coins.png')!important;background-size:contain!important;background-repeat:no-repeat!important;background-position:right center!important;background-color:#f5f8fa!important;-webkit-mask-image:linear-gradient(270deg,#000 0%,#000 78%,transparent 100%)!important;mask-image:linear-gradient(270deg,#000 0%,#000 78%,transparent 100%)!important;}
+.collections .card .visual{background:#edf5fa!important;}.collections .card .visual img{mix-blend-mode:multiply!important;}.collections .card .visual:after{background:radial-gradient(circle at center,transparent 42%,rgba(237,245,250,.12) 62%,#edf5fa 96%)!important;}.collections .card:nth-child(1) .visual img{visibility:visible!important;opacity:1!important;width:84%!important;height:84%!important;object-fit:contain!important;content:url('Britannia 2020 Pf70 £200.png')!important;border-radius:18px!important;}.collections .card:nth-child(3) .visual img{visibility:visible!important;opacity:1!important;width:84%!important;height:84%!important;object-fit:contain!important;content:url('Great Engravers (Una & The Lion).png')!important;border-radius:18px!important;}
 
 /* Catalogue cards and purchase controls */
-.cat .products{align-items:stretch!important;}
-.cat .product{display:flex!important;flex-direction:column!important;align-self:stretch!important;height:auto!important;min-height:100%!important;box-sizing:border-box!important;}
-.cat .product .visual{flex:0 0 310px!important;}
-.cat .product h2{min-height:82px!important;margin-bottom:8px!important;}
-.cat .product .price{min-height:28px!important;margin-top:0!important;margin-bottom:8px!important;}
-.cat .product .desc{min-height:108px!important;margin-top:0!important;margin-bottom:18px!important;}
+.cat .products{align-items:stretch!important;}.cat .product{display:flex!important;flex-direction:column!important;align-self:stretch!important;height:auto!important;min-height:100%!important;box-sizing:border-box!important;}.cat .product .visual{flex:0 0 310px!important;}.cat .product h2{min-height:82px!important;margin-bottom:8px!important;}.cat .product .price{min-height:28px!important;margin-top:0!important;margin-bottom:8px!important;}.cat .product .desc{min-height:108px!important;margin-top:0!important;margin-bottom:18px!important;}
+.cat .product > button.buy{position:relative!important;left:auto!important;right:auto!important;float:none!important;align-self:stretch!important;width:100%!important;max-width:none!important;min-width:0!important;min-height:43px!important;height:43px!important;margin-left:0!important;margin-right:0!important;padding:10px 14px!important;display:flex!important;align-items:center!important;justify-content:center!important;box-sizing:border-box!important;border-radius:2px!important;white-space:nowrap!important;box-shadow:none!important;transform:none!important;transition:background .18s ease,border-color .18s ease!important;}.cat .product > button.buy:first-of-type{margin-top:auto!important;margin-bottom:10px!important;background:#c3ab72!important;border:1px solid #aa915b!important;color:#fff!important;}.cat .product > button.buy:nth-of-type(2){margin-top:0!important;margin-bottom:0!important;background:#89949a!important;border:1px solid #78848a!important;color:#fff!important;}.cat .product > button.buy:first-of-type:hover{background:#b69d65!important;border-color:#9e8652!important;}.cat .product > button.buy:nth-of-type(2):hover{background:#7b878d!important;border-color:#6f7a80!important;}
+.cat .product .purchase-controls,.cat .product .purchase-actions,.cat .product .actions,.cat .product .shop-actions{margin-top:auto!important;display:grid!important;grid-template-columns:1fr 1fr!important;column-gap:16px!important;row-gap:10px!important;width:100%!important;box-sizing:border-box!important;}.cat .product .purchase-controls .qty-picker,.cat .product .purchase-actions .qty-picker,.cat .product .actions .qty-picker,.cat .product .shop-actions .qty-picker{grid-column:1 / -1!important;margin:0 0 4px!important;}.cat .product .purchase-controls .buy,.cat .product .purchase-actions .buy,.cat .product .actions .buy,.cat .product .shop-actions .buy{width:100%!important;margin:0!important;box-sizing:border-box!important;min-height:43px!important;}
 
-/* The catalogue currently renders Buy / Enquire and Add to Basket as direct children.
-   Force identical left/right edges and use only vertical spacing between them. */
-.cat .product > button.buy{
-  position:relative!important;
-  left:auto!important;
-  right:auto!important;
-  float:none!important;
-  align-self:stretch!important;
-  width:100%!important;
-  max-width:none!important;
-  min-width:0!important;
-  min-height:43px!important;
-  height:43px!important;
-  margin-left:0!important;
-  margin-right:0!important;
-  padding:10px 14px!important;
-  display:flex!important;
-  align-items:center!important;
-  justify-content:center!important;
-  box-sizing:border-box!important;
-  border-radius:2px!important;
-  white-space:nowrap!important;
-  box-shadow:none!important;
-  transform:none!important;
-  transition:background .18s ease,border-color .18s ease!important;
-}
-.cat .product > button.buy:first-of-type{
-  margin-top:auto!important;
-  margin-bottom:10px!important;
-  background:#c3ab72!important;
-  border:1px solid #aa915b!important;
-  color:#fff!important;
-}
-.cat .product > button.buy:nth-of-type(2){
-  margin-top:0!important;
-  margin-bottom:0!important;
-  background:#89949a!important;
-  border:1px solid #78848a!important;
-  color:#fff!important;
-}
-.cat .product > button.buy:first-of-type:hover{background:#b69d65!important;border-color:#9e8652!important;}
-.cat .product > button.buy:nth-of-type(2):hover{background:#7b878d!important;border-color:#6f7a80!important;}
-
-/* Wrapped controls, if reintroduced later, remain equally aligned. */
-.cat .product .purchase-controls,
-.cat .product .purchase-actions,
-.cat .product .actions,
-.cat .product .shop-actions{margin-top:auto!important;display:grid!important;grid-template-columns:1fr 1fr!important;column-gap:16px!important;row-gap:10px!important;width:100%!important;box-sizing:border-box!important;}
-.cat .product .purchase-controls .qty-picker,
-.cat .product .purchase-actions .qty-picker,
-.cat .product .actions .qty-picker,
-.cat .product .shop-actions .qty-picker{grid-column:1 / -1!important;margin:0 0 4px!important;}
-.cat .product .purchase-controls .buy,
-.cat .product .purchase-actions .buy,
-.cat .product .actions .buy,
-.cat .product .shop-actions .buy{width:100%!important;margin:0!important;box-sizing:border-box!important;min-height:43px!important;}
+/* Brochure image treatment: remove the visible square edges from source JPEGs and frame every image in gold. */
+body .spread .page img{border:1px solid #D4AF37!important;box-sizing:border-box!important;}
+body .spread .page img.coin{display:block!important;width:100%!important;height:320px!important;object-fit:contain!important;padding:10px!important;background:transparent!important;mix-blend-mode:multiply!important;border:1px solid #D4AF37!important;border-radius:2px!important;filter:drop-shadow(0 14px 20px rgba(51,51,51,.20))!important;-webkit-mask-image:radial-gradient(ellipse 72% 82% at center,#000 0%,#000 66%,rgba(0,0,0,.96) 73%,rgba(0,0,0,.62) 84%,transparent 100%)!important;mask-image:radial-gradient(ellipse 72% 82% at center,#000 0%,#000 66%,rgba(0,0,0,.96) 73%,rgba(0,0,0,.62) 84%,transparent 100%)!important;}
+body .spread .page.blue img.coin{mix-blend-mode:multiply!important;}
+body .spread .page:not(.blue):not(.gold):not(.dark) img.coin{mix-blend-mode:multiply!important;}
+body .spread .page img.photo,body .spread .page img.craft-photo{border:1px solid #D4AF37!important;box-sizing:border-box!important;}
 
 @media(max-width:1000px){.hero-photo{background-position:62% center!important;}.hero-shade{background:linear-gradient(90deg,rgba(18,27,32,.84) 0%,rgba(18,27,32,.70) 55%,rgba(18,27,32,.22) 100%)!important;}.heritage-image,.human-img.specialist,.human-img.collector{background-size:contain!important;background-position:center top!important;-webkit-mask-image:linear-gradient(180deg,#000 0%,#000 82%,transparent 100%)!important;mask-image:linear-gradient(180deg,#000 0%,#000 82%,transparent 100%)!important;}}
-@media(max-width:600px){.cat .product h2,.cat .product .price,.cat .product .desc{min-height:0!important}.cat .product > button.buy:first-of-type{margin-top:18px!important}.cat .product .purchase-controls,.cat .product .purchase-actions,.cat .product .actions,.cat .product .shop-actions{margin-top:18px!important;grid-template-columns:1fr!important}.cat .product .purchase-controls .qty-picker,.cat .product .purchase-actions .qty-picker,.cat .product .actions .qty-picker,.cat .product .shop-actions .qty-picker{grid-column:auto!important;}}
+@media(max-width:600px){.cat .product h2,.cat .product .price,.cat .product .desc{min-height:0!important}.cat .product > button.buy:first-of-type{margin-top:18px!important}.cat .product .purchase-controls,.cat .product .purchase-actions,.cat .product .actions,.cat .product .shop-actions{margin-top:18px!important;grid-template-columns:1fr!important}.cat .product .purchase-controls .qty-picker,.cat .product .purchase-actions .qty-picker,.cat .product .actions .qty-picker,.cat .product .shop-actions .qty-picker{grid-column:auto!important;}body .spread .page img.coin{height:280px!important;}}
