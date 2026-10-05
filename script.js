@@ -11,15 +11,19 @@
     document.querySelectorAll('.filters button,.sides button,.lightbox-sides button,.basket-open,.buy,.shop-sort,.search,#cartClose,#coinLightboxClose').forEach(function(el){el.style.pointerEvents='auto';});
     var graded=document.querySelector('#graded .graded-feature');if(graded){graded.src='2021 Royal Albert Hall Five Pound Crown.png';graded.alt='2021 Royal Albert Hall Five Pound Crown, NGC PF70 Ultra Cameo';var slab=graded.closest('.slab');if(slab&&!slab.querySelector('.pcgs-feature')){slab.classList.add('grading-pair');var pcgs=document.createElement('img');pcgs.className='graded-feature pcgs-feature';pcgs.src='King James Slab PCGS.png';pcgs.alt='2022 Great Britain King James I £500 5oz gold coin, PCGS PR69DCAM First Strike';slab.appendChild(pcgs);}}
 
-    /* Ghana field story. The WhatsApp source clips contain side pillar-boxing, so the video is deliberately zoom-cropped inside an overflow-hidden frame. */
+    /* Ghana field story. Source-video audio is permanently suppressed. A future separate soundtrack can be added independently without ever unmuting these clips. */
     (function(){
       var frame=document.querySelector('.ghana-video-showcase'),media=document.querySelector('.ghana-media'),stills=document.querySelector('.ghana-stills');
       if(!frame||!media||!stills)return;
       var videos=Array.prototype.slice.call(frame.querySelectorAll('[data-ghana-video]'));if(!videos.length)return;
       frame.querySelectorAll('.ghana-sound-toggle').forEach(function(x){x.remove();});document.querySelectorAll('audio').forEach(function(a){if(/Babu|ghana/i.test(a.src||'')){a.pause();a.remove();}});
       media.classList.add('ghana-media-fixed');frame.classList.add('ghana-video-fixed');stills.classList.add('ghana-stills-fixed');
-      videos.forEach(function(v,i){v.classList.add('ghana-clip-fixed');v.muted=true;v.defaultMuted=true;v.volume=0;v.controls=false;v.removeAttribute('controls');v.setAttribute('muted','');v.setAttribute('playsinline','');v.setAttribute('preload','metadata');v.style.opacity=i===0?'1':'0';v.style.visibility=i===0?'visible':'hidden';v.style.zIndex=i===0?'2':'1';v.addEventListener('volumechange',function(){if(!v.muted||v.volume!==0){v.muted=true;v.volume=0;}});});
-      var current=0;function show(i){current=(i+videos.length)%videos.length;videos.forEach(function(v,n){var active=n===current;v.style.opacity=active?'1':'0';v.style.visibility=active?'visible':'hidden';v.style.zIndex=active?'2':'1';if(!active){v.pause();try{v.currentTime=0;}catch(e){}}});videos[current].play().catch(function(){});frame.querySelectorAll('.ghana-video-progress span').forEach(function(d,n){d.style.opacity=n===current?'1':'.35';});}videos.forEach(function(v,i){v.addEventListener('ended',function(){show(i+1);});});show(0);
+      function forceMute(v){try{v.muted=true;v.defaultMuted=true;v.volume=0;v.setAttribute('muted','');v.removeAttribute('controls');v.controls=false;}catch(e){}}
+      videos.forEach(function(v,i){v.classList.add('ghana-clip-fixed');forceMute(v);v.setAttribute('playsinline','');v.setAttribute('preload','metadata');v.style.opacity=i===0?'1':'0';v.style.visibility=i===0?'visible':'hidden';v.style.zIndex=i===0?'2':'1';['volumechange','play','playing','loadedmetadata','canplay','seeking','seeked','ratechange'].forEach(function(evt){v.addEventListener(evt,function(){forceMute(v);});});});
+      /* Reassert mute continuously so no later script, browser control or state transition can expose the original clip audio. */
+      var muteGuard=setInterval(function(){videos.forEach(forceMute);},250);
+      window.addEventListener('pagehide',function(){clearInterval(muteGuard);},{once:true});
+      var current=0;function show(i){current=(i+videos.length)%videos.length;videos.forEach(function(v,n){forceMute(v);var active=n===current;v.style.opacity=active?'1':'0';v.style.visibility=active?'visible':'hidden';v.style.zIndex=active?'2':'1';if(!active){v.pause();try{v.currentTime=0;}catch(e){}}});forceMute(videos[current]);videos[current].play().catch(function(){});frame.querySelectorAll('.ghana-video-progress span').forEach(function(d,n){d.style.opacity=n===current?'1':'.35';});}videos.forEach(function(v,i){v.addEventListener('ended',function(){show(i+1);});});show(0);
     })();
 
     if(/brochure\.html$/i.test(location.pathname)){var masterpiece=document.querySelector('#p5 .page.dark img.photo');if(masterpiece){masterpiece.src='Mastering the Queen’s Beasts Coin.png';masterpiece.alt='Craftsmen working on the Queen’s Beasts gold coin';}}
