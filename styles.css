@@ -25,24 +25,26 @@
 .cat .product h2{min-height:82px!important;margin-bottom:8px!important;}
 .cat .product .price{min-height:28px!important;margin-top:0!important;margin-bottom:8px!important;}
 .cat .product .desc{min-height:108px!important;margin-top:0!important;margin-bottom:18px!important;}
-
-/* Support both the current purchase wrapper and any older generated markup. */
 .cat .product .purchase-controls,
 .cat .product .purchase-actions,
 .cat .product .actions,
-.cat .product .shop-actions{margin-top:auto!important;display:grid!important;grid-template-columns:1fr 1fr!important;gap:10px 12px!important;align-items:stretch!important;width:100%!important;box-sizing:border-box!important;}
+.cat .product .shop-actions{margin-top:auto!important;display:grid!important;grid-template-columns:1fr 1fr!important;column-gap:16px!important;row-gap:10px!important;align-items:stretch!important;width:100%!important;box-sizing:border-box!important;}
 .cat .product .purchase-controls .qty-picker,
 .cat .product .purchase-actions .qty-picker,
 .cat .product .actions .qty-picker,
-.cat .product .shop-actions .qty-picker{grid-column:1 / -1!important;margin:0 0 2px!important;}
+.cat .product .shop-actions .qty-picker{grid-column:1 / -1!important;margin:0 0 4px!important;}
 
-/* Restore two clearly separated action tabs rather than a joined button strip. */
-.cat .product .buy{margin:0!important;min-height:42px!important;height:42px!important;padding:10px 12px!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;box-sizing:border-box!important;border-radius:0!important;white-space:nowrap!important;}
-.cat .product .buy + .buy{margin-left:0!important;}
+/* Two visibly separate purchase buttons. */
+.cat .product .buy{min-height:42px!important;height:42px!important;padding:10px 14px!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;box-sizing:border-box!important;border-radius:0!important;white-space:nowrap!important;vertical-align:top!important;}
+.cat .product .buy:first-of-type{margin:0 16px 0 0!important;}
+.cat .product .buy + .buy{margin:0!important;}
 .cat .product .purchase-controls .buy,
 .cat .product .purchase-actions .buy,
 .cat .product .actions .buy,
-.cat .product .shop-actions .buy{width:100%!important;}
+.cat .product .shop-actions .buy{width:100%!important;margin:0!important;}
+/* When the generated buttons are direct children of the product, keep a physical white gap between them. */
+.cat .product > .buy{width:calc(50% - 10px)!important;margin-top:auto!important;}
+.cat .product > .buy + .buy{margin-left:16px!important;}
 
 @media(max-width:1000px){.hero-photo{background-position:62% center!important;}.hero-shade{background:linear-gradient(90deg,rgba(18,27,32,.84) 0%,rgba(18,27,32,.70) 55%,rgba(18,27,32,.22) 100%)!important;}.heritage-image,.human-img.specialist,.human-img.collector{background-size:contain!important;background-position:center top!important;-webkit-mask-image:linear-gradient(180deg,#000 0%,#000 82%,transparent 100%)!important;mask-image:linear-gradient(180deg,#000 0%,#000 82%,transparent 100%)!important;}}
-@media(max-width:600px){.cat .product h2,.cat .product .price,.cat .product .desc{min-height:0!important}.cat .product .purchase-controls,.cat .product .purchase-actions,.cat .product .actions,.cat .product .shop-actions{margin-top:18px!important;grid-template-columns:1fr!important}.cat .product .purchase-controls .qty-picker,.cat .product .purchase-actions .qty-picker,.cat .product .actions .qty-picker,.cat .product .shop-actions .qty-picker{grid-column:auto!important;}}
+@media(max-width:600px){.cat .product h2,.cat .product .price,.cat .product .desc{min-height:0!important}.cat .product .purchase-controls,.cat .product .purchase-actions,.cat .product .actions,.cat .product .shop-actions{margin-top:18px!important;grid-template-columns:1fr!important}.cat .product .purchase-controls .qty-picker,.cat .product .purchase-actions .qty-picker,.cat .product .actions .qty-picker,.cat .product .shop-actions .qty-picker{grid-column:auto!important}.cat .product > .buy{width:100%!important;margin:6px 0 0!important}.cat .product > .buy + .buy{margin-left:0!important}}
