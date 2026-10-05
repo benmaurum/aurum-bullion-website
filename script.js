@@ -1,122 +1,122 @@
-/* Aurum Bullion global loader. The pinned core preserves the current site behaviour while footer.js supplies the single master footer across every page. */
+/* Aurum Bullion PLC - local global behaviour. No remote JavaScript dependency. */
 (function(){
-  const core=document.createElement('script');
-  core.src='https://cdn.jsdelivr.net/gh/benmaurum/aurum-bullion-website@896b0e2d13a05caed33d511d750109fc60362d04/script.js';
-  core.onload=function(){
-    /* Current-site patch: keep the pinned behaviour, then apply the latest homepage media updates safely. */
-    const graded=document.querySelector('#graded .graded-feature');
+  'use strict';
+
+  function ready(fn){
+    if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',fn,{once:true});
+    else fn();
+  }
+
+  ready(function(){
+    /* Brand assets */
+    document.querySelectorAll('.brand img, footer img, .brochure-top img').forEach(function(img){
+      if(img.closest('.partner-card')) return;
+      if(img.classList.contains('partner-logo')) return;
+      if(img.closest('.footer-brand') || img.closest('.brand') || img.closest('.brochure-top')){
+        img.src='Logo.png'; img.alt='Aurum Bullion PLC';
+      }
+    });
+
+    /* Mobile navigation */
+    document.querySelectorAll('.menu').forEach(function(menu){
+      if(menu.dataset.aurumReady) return;
+      menu.dataset.aurumReady='1';
+      menu.setAttribute('type','button');
+      menu.setAttribute('aria-label','Menu');
+      menu.addEventListener('click',function(e){
+        e.preventDefault(); e.stopPropagation();
+        var header=menu.closest('header');
+        var nav=header && header.querySelector('nav');
+        if(nav) nav.classList.toggle('open');
+      });
+    });
+
+    /* Keep catalogue controls above any global click handling. */
+    document.querySelectorAll('.filters button,.sides button,.lightbox-sides button,.basket-open,.buy,.shop-sort,.search,#cartClose,#coinLightboxClose').forEach(function(el){
+      el.style.pointerEvents='auto';
+    });
+
+    /* Homepage grading pair: NGC larger than PCGS. */
+    var graded=document.querySelector('#graded .graded-feature');
     if(graded){
       graded.src='2021 Royal Albert Hall Five Pound Crown.png';
       graded.alt='2021 Royal Albert Hall Five Pound Crown, NGC PF70 Ultra Cameo';
-      const slab=graded.closest('.slab');
-      if(slab&&!slab.querySelector('.pcgs-feature')){
+      var slab=graded.closest('.slab');
+      if(slab && !slab.querySelector('.pcgs-feature')){
         slab.classList.add('grading-pair');
-        const pcgs=document.createElement('img');
+        var pcgs=document.createElement('img');
         pcgs.className='graded-feature pcgs-feature';
         pcgs.src='King James Slab PCGS.png';
         pcgs.alt='2022 Great Britain King James I £500 5oz gold coin, PCGS PR69DCAM First Strike';
         slab.appendChild(pcgs);
-        const style=document.createElement('style');
-        style.textContent=`#graded .slab.grading-pair{display:flex!important;align-items:center!important;justify-content:center!important;gap:22px!important;padding:30px 18px!important;box-sizing:border-box!important}#graded .slab.grading-pair .graded-feature{display:block!important;width:auto!important;height:auto!important;object-fit:contain!important;mix-blend-mode:multiply}#graded .slab.grading-pair .graded-feature:not(.pcgs-feature){max-width:52%!important;max-height:570px!important}#graded .slab.grading-pair .pcgs-feature{max-width:40%!important;max-height:490px!important}@media(max-width:760px){#graded .slab.grading-pair{gap:8px!important;padding:22px 8px!important}#graded .slab.grading-pair .graded-feature:not(.pcgs-feature){max-width:52%!important;max-height:430px!important}#graded .slab.grading-pair .pcgs-feature{max-width:40%!important;max-height:365px!important}}`;
-        document.head.appendChild(style);
       }
     }
 
-    /* Catalogue patch: use the newly supplied graded NGC obverse/reverse photographs for Queen's Virtues Victory. */
-    const products=document.getElementById('products');
-    if(products){
-      const victoryObverse='2021 St Helena Queen’s Virtues Victory 1oz B.png';
-      const victoryReverse='2021 St Helena Queen’s Virtues Victory 1oz.png';
-      const applyVictoryImages=()=>{
-        [...products.querySelectorAll('.product')].forEach(card=>{
-          const title=card.querySelector('h2');
-          if(!title||title.textContent.trim()!=='2021 St Helena Queen’s Virtues Victory 1oz')return;
-          const visual=card.querySelector('.visual');
-          if(!visual)return;
-          const img=visual.querySelector('img');
-          const buttons=[...visual.querySelectorAll('.sides button')];
-          if(img){
-            const active=Number(visual.dataset.active||0);
-            img.src=encodeURI(active===1?victoryReverse:victoryObverse);
-            img.alt=(active===1?'Reverse':'Obverse')+' graded NGC view of 2021 St Helena Queen’s Virtues Victory 1oz';
-          }
-          if(buttons[0]){buttons[0].dataset.src=victoryObverse;buttons[0].dataset.label='Obverse';buttons[0].textContent='Obverse'}
-          if(buttons[1]){buttons[1].dataset.src=victoryReverse;buttons[1].dataset.label='Reverse';buttons[1].textContent='Reverse'}
-        });
-      };
-      const observer=new MutationObserver(()=>applyVictoryImages());
-      observer.observe(products,{childList:true,subtree:true});
-      setTimeout(applyVictoryImages,0);
-    }
+    /* Homepage Ghana videos: preserve native seek/play controls. */
+    document.querySelectorAll('[data-ghana-video]').forEach(function(v){
+      v.controls=true;
+      v.setAttribute('controls','');
+      v.setAttribute('playsinline','');
+      v.setAttribute('preload','metadata');
+    });
 
-    const frame=document.querySelector('.ghana-video-showcase');
-    if(frame){
-      const latest='WhatsApp Video 2026-10-05 at 14.34.47.mp4';
-      let videos=[...frame.querySelectorAll('[data-ghana-video]')];
-      if(!videos.some(v=>v.querySelector('source')?.getAttribute('src')===latest)){
-        const v=document.createElement('video');
-        v.muted=true;
-        v.defaultMuted=true;
-        v.setAttribute('muted','');
-        v.setAttribute('playsinline','');
-        v.setAttribute('preload','metadata');
-        v.setAttribute('data-ghana-video','');
-        const source=document.createElement('source');
-        source.src=latest;
-        source.type='video/mp4';
-        v.appendChild(source);
-        const progress=frame.querySelector('.ghana-video-progress');
-        frame.insertBefore(v,progress||null);
-        if(progress)progress.appendChild(document.createElement('span'));
-        videos=[...frame.querySelectorAll('[data-ghana-video]')];
+    /* Cookie notice, deliberately non-blocking. */
+    try{
+      if(!localStorage.getItem('aurumCookieChoice')){
+        var b=document.createElement('div');
+        b.className='cookie-banner';
+        b.innerHTML='<div><strong>Cookie choices</strong><p>Aurum uses necessary cookies for core site functions. Optional analytics or marketing technologies will only be activated with consent if introduced.</p></div><div><button type="button" data-cookie="necessary">Necessary only</button><button type="button" class="accept" data-cookie="all">Accept all</button><a href="cookies.html">Cookies Policy</a></div>';
+        document.body.appendChild(b);
+        b.querySelectorAll('[data-cookie]').forEach(function(x){x.addEventListener('click',function(){localStorage.setItem('aurumCookieChoice',x.dataset.cookie);b.remove();});});
       }
+    }catch(e){}
 
-      videos.forEach(v=>{
-        v.setAttribute('controls','');
-        v.controls=true;
-        v.setAttribute('controlsList','nodownload');
-      });
-
-      const newest=videos.find(v=>v.querySelector('source')?.getAttribute('src')===latest);
-      if(newest&&!newest.dataset.aurumCycleReady){
-        newest.dataset.aurumCycleReady='1';
-        newest.addEventListener('ended',()=>{
-          const all=[...frame.querySelectorAll('[data-ghana-video]')];
-          const idx=all.indexOf(newest);
-          const next=all[(idx+1)%all.length];
-          all.forEach(v=>{v.style.opacity=v===next?'1':'0';v.style.visibility=v===next?'visible':'hidden';if(v!==next)v.pause()});
-          next?.play().catch(()=>{});
-        });
+    /* Live gold spot with resilient fallbacks. */
+    var goldEl=document.getElementById('gold');
+    var pairEl=document.getElementById('goldpair');
+    var timeEl=document.getElementById('goldtime');
+    var toggle=document.getElementById('currencyToggle');
+    if(goldEl){
+      var currency=(pairEl && pairEl.textContent.indexOf('USD')>=0)?'USD':'GBP';
+      var usd=null,gbp=null,lastSuccess=0,busy=false;
+      function jf(url,timeout){
+        timeout=timeout||5500;
+        var c=new AbortController(); var t=setTimeout(function(){c.abort();},timeout);
+        return fetch(url,{cache:'no-store',signal:c.signal}).then(function(r){if(!r.ok) throw new Error(String(r.status)); return r.json();}).finally(function(){clearTimeout(t);});
       }
+      async function goldUsd(){
+        var feeds=[async function(){return Number((await jf('https://api.gold-api.com/price/XAU')).price);},async function(){var j=await jf('https://data-asg.goldprice.org/dbXRates/USD');return Number(j&&j.items&&j.items[0]&&j.items[0].xauPrice);}];
+        for(var i=0;i<feeds.length;i++){try{var n=await feeds[i]();if(Number.isFinite(n)&&n>500)return n;}catch(e){}}
+        throw new Error('gold feed unavailable');
+      }
+      async function usdGbp(){
+        var feeds=[async function(){var j=await jf('https://api.frankfurter.app/latest?from=USD&to=GBP');return Number(j&&j.rates&&j.rates.GBP);},async function(){var j=await jf('https://open.er-api.com/v6/latest/USD');return Number(j&&j.rates&&j.rates.GBP);}];
+        for(var i=0;i<feeds.length;i++){try{var n=await feeds[i]();if(Number.isFinite(n)&&n>.4&&n<1.5)return n;}catch(e){}}
+        throw new Error('FX feed unavailable');
+      }
+      function renderGold(){
+        if(currency==='USD'&&Number.isFinite(usd)){goldEl.textContent='$'+usd.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2})+' / TROY OZ';if(pairEl)pairEl.textContent='XAU/USD';}
+        else if(Number.isFinite(gbp)){goldEl.textContent='£'+gbp.toLocaleString('en-GB',{minimumFractionDigits:2,maximumFractionDigits:2})+' / TROY OZ';if(pairEl)pairEl.textContent='XAU/GBP';}
+      }
+      function stamp(live){
+        if(!timeEl)return;
+        if(live&&lastSuccess)timeEl.textContent='• LIVE GOLD SPOT • UPDATED '+new Date(lastSuccess).toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+        else if(lastSuccess)timeEl.textContent='• FEED RECONNECTING • LAST UPDATE '+new Date(lastSuccess).toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+        else timeEl.textContent='• CONNECTING TO LIVE GOLD SPOT';
+      }
+      async function refreshGold(){
+        if(busy)return; busy=true;
+        try{var vals=await Promise.all([goldUsd(),usdGbp()]);usd=vals[0];gbp=vals[0]*vals[1];lastSuccess=Date.now();renderGold();stamp(true);}catch(e){renderGold();stamp(false);}finally{busy=false;}
+      }
+      if(toggle){toggle.addEventListener('click',function(e){e.preventDefault();currency=currency==='GBP'?'USD':'GBP';renderGold();});}
+      refreshGold(); setInterval(refreshGold,30000);
+      document.addEventListener('visibilitychange',function(){if(!document.hidden)refreshGold();});
+      window.addEventListener('focus',refreshGold);
     }
+  });
 
-    /* Live gold spot: override the older 120-second display with a faster resilient feed.
-       Two gold sources and two FX sources are tried on every refresh. Never label stale data as live. */
-    (function installLiveGold(){
-      const goldEl=document.getElementById('gold');
-      const pairEl=document.getElementById('goldpair');
-      const timeEl=document.getElementById('goldtime');
-      const toggle=document.getElementById('currencyToggle');
-      if(!goldEl)return;
-      let currency=(pairEl&&pairEl.textContent.includes('USD'))?'USD':'GBP';
-      let usd=null,gbp=null,lastSuccess=0,busy=false;
-      async function jf(url,timeout=5500){const c=new AbortController(),t=setTimeout(()=>c.abort(),timeout);try{const r=await fetch(url,{cache:'no-store',signal:c.signal});if(!r.ok)throw Error(r.status);return await r.json()}finally{clearTimeout(t)}}
-      async function goldUsd(){for(const f of [async()=>Number((await jf('https://api.gold-api.com/price/XAU')).price),async()=>Number((await jf('https://data-asg.goldprice.org/dbXRates/USD'))?.items?.[0]?.xauPrice)]){try{const n=await f();if(Number.isFinite(n)&&n>500)return n}catch(e){}}throw Error('gold feed unavailable')}
-      async function usdGbp(){for(const f of [async()=>Number((await jf('https://api.frankfurter.app/latest?from=USD&to=GBP'))?.rates?.GBP),async()=>Number((await jf('https://open.er-api.com/v6/latest/USD'))?.rates?.GBP)]){try{const n=await f();if(Number.isFinite(n)&&n>.4&&n<1.5)return n}catch(e){}}throw Error('FX feed unavailable')}
-      function render(){if(currency==='USD'&&Number.isFinite(usd)){goldEl.textContent='$'+usd.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2})+' / TROY OZ';if(pairEl)pairEl.textContent='XAU/USD'}else if(Number.isFinite(gbp)){goldEl.textContent='£'+gbp.toLocaleString('en-GB',{minimumFractionDigits:2,maximumFractionDigits:2})+' / TROY OZ';if(pairEl)pairEl.textContent='XAU/GBP'}}
-      function stamp(live){if(!timeEl)return;if(live&&lastSuccess){const d=new Date(lastSuccess);timeEl.textContent='• LIVE GOLD SPOT • UPDATED '+d.toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit',second:'2-digit'})}else if(lastSuccess){timeEl.textContent='• FEED RECONNECTING • LAST UPDATE '+new Date(lastSuccess).toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit',second:'2-digit'})}else timeEl.textContent='• CONNECTING TO LIVE GOLD SPOT'}
-      async function refresh(){if(busy)return;busy=true;try{const [u,r]=await Promise.all([goldUsd(),usdGbp()]);usd=u;gbp=u*r;lastSuccess=Date.now();render();stamp(true)}catch(e){render();stamp(false)}finally{busy=false}}
-      if(toggle&&!toggle.dataset.liveGoldReady){toggle.dataset.liveGoldReady='1';toggle.addEventListener('click',()=>{currency=currency==='GBP'?'USD':'GBP';render()})}
-      refresh();
-      setInterval(refresh,30000);
-      document.addEventListener('visibilitychange',()=>{if(!document.hidden)refresh()});
-      window.addEventListener('focus',refresh);
-      setInterval(()=>{if(lastSuccess&&Date.now()-lastSuccess>90000)stamp(false)},10000);
-    })();
-
-    const footer=document.createElement('script');
-    footer.src='footer.js?v=20261005-1';
-    document.body.appendChild(footer);
-  };
-  document.body.appendChild(core);
+  /* Styling injected locally so homepage grading pair remains balanced. */
+  var s=document.createElement('style');
+  s.textContent='header nav.open{display:flex!important}.grading-pair{display:flex!important;align-items:center!important;justify-content:center!important;gap:22px!important;padding:30px 18px!important;box-sizing:border-box!important}.grading-pair .graded-feature{display:block!important;width:auto!important;height:auto!important;object-fit:contain!important;mix-blend-mode:multiply}.grading-pair .graded-feature:not(.pcgs-feature){max-width:52%!important;max-height:570px!important}.grading-pair .pcgs-feature{max-width:40%!important;max-height:490px!important}@media(max-width:760px){.grading-pair{gap:8px!important;padding:22px 8px!important}.grading-pair .graded-feature:not(.pcgs-feature){max-width:52%!important;max-height:430px!important}.grading-pair .pcgs-feature{max-width:40%!important;max-height:365px!important}}';
+  document.head.appendChild(s);
 })();
