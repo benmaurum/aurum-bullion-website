@@ -22,6 +22,33 @@
       }
     }
 
+    /* Catalogue patch: use the newly supplied graded NGC obverse/reverse photographs for Queen's Virtues Victory. */
+    const products=document.getElementById('products');
+    if(products){
+      const victoryObverse='2021 St Helena Queen’s Virtues Victory 1oz B.png';
+      const victoryReverse='2021 St Helena Queen’s Virtues Victory 1oz.png';
+      const applyVictoryImages=()=>{
+        [...products.querySelectorAll('.product')].forEach(card=>{
+          const title=card.querySelector('h2');
+          if(!title||title.textContent.trim()!=='2021 St Helena Queen’s Virtues Victory 1oz')return;
+          const visual=card.querySelector('.visual');
+          if(!visual)return;
+          const img=visual.querySelector('img');
+          const buttons=[...visual.querySelectorAll('.sides button')];
+          if(img){
+            const active=Number(visual.dataset.active||0);
+            img.src=encodeURI(active===1?victoryReverse:victoryObverse);
+            img.alt=(active===1?'Reverse':'Obverse')+' graded NGC view of 2021 St Helena Queen’s Virtues Victory 1oz';
+          }
+          if(buttons[0]){buttons[0].dataset.src=victoryObverse;buttons[0].dataset.label='Obverse';buttons[0].textContent='Obverse'}
+          if(buttons[1]){buttons[1].dataset.src=victoryReverse;buttons[1].dataset.label='Reverse';buttons[1].textContent='Reverse'}
+        });
+      };
+      const observer=new MutationObserver(()=>applyVictoryImages());
+      observer.observe(products,{childList:true,subtree:true});
+      setTimeout(applyVictoryImages,0);
+    }
+
     const frame=document.querySelector('.ghana-video-showcase');
     if(frame){
       const latest='WhatsApp Video 2026-10-05 at 14.34.47.mp4';
