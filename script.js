@@ -8,6 +8,18 @@
     if(graded){
       graded.src='2021 Royal Albert Hall Five Pound Crown.png';
       graded.alt='2021 Royal Albert Hall Five Pound Crown, NGC PF70 Ultra Cameo';
+      const slab=graded.closest('.slab');
+      if(slab&&!slab.querySelector('.pcgs-feature')){
+        slab.classList.add('grading-pair');
+        const pcgs=document.createElement('img');
+        pcgs.className='graded-feature pcgs-feature';
+        pcgs.src='King James Slab PCGS.png';
+        pcgs.alt='2022 Great Britain King James I £500 5oz gold coin, PCGS PR69DCAM First Strike';
+        slab.appendChild(pcgs);
+        const style=document.createElement('style');
+        style.textContent=`#graded .slab.grading-pair{display:flex!important;align-items:center!important;justify-content:center!important;gap:22px!important;padding:30px 18px!important;box-sizing:border-box!important}#graded .slab.grading-pair .graded-feature{display:block!important;width:auto!important;height:auto!important;object-fit:contain!important;mix-blend-mode:multiply}#graded .slab.grading-pair .graded-feature:not(.pcgs-feature){max-width:43%!important;max-height:510px!important}#graded .slab.grading-pair .pcgs-feature{max-width:49%!important;max-height:535px!important}@media(max-width:760px){#graded .slab.grading-pair{gap:8px!important;padding:22px 8px!important}#graded .slab.grading-pair .graded-feature:not(.pcgs-feature){max-width:44%!important;max-height:390px!important}#graded .slab.grading-pair .pcgs-feature{max-width:50%!important;max-height:405px!important}}`;
+        document.head.appendChild(style);
+      }
     }
 
     const frame=document.querySelector('.ghana-video-showcase');
