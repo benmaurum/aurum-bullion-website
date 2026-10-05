@@ -1,5 +1,10 @@
 name: Update Aurum Insights
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-insights.yml'
+      - 'scripts/update_news.py'
   schedule:
     - cron: '15 7 * * *'
     - cron: '15 15 * * *'
