@@ -18,7 +18,7 @@
 .collections .card:nth-child(1) .visual img{visibility:visible!important;opacity:1!important;width:84%!important;height:84%!important;object-fit:contain!important;content:url('Britannia 2020 Pf70 £200.png')!important;border-radius:18px!important;}
 .collections .card:nth-child(3) .visual img{visibility:visible!important;opacity:1!important;width:84%!important;height:84%!important;object-fit:contain!important;content:url('Great Engravers (Una & The Lion).png')!important;border-radius:18px!important;}
 
-/* Catalogue purchase area: every card stretches to its row height and the action area is pinned to the bottom. */
+/* Catalogue cards and purchase controls */
 .cat .products{align-items:stretch!important;}
 .cat .product{display:flex!important;flex-direction:column!important;align-self:stretch!important;height:auto!important;min-height:100%!important;box-sizing:border-box!important;}
 .cat .product .visual{flex:0 0 310px!important;}
@@ -26,15 +26,50 @@
 .cat .product .price{min-height:28px!important;margin-top:0!important;margin-bottom:8px!important;}
 .cat .product .desc{min-height:108px!important;margin-top:0!important;margin-bottom:18px!important;}
 
-/* Current catalogue markup renders the two purchase buttons directly inside each product card.
-   Give them their own distinct visual tabs with a real white gap, rather than one black block. */
-.cat .product > .buy{width:100%!important;min-height:43px!important;height:43px!important;margin:0!important;padding:10px 14px!important;display:flex!important;align-items:center!important;justify-content:center!important;box-sizing:border-box!important;border:1px solid #9c844c!important;border-radius:2px!important;background:#b59a5b!important;color:#fff!important;white-space:nowrap!important;box-shadow:none!important;transition:background .18s ease,border-color .18s ease!important;}
-.cat .product > .buy:first-of-type{margin-top:auto!important;margin-bottom:10px!important;}
-.cat .product > .buy + .buy{margin-top:0!important;background:#738087!important;border-color:#738087!important;}
-.cat .product > .buy:first-of-type:hover{background:#a88d50!important;border-color:#a88d50!important;}
-.cat .product > .buy + .buy:hover{background:#647178!important;border-color:#647178!important;}
+/* The catalogue currently renders Buy / Enquire and Add to Basket as direct children.
+   Force identical left/right edges and use only vertical spacing between them. */
+.cat .product > button.buy{
+  position:relative!important;
+  left:auto!important;
+  right:auto!important;
+  float:none!important;
+  align-self:stretch!important;
+  width:100%!important;
+  max-width:none!important;
+  min-width:0!important;
+  min-height:43px!important;
+  height:43px!important;
+  margin-left:0!important;
+  margin-right:0!important;
+  padding:10px 14px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  box-sizing:border-box!important;
+  border-radius:2px!important;
+  white-space:nowrap!important;
+  box-shadow:none!important;
+  transform:none!important;
+  transition:background .18s ease,border-color .18s ease!important;
+}
+.cat .product > button.buy:first-of-type{
+  margin-top:auto!important;
+  margin-bottom:10px!important;
+  background:#c3ab72!important;
+  border:1px solid #aa915b!important;
+  color:#fff!important;
+}
+.cat .product > button.buy:nth-of-type(2){
+  margin-top:0!important;
+  margin-bottom:0!important;
+  background:#89949a!important;
+  border:1px solid #78848a!important;
+  color:#fff!important;
+}
+.cat .product > button.buy:first-of-type:hover{background:#b69d65!important;border-color:#9e8652!important;}
+.cat .product > button.buy:nth-of-type(2):hover{background:#7b878d!important;border-color:#6f7a80!important;}
 
-/* Retain support for wrapped purchase controls if used elsewhere. */
+/* Wrapped controls, if reintroduced later, remain equally aligned. */
 .cat .product .purchase-controls,
 .cat .product .purchase-actions,
 .cat .product .actions,
@@ -46,11 +81,7 @@
 .cat .product .purchase-controls .buy,
 .cat .product .purchase-actions .buy,
 .cat .product .actions .buy,
-.cat .product .shop-actions .buy{width:100%!important;min-height:43px!important;margin:0!important;background:#b59a5b!important;border:1px solid #9c844c!important;color:#fff!important;}
-.cat .product .purchase-controls .buy + .buy,
-.cat .product .purchase-actions .buy + .buy,
-.cat .product .actions .buy + .buy,
-.cat .product .shop-actions .buy + .buy{background:#738087!important;border-color:#738087!important;}
+.cat .product .shop-actions .buy{width:100%!important;margin:0!important;box-sizing:border-box!important;min-height:43px!important;}
 
 @media(max-width:1000px){.hero-photo{background-position:62% center!important;}.hero-shade{background:linear-gradient(90deg,rgba(18,27,32,.84) 0%,rgba(18,27,32,.70) 55%,rgba(18,27,32,.22) 100%)!important;}.heritage-image,.human-img.specialist,.human-img.collector{background-size:contain!important;background-position:center top!important;-webkit-mask-image:linear-gradient(180deg,#000 0%,#000 82%,transparent 100%)!important;mask-image:linear-gradient(180deg,#000 0%,#000 82%,transparent 100%)!important;}}
-@media(max-width:600px){.cat .product h2,.cat .product .price,.cat .product .desc{min-height:0!important}.cat .product > .buy:first-of-type{margin-top:18px!important}.cat .product .purchase-controls,.cat .product .purchase-actions,.cat .product .actions,.cat .product .shop-actions{margin-top:18px!important;grid-template-columns:1fr!important}.cat .product .purchase-controls .qty-picker,.cat .product .purchase-actions .qty-picker,.cat .product .actions .qty-picker,.cat .product .shop-actions .qty-picker{grid-column:auto!important;}}
+@media(max-width:600px){.cat .product h2,.cat .product .price,.cat .product .desc{min-height:0!important}.cat .product > button.buy:first-of-type{margin-top:18px!important}.cat .product .purchase-controls,.cat .product .purchase-actions,.cat .product .actions,.cat .product .shop-actions{margin-top:18px!important;grid-template-columns:1fr!important}.cat .product .purchase-controls .qty-picker,.cat .product .purchase-actions .qty-picker,.cat .product .actions .qty-picker,.cat .product .shop-actions .qty-picker{grid-column:auto!important;}}
