@@ -8,6 +8,18 @@
     if(graded){
       graded.src='2021 Royal Albert Hall Five Pound Crown.png';
       graded.alt='2021 Royal Albert Hall Five Pound Crown, NGC PF70 Ultra Cameo';
+      const slab=graded.closest('.slab');
+      if(slab&&!slab.querySelector('.graded-feature-secondary')){
+        slab.classList.add('graded-pair');
+        const second=document.createElement('img');
+        second.className='graded-feature graded-feature-secondary coin-blend';
+        second.src='2025 5oz S PR70.png';
+        second.alt='2025 Great Britain Royal Arms Five Sovereign, NGC PF70 Ultra Cameo, First Day of Issue';
+        slab.appendChild(second);
+        const s=document.createElement('style');
+        s.textContent=`#graded .slab.graded-pair{display:flex!important;align-items:center!important;justify-content:center!important;gap:18px!important;padding:34px 20px!important;box-sizing:border-box!important}#graded .slab.graded-pair .graded-feature{display:block!important;width:calc(50% - 9px)!important;max-width:310px!important;height:auto!important;max-height:520px!important;object-fit:contain!important;mix-blend-mode:multiply}@media(max-width:760px){#graded .slab.graded-pair{gap:8px!important;padding:24px 10px!important}#graded .slab.graded-pair .graded-feature{width:calc(50% - 4px)!important;max-height:400px!important}}`;
+        document.head.appendChild(s);
+      }
     }
 
     const frame=document.querySelector('.ghana-video-showcase');
