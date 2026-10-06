@@ -12,6 +12,14 @@
   socialFix.textContent='.aurum-social-links .social-image-icon{display:inline-flex!important;align-items:center!important;justify-content:center!important;width:28px!important;height:28px!important;background:none!important;background-image:none!important;border-radius:0!important;overflow:hidden!important}.aurum-social-links .social-image-icon img{display:block!important;width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;object-fit:contain!important;background:transparent!important}.aurum-social-links .trustpilot-link .social-image-icon{background:none!important;border-radius:0!important}.aurum-social-links .trustpilot-link{border-color:#cfd5d8!important}';
   document.head.appendChild(socialFix);
 
+  /* Load the site-wide clickable Aurum Insights ticker directly below the live gold strip. */
+  if(document.querySelector('.market')&&!document.querySelector('script[data-aurum-news-ticker]')){
+    const tickerScript=document.createElement('script');
+    tickerScript.src='news-ticker.js?v=20261006-1';
+    tickerScript.dataset.aurumNewsTicker='1';
+    document.body.appendChild(tickerScript);
+  }
+
   /* Homepage curated collection is controlled exclusively by script.js. */
   if(document.getElementById('products')){
     const pairs={
