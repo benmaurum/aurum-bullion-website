@@ -1,1 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Trustpilot"><circle cx="16" cy="16" r="15" fill="#00B67A"/><path fill="#fff" d="M16 6.2l2.42 7.45h7.83l-6.34 4.6 2.42 7.45L16 21.1 9.67 25.7l2.42-7.45-6.34-4.6h7.83L16 6.2z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Trustpilot">
+  <image href="trustpilot%20logo.jpg" x="0" y="0" width="100" height="100" preserveAspectRatio="xMidYMid meet"/>
+</svg>
