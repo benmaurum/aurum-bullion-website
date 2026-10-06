@@ -12,8 +12,40 @@
       document.head.appendChild(s);
     }
   }
+  /* Catalogue rule: the artwork/design face is ALWAYS the default. For the original numbered archive the plain N. file is the design and N.2 is the portrait. Explicit _Reverse/_Obverse files use their names. */
+  function fixCatalogueDesign(){
+    var products=document.getElementById('products');
+    if(!products)return;
+    products.querySelectorAll('.visual').forEach(function(v){
+      var img=v.querySelector('img'),buttons=[].slice.call(v.querySelectorAll('.sides button'));
+      if(!img||buttons.length<2)return;
+      var sources=buttons.map(function(b){return decodeURI(b.dataset.src||'');}).filter(Boolean);
+      if(sources.length<2)return;
+      var design=sources.find(function(src){return /_reverse\b/i.test(src);});
+      var portrait=sources.find(function(src){return /_obverse\b/i.test(src);});
+      if(!design){design=sources.find(function(src){return /(^|\/)\d+\.\s/.test(src);});}
+      if(!portrait){portrait=sources.find(function(src){return /(^|\/)\d+\.2\s/.test(src);});}
+      if(!design)design=sources[0];
+      if(!portrait)portrait=sources.find(function(src){return src!==design;})||sources[1];
+      function show(src,label,index){
+        img.src=encodeURI(src);img.alt=label+' view of '+(img.dataset.name||'coin');
+        buttons.forEach(function(b,i){b.classList.toggle('active',i===index);});
+        v.dataset.active=String(index);
+      }
+      buttons[0].dataset.src=design;buttons[0].dataset.label='Reverse';buttons[0].textContent='Design';
+      buttons[1].dataset.src=portrait;buttons[1].dataset.label='Obverse';buttons[1].textContent='Portrait';
+      show(design,'Design / reverse',0);
+      if(v.dataset.aurumDesignHover!=='1'){
+        v.dataset.aurumDesignHover='1';
+        v.addEventListener('mouseenter',function(){show(buttons[1].dataset.src,'Portrait / obverse',1);});
+        v.addEventListener('mouseleave',function(){show(buttons[0].dataset.src,'Design / reverse',0);});
+      }
+    });
+  }
   function init(){
     fixTudor();setTimeout(fixTudor,500);setTimeout(fixTudor,1400);
+    fixCatalogueDesign();setTimeout(fixCatalogueDesign,250);setTimeout(fixCatalogueDesign,800);setTimeout(fixCatalogueDesign,1700);
+    var products=document.getElementById('products');if(products)new MutationObserver(function(){setTimeout(fixCatalogueDesign,0);}).observe(products,{childList:true,subtree:true});
     if(document.querySelector('.aurum-news-ticker'))return;
     var market=document.querySelector('.market');
     if(!market)return;
