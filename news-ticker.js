@@ -1,7 +1,19 @@
 /* Aurum Bullion PLC - site-wide news headline ticker. */
 (function(){
   'use strict';
+  function fixTudor(){
+    var card=document.querySelector('.collections .curated-coin-card:nth-child(2)');
+    if(!card)return;
+    var img=card.querySelector('.curated-image-box img');
+    if(img){img.src='Remove background project - 06 October 2026 at 20.10.25.png';img.alt='2023 Royal Tudor Beasts Yale of Beaufort PCGS MS69 gold coin';}
+    if(!document.getElementById('tudor-yale-fix')){
+      var s=document.createElement('style');s.id='tudor-yale-fix';
+      s.textContent='.collections .curated-coin-card:nth-child(2) .visual{overflow:hidden!important}.collections .curated-coin-card:nth-child(2) .curated-image-box{height:260px!important;display:flex!important;align-items:center!important;justify-content:center!important;overflow:hidden!important}.collections .curated-coin-card:nth-child(2) .curated-image-box img{display:block!important;height:250px!important;min-height:250px!important;max-height:250px!important;width:auto!important;max-width:100%!important;object-fit:contain!important;object-position:center center!important;position:static!important;top:auto!important;margin:auto!important;transform:none!important;scale:1!important}@media(max-width:1050px){.collections .curated-coin-card:nth-child(2) .curated-image-box{height:215px!important}.collections .curated-coin-card:nth-child(2) .curated-image-box img{height:205px!important;min-height:205px!important;max-height:205px!important}}@media(max-width:520px){.collections .curated-coin-card:nth-child(2) .curated-image-box{height:255px!important}.collections .curated-coin-card:nth-child(2) .curated-image-box img{height:245px!important;min-height:245px!important;max-height:245px!important}}';
+      document.head.appendChild(s);
+    }
+  }
   function init(){
+    fixTudor();setTimeout(fixTudor,500);setTimeout(fixTudor,1400);
     if(document.querySelector('.aurum-news-ticker'))return;
     var market=document.querySelector('.market');
     if(!market)return;
