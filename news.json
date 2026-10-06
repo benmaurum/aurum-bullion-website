@@ -1,8 +1,32 @@
 {
-  "updated_at": "2026-10-06T14:11:24.424904+00:00",
+  "updated_at": "2026-10-06T20:15:12.177195+00:00",
   "timezone_display": "Europe/London",
   "target_per_category_per_day": 2,
   "stories": [
+    {
+      "category": "breaking",
+      "category_label": "BREAKING NEWS",
+      "headline": "The World's Gold Producers Are Starting to Hoard Their Own Gold - Crude Oil Prices Today | OilPrice.com",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "published_at": "2026-10-06T18:00:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWVVLT0tyZ0RHWDhNdjhXSXo0QXlxXzZnT09BZWdDN3ktbGNUenh2WUZWNkN2Uy1pTWNJOEJUbHVFeFZfcV9QZjNRWkRGeTduSG9JMWVYMHk5cEVSWDFuUWVUalFjMVNaN0c0MDROQ1FQbUVsS1FFaG13ZVdwVlFLTHNWcWZxMlRFT1NnczRIWDJ0ZHJycmlMMmF3LTNSVDh6RjdjdVBFc9IBpwFBVV95cUxPWVVLT0tyZ0RHWDhNdjhXSXo0QXlxXzZnT09BZWdDN3ktbGNUenh2WUZWNkN2Uy1pTWNJOEJUbHVFeFZfcV9QZjNRWkRGeTduSG9JMWVYMHk5cEVSWDFuUWVUalFjMVNaN0c0MDROQ1FQbUVsS1FFaG13ZVdwVlFLTHNWcWZxMlRFT1NnczRIWDJ0ZHJycmlMMmF3LTNSVDh6RjdjdVBFcw?oc=5"
+    },
+    {
+      "category": "etf",
+      "category_label": "GOLD ETFs",
+      "headline": "70-Tonne ETF Inflows Reinforce Current Gold Output Advantage - Crux Investor",
+      "source": "Crux Investor",
+      "published_at": "2026-10-06T15:27:55+00:00",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcDZUX1BVbHBWUklHQVVPdTMyZE1tWjhkREtqbzdCSHdqeTlBTkpWajZJTXcxR3NxZm4wQ1FYRnRQclc2eDFaRFIySUpOc01oLWdKSVFVenFPZU00Sl85VjExV2QyZGtROFR5V0FuZU5xOVJjbFlpWW1fVHBkN1lDMFhXOVhxZmpielM4dGpfajY3dEJnNVFvR1hmSQ?oc=5"
+    },
+    {
+      "category": "central",
+      "category_label": "CENTRAL BANKS",
+      "headline": "Central banks add 39 net tonnes of gold in August with China, Uzbekistan and Poland leading purchases – World Gold Council - Kitco",
+      "source": "Kitco",
+      "published_at": "2026-10-06T14:19:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZEJFR3YwV0p1YTlSd0VUUTRLNzBGUlBQeXNOTVBmbWNzN1ZhaXZjU2RZSmN0aUZQelNTUERyVWlQMkYxVDFNcjRXT0lvM1FmQUk2Rld6TDVQWktGdEZpN0JTQkVzekJGOTU0MFdqTUF5SUVZOGVxMDJibTY3YjJtNV95QlplaHlnTTA5cThSYkhrQU5SWWlTNXhyUkJ3cF9aM3NCS0UxRU4xQ096TVNxQUwxdTFYM3Jh?oc=5"
+    },
     {
       "category": "geo",
       "category_label": "GEOPOLITICS",
@@ -10,6 +34,14 @@
       "source": "TradingView",
       "published_at": "2026-10-06T12:17:27+00:00",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQN2ktNEo5ZGVydThOcnJrRUs5cm4tMkNZTy1QX01uWFgyQm0yaGNpaVl6Q1libzBDcm9tck5jRnVRYkotZ3FYSnhvQmRSbklWaGwtQUlYRUlnUTQ5QmRaN3hlcjg3MWtNVjRpRDR2Mi01aGtkRUpvWjMwcGVhajYzR01vQV9uWkQ0amFlZlFmMnc3UTFWMUwtUEJEUnZCMmpHRTQtaTZEeE1xNXVuRlE?oc=5"
+    },
+    {
+      "category": "geo",
+      "category_label": "GEOPOLITICS",
+      "headline": "Why the Persian Gulf Conflict Has Not Sparked a Sustained Gold Rally - International Banker",
+      "source": "International Banker",
+      "published_at": "2026-10-06T12:11:13+00:00",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTVFMSklvMC1UdF9CWVVqUk5ibFZmcEtRUDNJbVVoRjVGU0dnODJRU01pRFR0bm9PWkdZSVhndHEwbzhKTGVIaUdTU281LWVXcmhqWXVFdC1aTEtsUF9rOF82M28xLTFuNjdUOTB5Q1BmZ0p3N0J2Vm81U2NNSXRvdW9BeW55dzU5R2hIQXNON3RmVEh0dFgtZS1EMHhHNFJYTjJ5NllnUGo3MVNwZ2VZQQ?oc=5"
     },
     {
       "category": "etf",
@@ -22,18 +54,18 @@
     {
       "category": "rates",
       "category_label": "ECONOMY & RATES",
-      "headline": "Gold Steadies as Stronger Dollar and Yields Weigh on Rate Path - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "published_at": "2026-10-06T10:39:37+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOckVuVzF3a0QtMHgwcHp2N0IyWnU1OW1jVzBjR28wSm9QdEo2MDdNNjZOVEI3YkxPdnZoVEJSeEdxTG9MLVFPMlp1YVNwUFFwWGVLSHRrcDdZeHN1Skktb3NiRThZMTd5UF9uQ2Q3c3Zsem9hNHEzVEREVnlDTTVLOTdhcUZfM0ZvYmx0R2NMeFBuVnFqaHJkTDFrMzVQcmtjNnZlT08zMVlsTGphTzRTdnVBbw?oc=5"
+      "headline": "High inflation has become embedded in Britain, Bank of England's Mann says - Global Banking & Finance Review",
+      "source": "Global Banking & Finance Review",
+      "published_at": "2026-10-06T10:53:50+00:00",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdFczZ2VqOWgzbFdJLUNqdG95SFRoOFFYVGQ3QWJMY09fa29lOFpwLWVTLTZRcW9SUHhZV2FnbldUaFpFajJkZHZoelVuQ0pyWTZoQnR2anRhOHpIcFhPNGg5dTZhM3BmZ1MybGpTSHVoZi1md0E3aUdXLWExWW5OelZ3ZktRajlsUU1FQkVHbVM4UmQ5NTJRVg?oc=5"
     },
     {
       "category": "market",
       "category_label": "GOLD MARKET",
-      "headline": "News by CNBC TV18 on TradingView, 2026-10-06 — cnbctv:810aedf50094b:0 - TradingView",
-      "source": "TradingView",
-      "published_at": "2026-10-06T10:17:31+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmVk1Pc3cxZ0pySmFzUm1TbVFCTzg3OUM0a18tYTk3LUtWTzZfVExRa2lXMlJsbzgzU2E2VEJwemxhWTcxMDR1ODdIRWpJX3VMZFpnR2tKdG14WjlKcDVNdm9Ca2xFeWM?oc=5"
+      "headline": "Precious metals prices - GoldBroker",
+      "source": "GoldBroker",
+      "published_at": "2026-10-06T10:01:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE82OVBWQ2M2WXNEZEVqWkVCcDBpQVd6X3o3UzFLSWZXQkZVcHVvWFFseVVHS1ZrQXBnTlM2ZDBWbE55ZFE?oc=5"
     },
     {
       "category": "rates",
@@ -76,36 +108,12 @@
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVmRjT3NUZTdUMzZXRHFjejVTa3psdHFhVGxpWVdZYVNBUmtwX2taQWNBZlJSZHRnR2F1bmNxTnpvcUJ1T1pFS1RPMV9zOHJET1JOLUJKbmZPU3hzaFlVRV9WUXpnZC03YzJ6V1NSbVZ3Uk5yYnNmZldadEZCWVpvMlJR?oc=5"
     },
     {
-      "category": "geo",
-      "category_label": "GEOPOLITICS",
-      "headline": "The Commodities Feed: Oil supported by geopolitical risks despite supply gains - ING THINK Economic and financial analysis | ING THINK",
-      "source": "ING THINK Economic and financial analysis | ING THINK",
-      "published_at": "2026-10-06T05:04:06+00:00",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdUhaZkVoWmFmX1NPalRfRFMxdU84XzUyd2tlTGNoTUZvYVpUTTdod085dlR6XzdkMDBNN2NzRlh6Snp1VkxJa0t0QTdKVWR5WlhyQS0wS1ZURm1tVjhtSm5GaWpCYTA0Z2R6QV9vWEFLNlNZcThYOGRWQVBXQnR5UUxlRFdWRjQwYjJlVmlTOHNGRzhndEdKdmJQZ29pVVVMMjAxTDdHRkw2RFU5dmpTYmpCQ2k?oc=5"
-    },
-    {
-      "category": "breaking",
-      "category_label": "BREAKING NEWS",
-      "headline": "Gold Holds Above $4,000 Even as US Treasury Yields Top 5% — Institutions Say Gold's Pricing Logic Is \"Re-Anchoring\" - finance.biggo.com",
-      "source": "finance.biggo.com",
-      "published_at": "2026-10-06T04:35:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51X0xQVEpRNGZYSHRvZjdpNE9RdG53SElaVGFpUHdoVFl1OXFsRzNPM0JmUGRSb01qeEZ2b2pwb0NPMjlMX0kzMlZiRFNZTXpsWnpHc1dVWU0wWUFQYmN1UGhBaGZCR3FZSm9hSlA5cTRsdFk2RlE?oc=5"
-    },
-    {
-      "category": "central",
-      "category_label": "CENTRAL BANKS",
-      "headline": "Gold’s Share of Central Bank Reserves Nearly Doubled. A Top Banker Just Explained Why. - GoldSilver",
-      "source": "GoldSilver",
-      "published_at": "2026-10-06T01:55:37+00:00",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVWtuOXZEbTR3VF9YLUdYaXJEMGhQbjRFYVBOdmVTZE82ZGdqMG50cUwwLWZYNl9fejUyNzRGVW10MkRqNC11TDNhbkhvOTlZUXJqZFk3dTRpTFNLUFZRNWJpN0RwNEQtTENHTVprWE5LaW5Na1lsMFpKSnVNRWJjc3M4VFlMdzliTWZKNDZ5czVqc1VSakdEeWZTR0U5R0JnZmMwLQ?oc=5"
-    },
-    {
-      "category": "etf",
-      "category_label": "GOLD ETFs",
-      "headline": "Gold’s 42% Share of New Mines Links Demand to Mine Investment - Crux Investor",
-      "source": "Crux Investor",
-      "published_at": "2026-10-05T21:27:04+00:00",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWVVBOHRaSnM2SjBJM0l0cXEydEZZeDZ4anA0a0poQUhCazIxYjZWMkJlc3pKNGtRWEUzVHJnM092Z1oyLXkxcFVQOWVZcmViOWxOLU1pXzVRbWpLYUhaTVU0Y2dfMEVqVVNaVmNHVk1FemVFandNRnk5YTFKaTJtdExETVV0cUwzc3RGQ21vZGNfa2p5NWh5U2ln?oc=5"
+      "category": "mint",
+      "category_label": "ROYAL MINT",
+      "headline": "Royal Mint marks Britannia bullion anniversaries - Canadian Coin News",
+      "source": "Canadian Coin News",
+      "published_at": "2026-10-05T12:16:28+00:00",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYk9KQnRFaXNSLUtRV3NfUnVoZFdFSUgzYmdBdmdqU1E4dHFSQnpHdGxWaXhoVFhPaG15aGNaLXBaVUZaYjhRVlZyeVRHNnBuanZNbGltbG9PRDdrdTdjYmFoNF9OTXZ4XzJnamwxUWRDVTZkUnNkSk1DSzc3RWs3WjJyUmg?oc=5"
     },
     {
       "category": "numismatics",
@@ -130,14 +138,6 @@
       "source": "Greysheet",
       "published_at": "2026-09-30T18:39:15+00:00",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPUHl6cE1SbEg3Z08yMmJsanpiSllyMzRWZW50MC1MTFU2SDVUbzJQaXZQT2lfdFk2OUN1R2ZNTFkzYVlSXzBsWWg0N1V5S2hmMkZLa0JOdTVFWWY0ZXpJMnBNZExwVklEUTZEVTFPY1hiOVYwc2g1NmQzc3VMN1FuaGFZbU5DN254akc1NXBVSktHaGJjMi1tWUFnR1FFUTB4RnY4TVpiRXZwTndRTWxUSk5FNTF4WGYxNEFldFNSb2E5bU1Fak1zUE1IajFPOWlta21NQ1pONFBuX0V3OXF2NTJQS0FWMjl3Uk9YbFhfVXpLOWNx?oc=5"
-    },
-    {
-      "category": "mint",
-      "category_label": "ROYAL MINT",
-      "headline": "Whodunit: Chance to solve a mystery and win gold in Cluedo coins launch - London Evening Standard",
-      "source": "London Evening Standard",
-      "published_at": "2026-09-29T22:48:50+00:00",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMmVCUFU1RlhJRGE0cUNad01sNXR0cHFmMENqVnlnemdwTFduSEdUNnB5aDFNbnZlUUt4Y1hMZ3ZrT2RHQ1pGVmY5a2x3VWxDZEpCUlc4YURNcC14NTNwV0tLV01FV1MxQlNvNXNPc21MZDZSRTBNS09JSG9EX2RjTHVqd183MUJPR0hRRlZ3V3E4NkRtT0JyY0JSNkhjUGVjMGpzZXJsNDlZZjVTWHg5WnZB?oc=5"
     }
   ]
 }
