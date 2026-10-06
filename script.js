@@ -13,7 +13,7 @@ if(document.getElementById('products')){var busyCat=false;function normaliseCata
 /* Curated homepage: exactly five distinct British coin categories. Only one Sovereign card. */
 (function(){var cards=document.querySelector('.collections .cards');if(!cards)return;var coins=[
 ['Elizabeth II 2017 gold proof 5oz Britannia PF70 Observe.png','2017 Britannia 30th Anniversary Privy PF70','BRITISH ICONS','Britannia','A defining symbol of Britain, interpreted across modern UK legal-tender gold coinage.'],
-['Royal Tudor Beasts 2022 Lion of England 1oz PCGS Observe.png','2022 Royal Tudor Beasts Lion of England PCGS','ROYAL HERITAGE','Royal Tudor Beasts','Modern British minting drawing on the heraldry and dynastic history of the Tudor period.'],
+['2022 Lion of England UK 2oz Gold Proof_Reverse.jpg','2022 Royal Tudor Beasts Lion of England gold proof','ROYAL HERITAGE','Royal Tudor Beasts','Modern British minting drawing on the heraldry and dynastic history of the Tudor period.'],
 ['2021 Gothic Crown Quartered Arms 2 oz Gold Proof Coin Observe.png','2021 Great Engravers Gothic Crown PF70','GREAT ENGRAVERS','Modern Masterpieces','Celebrated designs revisited through limited British proof issues and exceptional minting.'],
 ['2023 Gold Proof £200, King Charles III 75th Birthday, NGC PF70 Observe.png','2023 King Charles III 75th Birthday £200 PF70','BRITISH HISTORY','Commemorative Coins','Coins marking people, anniversaries and defining moments woven into Britain’s national story.'],
 ['Charles III 2026 gold proof Five-Pounds Observe.png','2026 Five Sovereign Gold Proof PF70','THE SOVEREIGN','The Sovereign','Britain’s enduring gold coin tradition, carrying the celebrated St George and the Dragon design.']
