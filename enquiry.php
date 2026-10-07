@@ -54,12 +54,12 @@ if ($name === '' || preg_match('/[\r\n]/', $name) || !filter_var($email, FILTER_
 }
 $details = ["Name: $name", "Email: $email", "Telephone: $telephone"];
 if ($sell) {
-    $coin = field('Coin or collection', 500);
+    $coin = field('Coin_or_collection', 500);
     if ($coin === '' || field('consent', 10) !== 'yes') {
         respond(422, ['ok' => false, 'message' => 'Please describe your coin or collection and agree that Aurum may contact you about this enquiry.']);
     }
     $details[] = "Coin or collection: $coin";
-    $details[] = 'Grade and certification: ' . field('Grade and certification', 500);
+    $details[] = 'Grade and certification: ' . field('Grade_and_certification', 500);
     $details[] = 'Quantity: ' . field('Quantity', 100);
     $details[] = 'Details: ' . field('Details', 6000);
 } else {
