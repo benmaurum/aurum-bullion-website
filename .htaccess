@@ -1,5 +1,14 @@
 Options -Indexes
 RewriteEngine On
+# Legacy WordPress URLs: permanent redirects to their relevant replacements.
+# Drop obsolete WooCommerce filters; anchors identify the matching homepage section.
+RewriteRule ^contact-us(?:-3)?/?$ https://www.aurumbullion.co.uk/index.html#contact [R=301,L,NE,QSD]
+RewriteRule ^privacy-policy/?$ https://www.aurumbullion.co.uk/privacy.html [R=301,L,QSD]
+RewriteRule ^shop/?$ https://www.aurumbullion.co.uk/catalogue.html [R=301,L,QSD]
+RewriteRule ^product-category/bullion-coins/?$ https://www.aurumbullion.co.uk/catalogue.html [R=301,L,QSD]
+RewriteRule ^product/city-views-london-2/?$ https://www.aurumbullion.co.uk/catalogue.html [R=301,L,QSD]
+RewriteRule ^wp-content/uploads/2025/04/Labi-FreeE-Guide\.pdf$ https://www.aurumbullion.co.uk/brochure.html [R=301,L,QSD]
+
 # Use one public HTTPS address for search engines and enquiry sessions.
 RewriteCond %{HTTPS} !=on [OR]
 RewriteCond %{HTTP_HOST} !^www\.aurumbullion\.co\.uk$ [NC]
