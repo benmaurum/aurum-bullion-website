@@ -33,12 +33,12 @@ body{background:#f7f8f9;color:var(--char)}.kyc-wrap{max-width:1040px;margin:auto
 <div class="requirements"><div class="req"><b>Name &amp; address</b>The document should clearly show the customer's full name and residential address.</div><div class="req"><b>Recent document</b>Use a current document appropriate for Aurum's customer verification requirements.</div></div>
 <label class="consent"><input id="consent" type="checkbox"><span>I confirm that the information and documents I provide are mine and may be used by Aurum Bullion PLC for customer verification, compliance and the administration of my purchase request.</span></label>
 <div class="notice"><b>Privacy:</b> The live version will transmit documents to Aurum's private encrypted storage environment. Documents will not be stored in GitHub, browser local storage or sent as ordinary email attachments. The compliance address will receive a submission notification only.</div>
-<div class="actions"><a class="btn secondary" href="checkout.html">← Return to purchase</a><button class="btn primary" id="continue" disabled>Review documents →</button></div></section>
+<div class="actions"><a class="btn secondary" href="checkout.html?step=kyc">← Return to purchase</a><button class="btn primary" id="continue" disabled>Submit KYC Documents →</button></div></section>
 <section class="security"><div><b>Private storage</b>Designed for restricted Aurum compliance access.</div><div><b>Encrypted transfer</b>The production upload endpoint will require HTTPS and encrypted storage.</div><div><b>Aurum controlled</b>No external KYC provider is required for the proposed architecture.</div></section>
 </main>
 <script>
 const states={idFile:'idState',addressFile:'addressState'};Object.entries(states).forEach(([f,s])=>{document.getElementById(f).addEventListener('change',e=>{const st=document.getElementById(s),file=e.target.files[0];st.textContent=file?'Selected: '+file.name+' · Preview only, not uploaded.':'';st.classList.toggle('show',!!file);ready()})});
 document.querySelectorAll('.id-type').forEach(b=>b.onclick=()=>{document.querySelectorAll('.id-type').forEach(x=>x.classList.remove('selected'));b.classList.add('selected')});
 document.getElementById('consent').onchange=ready;function ready(){continue.disabled=!(idFile.files.length&&addressFile.files.length&&consent.checked)}
-continue.onclick=()=>alert('Usability preview complete. No identity document has been transmitted or stored.');
+continue.onclick=()=>{sessionStorage.setItem('aurumKycComplete','true');sessionStorage.setItem('aurumKycCompletedAt',new Date().toISOString());window.location.href='checkout.html?step=payment&kyc=complete'};
 </script></body></html>
