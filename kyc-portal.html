@@ -37,5 +37,39 @@ body{background:#f7f8f9;color:var(--char)}.kyc-wrap{max-width:1040px;margin:auto
 <section class="security"><div><b>Private storage</b>Designed for restricted Aurum compliance access.</div><div><b>Encrypted transfer</b>The production upload endpoint will require HTTPS and encrypted storage.</div><div><b>Aurum controlled</b>No external KYC provider is required for the proposed architecture.</div></section>
 </main>
 <script>
-const states={idFile:'idState',addressFile:'addressState'},allowed=['application/pdf','image/jpeg','image/png'];function validate(file){if(!file)return'No file selected';if(!allowed.includes(file.type))return'Please choose a PDF, JPG or PNG file.';if(file.size>10*1024*1024)return'File is too large. Maximum 10 MB.';return''}function showFile(input,state){const file=input.files[0],st=document.getElementById(state),err=validate(file);st.textContent=file?(err?'⚠ '+err:'✓ Attached: '+file.name+' · '+(file.size/1024/1024).toFixed(2)+' MB') : '';st.classList.toggle('show',!!file);input.dataset.valid=file&&!err?'true':'false';ready()}Object.entries(states).forEach(([f,s])=>{const input=document.getElementById(f),box=input.closest('.upload');input.addEventListener('change',()=>showFile(input,s));['dragenter','dragover'].forEach(ev=>box.addEventListener(ev,e=>{e.preventDefault();box.classList.add('drag')}));['dragleave','drop'].forEach(ev=>box.addEventListener(ev,e=>{e.preventDefault();box.classList.remove('drag')}));box.addEventListener('drop',e=>{if(e.dataTransfer.files.length){input.files=e.dataTransfer.files;showFile(input,s)}})});document.querySelectorAll('.id-type').forEach(b=>b.onclick=()=>{document.querySelectorAll('.id-type').forEach(x=>x.classList.remove('selected'));b.classList.add('selected');document.getElementById('typeState').textContent='✓ Selected ID: '+b.dataset.id;ready()});document.getElementById('consent').onchange=ready;function ready(){continue.disabled=!(document.querySelector('.id-type.selected')&&idFile.dataset.valid==='true'&&addressFile.dataset.valid==='true'&&consent.checked)}continue.onclick=()=>{continue.disabled=true;continue.textContent='Submitting…';const type=document.querySelector('.id-type.selected').dataset.id;sessionStorage.setItem('aurumKycComplete','true');sessionStorage.setItem('aurumKycCompletedAt',new Date().toISOString());sessionStorage.setItem('aurumKycSummary',JSON.stringify({idType:type,idFile:idFile.files[0].name,addressFile:addressFile.files[0].name,status:'Test documents attached'}));setTimeout(()=>window.location.href='checkout.html?step=payment&kyc=complete',450)};
+const idFileEl=document.getElementById('idFile');
+const addressFileEl=document.getElementById('addressFile');
+const consentEl=document.getElementById('consent');
+const submitBtn=document.getElementById('continue');
+const allowedExt=/\.(pdf|jpe?g|png)$/i;
+let selectedIdType='';
+
+function fileValid(file){return !!file && allowedExt.test(file.name) && file.size<=10*1024*1024}
+function renderFile(input,stateId){
+  const file=input.files&&input.files[0], state=document.getElementById(stateId);
+  if(!file){state.textContent='';state.classList.remove('show');updateSubmit();return}
+  const ok=fileValid(file);
+  state.textContent=ok?'✓ Attached: '+file.name+' · '+(file.size/1024/1024).toFixed(2)+' MB':'⚠ Please choose a PDF, JPG or PNG file no larger than 10 MB.';
+  state.classList.add('show');updateSubmit();
+}
+function updateSubmit(){submitBtn.disabled=!(selectedIdType&&fileValid(idFileEl.files[0])&&fileValid(addressFileEl.files[0])&&consentEl.checked)}
+
+idFileEl.addEventListener('change',()=>renderFile(idFileEl,'idState'));
+addressFileEl.addEventListener('change',()=>renderFile(addressFileEl,'addressState'));
+consentEl.addEventListener('change',updateSubmit);
+document.querySelectorAll('.id-type').forEach(btn=>btn.addEventListener('click',e=>{
+  e.preventDefault();selectedIdType=btn.dataset.id;
+  document.querySelectorAll('.id-type').forEach(x=>x.classList.remove('selected'));
+  btn.classList.add('selected');
+  document.getElementById('typeState').textContent='✓ Selected ID: '+selectedIdType;
+  updateSubmit();
+}));
+submitBtn.addEventListener('click',()=>{
+  if(submitBtn.disabled)return;
+  sessionStorage.setItem('aurumKycComplete','true');
+  sessionStorage.setItem('aurumKycCompletedAt',new Date().toISOString());
+  sessionStorage.setItem('aurumKycSummary',JSON.stringify({idType:selectedIdType,idFile:idFileEl.files[0].name,addressFile:addressFileEl.files[0].name,status:'Test documents attached'}));
+  submitBtn.disabled=true;submitBtn.textContent='Submitted ✓ Moving to payment…';
+  window.setTimeout(()=>{window.location.href='checkout.html?step=payment&kyc=complete'},350);
+});
 </script></body></html>
