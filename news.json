@@ -1,31 +1,63 @@
 {
-  "updated_at": "2026-10-07T14:30:01.259659+00:00",
+  "updated_at": "2026-10-07T20:35:13.993857+00:00",
   "timezone_display": "Europe/London",
   "target_per_category_per_day": 2,
   "stories": [
+    {
+      "category": "central",
+      "category_label": "CENTRAL BANKS",
+      "headline": "Central banks add 39 net tonnes of gold in August with China, Uzbekistan and Poland leading purchases – World Gold Council - Kitco",
+      "source": "Kitco",
+      "published_at": "2026-10-07T16:18:10+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZEJFR3YwV0p1YTlSd0VUUTRLNzBGUlBQeXNOTVBmbWNzN1ZhaXZjU2RZSmN0aUZQelNTUERyVWlQMkYxVDFNcjRXT0lvM1FmQUk2Rld6TDVQWktGdEZpN0JTQkVzekJGOTU0MFdqTUF5SUVZOGVxMDJibTY3YjJtNV95QlplaHlnTTA5cThSYkhrQU5SWWlTNXhyUkJ3cF9aM3NCS0UxRU4xQ096TVNxQUwxdTFYM3Jh?oc=5"
+    },
+    {
+      "category": "geo",
+      "category_label": "GEOPOLITICS",
+      "headline": "LBMA 2026: Central banks find new reasons to increase official gold reserves - Kitco",
+      "source": "Kitco",
+      "published_at": "2026-10-07T16:05:33+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOR2M0cnBuM1BxcWR1RHZuQmxIU3BpSld1NDVKdlE4Rjl3UXZLenRwTWN3aVltcWdaUlg5UEpwWWlwN1QxOWpGbUU2ZW1mTl9PTnlOSkF4Tm5UaDctaHBJTmlHRnI0a29MTi1XanVrZmZoU2JDMGU1ZjlnOXBFRDl5Mm9GSXdHZngtbS04ZU9FbkFIWE42UzlremFKYndFTHN3MS1ueFIxWXdfaTkyY0NLZE94SE1HX0JlckE?oc=5"
+    },
+    {
+      "category": "rates",
+      "category_label": "ECONOMY & RATES",
+      "headline": "LSEG: Why persistent oil prices could keep rates higher for longer - FinTech Global",
+      "source": "FinTech Global",
+      "published_at": "2026-10-07T14:58:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOHUxUGZTRkFKelZEN1NmZ2ZLSmQ4Si1FeUo2VkVJWDY1TEliVDFDTVdQQ09JSnRRMWF3ZGxZRnMwRVVwU2dRblFLcWNFX19BeHpUazRtSU1UUGozYTFrSC1xZkRITVc0MUg5QWhxLVpWanJqOXhjWkRrc1cwNzJERXpvY1RHbm5xUmdpN280djFxV2FSdGFLR0VzY1U3TndOWFE?oc=5"
+    },
     {
       "category": "etf",
       "category_label": "GOLD ETFs",
       "headline": "Gold ETF rush defies 8.5% gold price slide - The Northern Miner",
       "source": "The Northern Miner",
-      "published_at": "2026-10-07T14:22:39+00:00",
+      "published_at": "2026-10-07T14:25:46+00:00",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPLWt4a0pOVDNuaDkzM2c0MGxoSjlNWFpVRXE2RzJ6Y1lIUWxQcERXRzFoZmFjaFI1OU03UWdMQkg2MEhDZ1pvY2RycFFYRW1jejd0ZXc0cGF6TVNZWmNiR19lY2xhdjl2SnVPbmI1V05BZ0dVR0JhS1dSTHZ3WTRWNXRmVlpCa0l6LWs1eGZZVDBFQQ?oc=5"
+    },
+    {
+      "category": "etf",
+      "category_label": "GOLD ETFs",
+      "headline": "World Gold Council: Global Gold ETFs Attract Record $31 Billion in Q3 2026 - KuCoin",
+      "source": "KuCoin",
+      "published_at": "2026-10-07T13:04:28+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM2VfQnNXQjkwRUN1U0c1UnJaSWNEUHJNYTc3T1ZjTlg5QmlRdU1TMlpoZWEyTllPNUU0eEZCWkUyS3FVZ2xYR2lQaUhVUVF5QXZaUU1vTVl6N0RRYUE0N2daTTNhdEEzUGVFVkdwVVVlbEZTSU5sMG51R0U0NlFxcWJFRTJFblgybVdfWU5zVlQ2SFNUc1RFT2J4cTJhVFNWZ01OYTRfTDNNUQ?oc=5"
+    },
+    {
+      "category": "breaking",
+      "category_label": "BREAKING NEWS",
+      "headline": "Spot Gold Extends Losses, Last Down Nearly 2% At $4,081.01/oz - Forex Factory",
+      "source": "Forex Factory",
+      "published_at": "2026-10-07T12:30:04+00:00",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTVc3T1NYX2NOTmVISFJDUThYRHFnZ1J6YzUxNmxxRThXMDY5eGJVaFdPU2RRZUd3NHlLZ0dJTU11RDBrQVNaWHh1NG5Pd0ZjYXNzTm5aMVJ0QWdNcDdxOERFMXN0Y1QtaEFIbHJHQVp4OXRfZk9KSHZvQ3dhd0lzLVhHc3NWUmNRaTlVakJR0gGTAUFVX3lxTE9JaDJ0bzB1UUVORURaLXZUSWtuNnNzVlUtUW5aTUZ0Y2hKVU5XSkVyMlMxN0JUWkpLeVpZS013NTA2cldhcUlmd1BKaGlwejg1SmtBLXpfUDVNSm8wNk1rUV9ENFRubjlQM1p5STJxYjZpQ2d0dDRNUDVSdUlsdVo0cWJTUXU2U3o2ZGx2SkFoX0ZCTQ?oc=5"
     },
     {
       "category": "geo",
       "category_label": "GEOPOLITICS",
       "headline": "Explore UK Gold Stocks as Elevated Bullion Prices and Safe-Haven Demand Lift London Miners Amid Wider FTSE 100 Trends - Kalkine Media",
       "source": "Kalkine Media",
-      "published_at": "2026-10-07T13:10:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOQlhrdkZ1TXI4SXNraWQ2WHNuOEIxRnVQak45ZE8zUC1BWVV4WFl2U1FkU0lpVHBDQjg0SlVTMzJtLUNTb08yMWo4MDdaYkZZcTlDNnhveVJES2RidDlITFNaejVZWnVMbmg0S0VSMkZmVjFYR09YVmhYeE9VeWZfNk5aMV9FNHpnNGRwTkJDLTAzWnNZNGFvQVozWWhPMWFrUUt4ZUhlYXJWTHJvb2lKSmVuT2VFUjRDRE5zRXFqRks1N05oRWRfS3hmbG9JQ0ljSjRiQXhfNTdRSEFGMkI2dWJWcjg0WElEV3Fud2I1anM?oc=5"
-    },
-    {
-      "category": "central",
-      "category_label": "CENTRAL BANKS",
-      "headline": "China’s central bank buys 21 tonnes of gold in September, largest monthly purchase in 3 years - Kitco",
-      "source": "Kitco",
-      "published_at": "2026-10-07T10:36:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVVBNT0VBTXh2QTBwcVMxX3RMMTdjY0hJX1h2R1EtU3BIZHN4WV9GUldTRktqZlpWQTc0RUlQV1JETnVkWW1KUFpSaERvb0VvV212Q2xuYzhJeC1VSWJ2RWJsOHpkWGJnbUxxRFdmUWpIVENrLTBiTXBBOUtmZGVzREFENHFrVEZ0NUpGWkFaLWRtVThvdVd6R0thLUhKV3YyOTlFV2JJR0N5SUZaUW1nWDFjb1JDVk91QVZybg?oc=5"
+      "published_at": "2026-10-07T12:28:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPd014THJiRGNqQTdkNDFqcFpEbXpsWUJ1cVBxV0hValNiRC16aTdNeUtOZnJMVTVEcXJSbXJlXy1SZ1E5N1pzclVTRmVLTUhQRDFVU3Z4b0x1VzlDNnEtNTB4dS1MOW9CYXFBTUdpUXI1RFV4T01tYmlFMV85MFNORHBZVzhUbXFEeFVDYzRtZWdCUUlOcHV3NGV2eWg0WGNJTkVucUZxMTdzS0Zfbkd4VkxsdlJ4YVVJcU1fVVFEQXA2Y3JMOEtIOWRSLS1zZ21uUURFSWFpX2prZzc0YzBQR2ItVmxrYWtCYjFqTjh3?oc=5"
     },
     {
       "category": "rates",
@@ -36,28 +68,12 @@
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSG5jMXRvOEd4X3BIeTVtb2tkazdwR21SZnFxaTRkQndzWU1wZHlmMWREY3ViZXpyYl9LTUtTRFRsbHZ3WWVnU3U0TU9FZmlrc3VWa3Y0blE2SUdQREZEampWZm1rU1kzcF94ZXZWTTVNRWtzVWRjdWZVZEpnWkFTREE1SVFuQW8?oc=5"
     },
     {
-      "category": "geo",
-      "category_label": "GEOPOLITICS",
-      "headline": "The Dutch central bank has moved 86 tonnes of gold to London, where 32.1% of its reserves are now held - IFA Magazine",
-      "source": "IFA Magazine",
-      "published_at": "2026-10-07T08:34:41+00:00",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbC1uVWNrM1lnY3RTLXdSWXdaZndlZnBmNUU4Z1ZyWm9RVE94Z3ItTHo2bXVlRTlCWUVVdXd1QmFDeDIzX0JXZGZkT3ZoQ0pZM1FneTgyMnU5cVdORWk1OHItWFAzdmhLVnV1SWtYNklRcWxoY3g0UlJRZnFqNklDU2NFd0FGUmpGajd1UlFn?oc=5"
-    },
-    {
       "category": "breaking",
       "category_label": "BREAKING NEWS",
       "headline": "Gold (XAU/USD) analysis: Traders await new US-Iran developments, remain cautious of US CPI risk - investingLive",
       "source": "investingLive",
       "published_at": "2026-10-07T08:22:35+00:00",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQS1ObUFYelFJZHZJbmN3SWNlRmNweFFTa1VSR1l5TG1EaExHUllPSWY1YzVyZ0Zvd0FYYkxkcWlFb1RuODVpX2E2MkF1Yi0yai1pOUt3QkwzMVdVMmpISExmdmVnSXBoNS1Yc0kyQnExWWFaa182ZHJPMkhEWDlfY1lYN2NJQXh1alNHZWlub3NDRUR0QVBhNlpsTF9mVFp3aDhOeDJlcnpHc3pzYVNKYnI1WDJOcHJlVE9JWlgzblMyNGtpckdsRWhR?oc=5"
-    },
-    {
-      "category": "breaking",
-      "category_label": "BREAKING NEWS",
-      "headline": "Shafaq News..Gold slips as dollar firms, Fed minutes loom - شفق نيوز",
-      "source": "شفق نيوز",
-      "published_at": "2026-10-07T06:55:13+00:00",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBLbmtDLVF5cEc1TV9Odmo4d0c1dTByVjNjdGxHd2JkQlpjNzBHVmxDWTBEckx6SXhzaGdxVVhMX05iSHVodGJpa3RiVG85UzFQYVBDRWV0am1IV0gyQ2FIZFRQaURXUmg1RHJNX0F4VVpPbjl2U2dGYzhtNUNRdw?oc=5"
     },
     {
       "category": "central",
@@ -82,22 +98,6 @@
       "source": "TradingView",
       "published_at": "2026-10-07T05:48:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWHhwZzQ5WmpPSGFTYTJXc0pMM3lkT3JpUzRWM3dNMVQyekw4eHlmeTM3bkx1ZVRkbmJpblpDeE9yelg3ek9FSFdrYXVsQ1RGTmYzeUhUOUxIVTZDSkVJUklGLUdGdVY4Z0R0aHUyMmVRZXBmNHlpQ3ZKTUVtRjJiNjlVUy1WTndDeVU2OWVNeU1sdjdZSG84TENUVVk4ek5RNWFwWXFFQjl1WGJjc3lxYU9qbkNFUkdxb1JqNmJmdi15TWpP?oc=5"
-    },
-    {
-      "category": "rates",
-      "category_label": "ECONOMY & RATES",
-      "headline": "Gold down 1% as dollar gains; Fed minutes in focus - Reuters",
-      "source": "Reuters",
-      "published_at": "2026-10-07T02:18:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMU10STF5SHNISk9FdXk3NTA2YjZhbnhWRTJlYlpBRGVhanFxWVQxVzhVek11UEp1OUJOU1Y1WjNQTDlBWmg3aEhvVWkzMUpXd3dBbm5Qa3pEcFdEeERZUDNwUHdFYVp0YmZPQVd3dDIwalp0LU1YWi1WTFZNVm5FTWxrSkR0dTJnNk9aM1BBc29MWXk5S3lOLXIxVW1Fd0xvbmhxNEpn?oc=5"
-    },
-    {
-      "category": "etf",
-      "category_label": "GOLD ETFs",
-      "headline": "70-Tonne ETF Inflows Reinforce Current Gold Output Advantage - Crux Investor",
-      "source": "Crux Investor",
-      "published_at": "2026-10-06T15:27:55+00:00",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcDZUX1BVbHBWUklHQVVPdTMyZE1tWjhkREtqbzdCSHdqeTlBTkpWajZJTXcxR3NxZm4wQ1FYRnRQclc2eDFaRFIySUpOc01oLWdKSVFVenFPZU00Sl85VjExV2QyZGtROFR5V0FuZU5xOVJjbFlpWW1fVHBkN1lDMFhXOVhxZmpielM4dGpfajY3dEJnNVFvR1hmSQ?oc=5"
     },
     {
       "category": "mint",
@@ -138,14 +138,6 @@
       "source": "FinancialContent",
       "published_at": "2026-10-01T16:46:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbzBfOTQxakYyMlFDMFU2eFY3RjVidnd0U0pMQ0JhaWpmUENBbkU1aktWa2U5RGQtVUFIcnNwTWIzWTRVS1lIcUMyMnU2TGdzMVJ1UDlMcTJlUVVySElQcl9CS0VLbi1xMUdhMWV6bVc2UmRKYjFISW1UUlExU0RqdzZyMUl5M2ozdnlOODlDUEI0S0RhMllhSmVxc2NOaURsSXdKQTBJTHRXWGFZZ2tqTXR5TmRkSXFmekNOb2Nn?oc=5"
-    },
-    {
-      "category": "grading",
-      "category_label": "GRADING",
-      "headline": "Lafayette Dollar and Gold CAC Quarter Eagle Reach $7,930 to Lead Heritage's U.S. Coins in Early Holders Showcase Auction to $715,068 - Greysheet",
-      "source": "Greysheet",
-      "published_at": "2026-09-30T18:39:15+00:00",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPUHl6cE1SbEg3Z08yMmJsanpiSllyMzRWZW50MC1MTFU2SDVUbzJQaXZQT2lfdFk2OUN1R2ZNTFkzYVlSXzBsWWg0N1V5S2hmMkZLa0JOdTVFWWY0ZXpJMnBNZExwVklEUTZEVTFPY1hiOVYwc2g1NmQzc3VMN1FuaGFZbU5DN254akc1NXBVSktHaGJjMi1tWUFnR1FFUTB4RnY4TVpiRXZwTndRTWxUSk5FNTF4WGYxNEFldFNSb2E5bU1Fak1zUE1IajFPOWlta21NQ1pONFBuX0V3OXF2NTJQS0FWMjl3Uk9YbFhfVXpLOWNx?oc=5"
     }
   ]
 }
