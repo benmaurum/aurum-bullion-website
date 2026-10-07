@@ -26,14 +26,14 @@ body{background:#f7f8f9;color:var(--char)}.kyc-wrap{max-width:1040px;margin:auto
 <div class="progress" style="grid-template-columns:repeat(6,1fr)"><div>1&nbsp; Basket</div><div>2&nbsp; Details</div><div>3&nbsp; Address</div><div class="active">4&nbsp; KYC</div><div>5&nbsp; Payment</div><div>6&nbsp; Purchase Request</div></div>
 <section class="card"><h2>Photographic identification</h2><p class="hint">Choose the document you intend to provide. Please ensure the image is clear, current and shows the complete document.</p>
 <div class="id-types"><button type="button" class="id-type" data-id="Passport">Passport</button><button type="button" class="id-type" data-id="Driving Licence">Driving Licence</button><button type="button" class="id-type" data-id="National ID Card">National ID Card</button></div><div class="file-state show" id="typeState">Please select the type of photographic ID you are providing.</div>
-<label class="upload"><strong>Upload your photo ID</strong><span>Drag and drop here or click anywhere in this box to choose a file · PDF, JPG or PNG</span><input id="idFile" type="file" accept=".pdf,.jpg,.jpeg,.png"></label><div class="file-state" id="idState"></div>
+<label class="upload"><strong>Upload your photo ID</strong><span>Choose a test file · PDF, JPG or PNG</span><input id="idFile" type="file" accept=".pdf,.jpg,.jpeg,.png"></label><div class="file-state" id="idState"></div>
 <div class="requirements"><div class="req"><b>Document quality</b>All four corners visible, no glare and details clearly readable.</div><div class="req"><b>File security</b>For this checkout test, the browser validates the selected file and retains only its status for the current session.</div></div></section>
 <section class="card"><h2>Proof of address</h2><p class="hint">Provide a recent document showing your name and residential address, such as a bank statement, utility bill or official correspondence.</p>
-<label class="upload"><strong>Upload proof of address</strong><span>Drag and drop here or click anywhere in this box to choose a file · PDF, JPG or PNG</span><input id="addressFile" type="file" accept=".pdf,.jpg,.jpeg,.png"></label><div class="file-state" id="addressState"></div>
+<label class="upload"><strong>Upload proof of address</strong><span>Choose a test file · PDF, JPG or PNG</span><input id="addressFile" type="file" accept=".pdf,.jpg,.jpeg,.png"></label><div class="file-state" id="addressState"></div>
 <div class="requirements"><div class="req"><b>Name &amp; address</b>The document should clearly show the customer's full name and residential address.</div><div class="req"><b>Recent document</b>Use a current document appropriate for Aurum's customer verification requirements.</div></div>
 <label class="consent"><input id="consent" type="checkbox"><span>I confirm that the information and documents I provide are mine and may be used by Aurum Bullion PLC for customer verification, compliance and the administration of my purchase request.</span></label>
 <div class="notice"><b>Checkout test:</b> You can select both documents and complete the full KYC journey. In this preview the files remain on your device and are not transmitted to Aurum, GitHub or email. Use test documents only.</div>
-<div class="actions"><a class="btn secondary" href="checkout.html?step=kyc">← Return to purchase</a><button class="btn primary" id="continue" disabled>Submit KYC Documents →</button></div></section>
+<div class="actions"><a class="btn secondary" href="checkout.html?step=kyc">← Return to purchase</a><button class="btn primary" id="continue" disabled>Continue with Test Documents →</button></div></section>
 <section class="security"><div><b>Private storage</b>Designed for restricted Aurum compliance access.</div><div><b>Encrypted transfer</b>The production upload endpoint will require HTTPS and encrypted storage.</div><div><b>Aurum controlled</b>No external KYC provider is required for the proposed architecture.</div></section>
 </main>
 <script>
@@ -69,7 +69,7 @@ submitBtn.addEventListener('click',()=>{
   sessionStorage.setItem('aurumKycComplete','true');
   sessionStorage.setItem('aurumKycCompletedAt',new Date().toISOString());
   sessionStorage.setItem('aurumKycSummary',JSON.stringify({idType:selectedIdType,idFile:idFileEl.files[0].name,addressFile:addressFileEl.files[0].name,status:'Test documents attached'}));
-  submitBtn.disabled=true;submitBtn.textContent='Submitted ✓ Moving to payment…';
+  submitBtn.disabled=true;submitBtn.textContent='Test documents selected ✓ Moving to payment…';
   window.setTimeout(()=>{window.location.href='checkout.html?step=payment&kyc=complete'},350);
 });
 </script></body></html>
