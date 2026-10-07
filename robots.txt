@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://benmaurum.github.io/aurum-bullion-website/sitemap.xml
+Sitemap: https://www.aurumbullion.co.uk/sitemap.xml

@@ -1,0 +1,11 @@
+Options -Indexes
+RewriteEngine On
+# Use one public HTTPS address for search engines and enquiry sessions.
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} !^www\.aurumbullion\.co\.uk$ [NC]
+RewriteRule ^ https://www.aurumbullion.co.uk%{REQUEST_URI} [R=301,L]
+
+# Deployment archives are not website downloads.
+<FilesMatch "^(aurum-upload-[0-9]+\.zip|aurum-fixes.*\.zip|.*\.(log|ini|bak))$">
+  Require all denied
+</FilesMatch>

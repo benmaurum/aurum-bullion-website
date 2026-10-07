@@ -59,7 +59,7 @@
     document.head.appendChild(style);
     function esc(s){return String(s||'').replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
     function slug(s,i){return 'story-'+String(s||'headline').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,70)+'-'+i;}
-    fetch('news.json?ts='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json();}).then(function(data){
+    fetch('https://raw.githubusercontent.com/benmaurum/aurum-bullion-website/main/news.json',{cache:'no-store',signal:AbortSignal.timeout(8000)}).then(r=>{if(!r.ok)throw new Error('Remote news unavailable');return r;}).catch(()=>fetch('news.json?ts='+Date.now(),{cache:'no-store'})).then(function(r){if(!r.ok)throw new Error(r.status);return r.json();}).then(function(data){
       var stories=(data.stories||[]).sort(function(a,b){return new Date(b.published_at)-new Date(a.published_at);}).slice(0,12);
       if(!stories.length)throw new Error('empty');
       var items=stories.map(function(s,i){return '<a href="insights.html#'+slug(s.headline,i)+'" title="Read this story">'+esc(s.headline)+'</a>';}).join('');

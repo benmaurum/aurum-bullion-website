@@ -25,7 +25,7 @@
 
   if(document.querySelector('.market')&&!document.querySelector('script[data-aurum-news-ticker]')){
     const tickerScript=document.createElement('script');
-    tickerScript.src='news-ticker.js?v=20261006-1';
+    tickerScript.src='news-ticker.js?v=20261007-2';
     tickerScript.dataset.aurumNewsTicker='1';
     document.body.appendChild(tickerScript);
   }
