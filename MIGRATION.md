@@ -9,3 +9,5 @@ Live checks: all 42 legacy product paths reached the expected coin page with no 
 Pending deployment: final asset version 20261007-audit-final across HTML/PHP/script references and Cache-Control revalidation headers. Browser became unresponsive before uploading this final update. Earlier catalogue/redirect/product-page changes are already live. Do not describe this final cache patch as deployed until verified on IONOS.
 
 No DNS or mailbox changes. Five unresolved legacy functions and unseen legacy URLs remain outside completed migration. No guarantee of current Google index coverage or ranking.
+
+Follow-up: IONOS uploader stalled at 100%; refreshed Webspace Explorer returned a site-rendered Error 500. Final package still not deployed. Live catalogue recheck: 48 items, 11 correct 2022 results, empty search message and ascending price sort passed; no broken catalogue images. Apex HTTPS opens, but canonical redirect adds an extra slash; prepared fix removes the redundant slash before REQUEST_URI. Mr Happy legacy redirect reached expected coin page.
