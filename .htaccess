@@ -1,20 +1,81 @@
 Options -Indexes
 RewriteEngine On
-# Legacy WordPress URLs: permanent redirects to their relevant replacements.
-# Drop obsolete WooCommerce filters; anchors identify the matching homepage section.
-RewriteRule ^contact-us(?:-3)?/?$ https://www.aurumbullion.co.uk/index.html#contact [R=301,L,NE,QSD]
-RewriteRule ^privacy-policy/?$ https://www.aurumbullion.co.uk/privacy.html [R=301,L,QSD]
-RewriteRule ^shop/?$ https://www.aurumbullion.co.uk/catalogue.html [R=301,L,QSD]
-RewriteRule ^product-category/bullion-coins/?$ https://www.aurumbullion.co.uk/catalogue.html [R=301,L,QSD]
-RewriteRule ^product/city-views-london-2/?$ https://www.aurumbullion.co.uk/catalogue.html [R=301,L,QSD]
-RewriteRule ^wp-content/uploads/2025/04/Labi-FreeE-Guide\.pdf$ https://www.aurumbullion.co.uk/brochure.html [R=301,L,QSD]
+# Known legacy content. Rules precede hostname canonicalisation to avoid extra hops.
+RewriteRule ^home/?$ https://www.aurumbullion.co.uk/ [R=301,L,NE,QSD]
+RewriteRule ^about\-us/?$ https://www.aurumbullion.co.uk/index.html#about [R=301,L,NE,QSD]
+RewriteRule ^contact\-us/?$ https://www.aurumbullion.co.uk/index.html#contact [R=301,L,NE,QSD]
+RewriteRule ^contact\-us\-3/?$ https://www.aurumbullion.co.uk/index.html#contact [R=301,L,NE,QSD]
+RewriteRule ^numismatic\-coinage/?$ https://www.aurumbullion.co.uk/british-gold-coins.html [R=301,L,NE,QSD]
+RewriteRule ^market\-watch/?$ https://www.aurumbullion.co.uk/insights.html [R=301,L,NE,QSD]
+RewriteRule ^newsroom/?$ https://www.aurumbullion.co.uk/insights.html [R=301,L,NE,QSD]
+RewriteRule ^privacy\-policy/?$ https://www.aurumbullion.co.uk/privacy.html [R=301,L,NE,QSD]
+RewriteRule ^terms\-conditions/?$ https://www.aurumbullion.co.uk/terms.html [R=301,L,NE,QSD]
+RewriteRule ^vat\-cgt/?$ https://www.aurumbullion.co.uk/index.html#tax [R=301,L,NE,QSD]
+RewriteRule ^conflict\-free\-policy/?$ https://www.aurumbullion.co.uk/conflict-free.html [R=301,L,NE,QSD]
+RewriteRule ^cookie/?$ https://www.aurumbullion.co.uk/cookies.html [R=301,L,NE,QSD]
+RewriteRule ^cookie\-policy\-uk/?$ https://www.aurumbullion.co.uk/cookies.html [R=301,L,NE,QSD]
+RewriteRule ^payment\-options/?$ https://www.aurumbullion.co.uk/payment-options.html [R=301,L,NE,QSD]
+RewriteRule ^wp\-content/uploads/2025/04/Labi\-FreeE\-Guide\.pdf/?$ https://www.aurumbullion.co.uk/brochure.html [R=301,L,NE,QSD]
+# Old pagination and filter combinations are consolidated into the current collection.
+RewriteRule ^shop(?:/page/[1-9][0-9]*)?/?$ https://www.aurumbullion.co.uk/catalogue.html [R=301,L,QSD]
+RewriteRule ^product-category/(?:bullion-coins|proof-coins-sets|graded-coins|collectable-coins|new-products|special-offers)(?:/page/[1-9][0-9]*)?/?$ https://www.aurumbullion.co.uk/catalogue.html [R=301,L,QSD]
+# Product redirects retain the individual coin identity.
+RewriteRule ^product/50th\-anniversary\-of\-decimal\-day/?$ https://www.aurumbullion.co.uk/coin.php?item=50th-anniversary-of-decimal-day [R=301,L,QSD]
+RewriteRule ^product/alices\-adventures\-in\-wonderland/?$ https://www.aurumbullion.co.uk/coin.php?item=alices-adventures-in-wonderland [R=301,L,QSD]
+RewriteRule ^product/alices\-adventures\-in\-wonderland\-copy/?$ https://www.aurumbullion.co.uk/coin.php?item=alices-adventures-in-wonderland [R=301,L,QSD]
+RewriteRule ^product/britannia/?$ https://www.aurumbullion.co.uk/coin.php?item=britannia [R=301,L,QSD]
+RewriteRule ^product/britannia\-2/?$ https://www.aurumbullion.co.uk/coin.php?item=britannia [R=301,L,QSD]
+RewriteRule ^product/britannia\-3/?$ https://www.aurumbullion.co.uk/coin.php?item=britannia-3 [R=301,L,QSD]
+RewriteRule ^product/britannia\-4/?$ https://www.aurumbullion.co.uk/coin.php?item=britannia-4 [R=301,L,QSD]
+RewriteRule ^product/britannia\-6\-coin\-set/?$ https://www.aurumbullion.co.uk/coin.php?item=britannia-6-coin-set [R=301,L,QSD]
+RewriteRule ^product/britannia\-6\-coin\-set\-2/?$ https://www.aurumbullion.co.uk/coin.php?item=britannia-6-coin-set [R=301,L,QSD]
+RewriteRule ^product/britannia\-with\-lion/?$ https://www.aurumbullion.co.uk/coin.php?item=britannia-with-lion [R=301,L,QSD]
+RewriteRule ^product/british\-red\-cross/?$ https://www.aurumbullion.co.uk/coin.php?item=british-red-cross [R=301,L,QSD]
+RewriteRule ^product/ceremony\-of\-the\-keys/?$ https://www.aurumbullion.co.uk/coin.php?item=ceremony-of-the-keys [R=301,L,QSD]
+RewriteRule ^product/charity/?$ https://www.aurumbullion.co.uk/coin.php?item=charity [R=301,L,QSD]
+RewriteRule ^product/chinese\-trade\-dollar/?$ https://www.aurumbullion.co.uk/coin.php?item=chinese-trade-dollar [R=301,L,QSD]
+RewriteRule ^product/city\-views\-london/?$ https://www.aurumbullion.co.uk/coin.php?item=city-views-london [R=301,L,QSD]
+RewriteRule ^product/city\-views\-london\-2/?$ https://www.aurumbullion.co.uk/coin.php?item=city-views-london-2 [R=301,L,QSD]
+RewriteRule ^product/david\-bowie\-2/?$ https://www.aurumbullion.co.uk/coin.php?item=david-bowie-2 [R=301,L,QSD]
+RewriteRule ^product/end\-of\-wwii\-75th\-anniversary/?$ https://www.aurumbullion.co.uk/coin.php?item=end-of-wwii-75th-anniversary [R=301,L,QSD]
+RewriteRule ^product/faerie\-queene/?$ https://www.aurumbullion.co.uk/coin.php?item=faerie-queene [R=301,L,QSD]
+RewriteRule ^product/four\-generations\-of\-royalty/?$ https://www.aurumbullion.co.uk/coin.php?item=four-generations-of-royalty [R=301,L,QSD]
+RewriteRule ^product/gothic\-crown/?$ https://www.aurumbullion.co.uk/coin.php?item=gothic-crown [R=301,L,QSD]
+RewriteRule ^product/gothic\-crown\-2/?$ https://www.aurumbullion.co.uk/coin.php?item=gothic-crown-2 [R=301,L,QSD]
+RewriteRule ^product/gothic\-victoria\-crown\-2/?$ https://www.aurumbullion.co.uk/coin.php?item=gothic-victoria-crown-2 [R=301,L,QSD]
+RewriteRule ^product/gothic\-victoria\-crown\-3/?$ https://www.aurumbullion.co.uk/coin.php?item=gothic-victoria-crown-3 [R=301,L,QSD]
+RewriteRule ^product/james\-bond\-diamonds\-are\-forever/?$ https://www.aurumbullion.co.uk/coin.php?item=james-bond-diamonds-are-forever [R=301,L,QSD]
+RewriteRule ^product/james\-bond\-pay\-attention/?$ https://www.aurumbullion.co.uk/coin.php?item=james-bond-pay-attention [R=301,L,QSD]
+RewriteRule ^product/japanese\-trade\-dollar/?$ https://www.aurumbullion.co.uk/coin.php?item=japanese-trade-dollar [R=301,L,QSD]
+RewriteRule ^product/king\-henry\-vii/?$ https://www.aurumbullion.co.uk/coin.php?item=king-henry-vii [R=301,L,QSD]
+RewriteRule ^product/laughing\-buddha/?$ https://www.aurumbullion.co.uk/coin.php?item=laughing-buddha [R=301,L,QSD]
+RewriteRule ^product/lunar\-year\-of\-the\-rat/?$ https://www.aurumbullion.co.uk/coin.php?item=lunar-year-of-the-rat [R=301,L,QSD]
+RewriteRule ^product/maid\-marian\-myths\-and\-legends/?$ https://www.aurumbullion.co.uk/coin.php?item=maid-marian-myths-and-legends [R=301,L,QSD]
+RewriteRule ^product/modern\-chinese\-trade\-dollar/?$ https://www.aurumbullion.co.uk/coin.php?item=modern-chinese-trade-dollar [R=301,L,QSD]
+RewriteRule ^product/mr\-happy/?$ https://www.aurumbullion.co.uk/coin.php?item=mr-happy [R=301,L,QSD]
+RewriteRule ^product/seymour\-panther/?$ https://www.aurumbullion.co.uk/coin.php?item=seymour-panther [R=301,L,QSD]
+RewriteRule ^product/st\-helena\-queens\-virtues\-victory/?$ https://www.aurumbullion.co.uk/coin.php?item=st-helena-queens-virtues-victory [R=301,L,QSD]
 
-# Use one public HTTPS address for search engines and enquiry sessions.
+RewriteRule ^product/peter-rabbit/?$ https://www.aurumbullion.co.uk/coin.php?item=peter-rabbit [R=301,L,QSD]
+RewriteRule ^product/five-sovereign/?$ https://www.aurumbullion.co.uk/coin.php?item=five-sovereign [R=301,L,QSD]
+RewriteRule ^product/st-george/?$ https://www.aurumbullion.co.uk/coin.php?item=st-george [R=301,L,QSD]
+RewriteRule ^product/tower-of-london-yeoman-warders/?$ https://www.aurumbullion.co.uk/coin.php?item=tower-of-london-yeoman-warders [R=301,L,QSD]
+RewriteRule ^product/the-platinum-jubilee-of-her-majesty-the-queen-2/?$ https://www.aurumbullion.co.uk/coin.php?item=the-platinum-jubilee-of-her-majesty-the-queen-2 [R=301,L,QSD]
+RewriteRule ^product/the-platinum-jubilee-of-her-majesty-the-queen/?$ https://www.aurumbullion.co.uk/coin.php?item=the-platinum-jubilee-of-her-majesty-the-queen [R=301,L,QSD]
+RewriteRule ^product/victoria-gothic-crown-pattern-edition/?$ https://www.aurumbullion.co.uk/coin.php?item=victoria-gothic-crown-pattern-edition [R=301,L,QSD]
+# One public HTTPS address.
 RewriteCond %{HTTPS} !=on [OR]
 RewriteCond %{HTTP_HOST} !^www\.aurumbullion\.co\.uk$ [NC]
-RewriteRule ^ https://www.aurumbullion.co.uk%{REQUEST_URI} [R=301,L]
+RewriteRule ^ https://www.aurumbullion.co.uk/%{REQUEST_URI} [R=301,L]
 
 # Deployment archives are not website downloads.
 <FilesMatch "^(aurum-upload-[0-9]+\.zip|aurum-fixes.*\.zip|.*\.(log|ini|bak))$">
   Require all denied
 </FilesMatch>
+
+# Revalidate deployable content so returning visitors receive current fixes.
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|js|json|xml)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+</IfModule>

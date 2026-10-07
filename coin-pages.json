@@ -1,0 +1,434 @@
+{
+  "50th-anniversary-of-decimal-day": {
+    "title": "2021 The 50th Anniversary Of Decimal Day UK 50p Gold Proof Piedfort Coin",
+    "specification": "Selected gold coin issue. Please confirm the individual specimen, finish and certification with our team.",
+    "current_id": 27,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "26. 2021 GOLD PROOF 50P (FIFTY PENCE), DECIMAL DAY 50TH ANNIVERSARY.png"
+      },
+      {
+        "label": "Reverse",
+        "file": "26.2 2021b GOLD PROOF 50P (FIFTY PENCE), DECIMAL DAY 50TH ANNIVERSARY.png"
+      }
+    ]
+  },
+  "alices-adventures-in-wonderland": {
+    "title": "2021 Alice's Adventures In Wonderland UK One Ounce Gold Proof Coin",
+    "specification": "Selected gold coin issue. Please confirm the individual specimen, finish and certification with our team.",
+    "current_id": 24,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "23. 2021 Alice_s Adventures in Wonderland UK One Ounce Gold Proof Coin.png"
+      },
+      {
+        "label": "Reverse",
+        "file": "23.2 2021b Alice_s Adventures in Wonderland UK One Ounce Gold Proof Coin.png"
+      }
+    ]
+  },
+  "britannia": {
+    "title": "2022 Britannia Half-Ounce Gold Proof Coin",
+    "specification": "Half-ounce gold proof coin, previously listed for 2022.",
+    "current_id": null,
+    "images": []
+  },
+  "britannia-3": {
+    "title": "2022 Britannia One-Ounce Gold Proof Coin",
+    "specification": "One-ounce gold proof coin, previously listed for 2022.",
+    "current_id": null,
+    "images": []
+  },
+  "britannia-4": {
+    "title": "2022 Britannia Two-Ounce Gold Proof Coin",
+    "specification": "Two-ounce gold proof coin, previously listed for 2022.",
+    "current_id": null,
+    "images": []
+  },
+  "britannia-6-coin-set": {
+    "title": "Britannia Six-Coin Gold Proof Set",
+    "specification": "Britannia six-coin gold proof set. Confirm the year and denominations with our team.",
+    "current_id": null,
+    "images": []
+  },
+  "britannia-with-lion": {
+    "title": "2021 Gold Proof £100 Britannia And The Lion 1oz Coin",
+    "specification": "Selected gold coin issue. Please confirm the individual specimen, finish and certification with our team.",
+    "current_id": 26,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "25. 2021 GOLD PROOF £100 BRITANNIA AND THE LION 1OZ COIN.png"
+      },
+      {
+        "label": "Reverse",
+        "file": "25.2 2021b GOLD PROOF £100 BRITANNIA AND THE LION 1OZ COIN.png"
+      }
+    ]
+  },
+  "british-red-cross": {
+    "title": "2020 Gold Proof £5 Great Britain British Red Cross 150th Anniversary",
+    "specification": "Selected gold coin issue. Please confirm the individual specimen, finish and certification with our team.",
+    "current_id": 19,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "19. 2020 GOLD PROOF £5 G.BRITAIN BRITISH RED CROSS 150TH ANNIVERSARY.jpeg"
+      },
+      {
+        "label": "Reverse",
+        "file": "19.2 2020b GOLD PROOF £5 G.BRITAIN BRITISH RED CROSS 150TH ANNIVERSARY.png"
+      }
+    ]
+  },
+  "ceremony-of-the-keys": {
+    "title": "2019 Tower Of London Series, Ceremony Of The Keys Gold Proof £5",
+    "specification": "Selected gold coin issue. Please confirm the individual specimen, finish and certification with our team.",
+    "current_id": 8,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "8. 2019 TOWER OF LONDON SERIES, CEREMONY OF THE KEYS GOLD PROOF £5.png"
+      },
+      {
+        "label": "Reverse",
+        "file": "8.2 2019b TOWER OF LONDON SERIES, CEREMONY OF THE KEYS GOLD PROOF £5.png"
+      }
+    ]
+  },
+  "charity": {
+    "title": "2022 Charity: Queen’s Virtues One-Ounce Gold Proof Coin",
+    "specification": "Queen’s Virtues series, one-ounce gold proof coin, previously listed for 2022.",
+    "current_id": null,
+    "images": []
+  },
+  "chinese-trade-dollar": {
+    "title": "2019 Chinese Trade Dollar 1oz Gold Proof Coin",
+    "specification": "Selected gold coin issue. Please confirm the individual specimen, finish and certification with our team.",
+    "current_id": 6,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "6. 2019 Chinese Trade Dollar 1oz Gold Proof Coin.jpg"
+      },
+      {
+        "label": "Reverse",
+        "file": "6.2 2019b Chinese Trade Dollar 1oz Gold Proof Coin.png"
+      }
+    ]
+  },
+  "city-views-london": {
+    "title": "2022 City Views London UK 2oz Gold Proof Coin",
+    "specification": "Selected gold coin issue. Please confirm the individual specimen, finish and certification with our team.",
+    "current_id": 49,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "2022 City Views London UK 2oz Gold Proof_Obverse.webp"
+      },
+      {
+        "label": "Reverse",
+        "file": "2022 City Views London UK 2oz Gold Proof_Reverse.jpg"
+      }
+    ]
+  },
+  "city-views-london-2": {
+    "title": "2022 City Views London UK 1oz Gold Proof Coin",
+    "specification": "Selected gold coin issue. Please confirm the individual specimen, finish and certification with our team.",
+    "current_id": 48,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "2022 City Views London UK 1oz Gold Proof_Obverse.jpg"
+      },
+      {
+        "label": "Reverse",
+        "file": "2022 City Views London UK 1oz Gold Proof_Reverse.jpg"
+      }
+    ]
+  },
+  "david-bowie-2": {
+    "title": "2020 David Bowie Five-Ounce Gold Proof Coin",
+    "specification": "Five-ounce gold proof coin, previously listed for 2020.",
+    "current_id": null,
+    "images": []
+  },
+  "end-of-wwii-75th-anniversary": {
+    "title": "2020 End of WWII 75th Anniversary Two-Ounce Gold Proof Coin",
+    "specification": "Two-ounce gold proof coin marking the 75th anniversary of the end of WWII, previously listed for 2020.",
+    "current_id": null,
+    "images": []
+  },
+  "faerie-queene": {
+    "title": "2022 Faerie Queene 1oz Gold Proof Coin",
+    "specification": "Selected gold coin issue. Please confirm the individual specimen, finish and certification with our team.",
+    "current_id": 50,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "2022 Faerie Queene 1oz Gold Proof_Obverse.jpg"
+      },
+      {
+        "label": "Reverse",
+        "file": "2022 Faerie Queene 1oz Gold Proof_Reverse.webp"
+      }
+    ]
+  },
+  "four-generations-of-royalty": {
+    "title": "2018 Gold Proof Five Pounds Four Generations Of Royalty",
+    "specification": "Selected gold coin issue. Please confirm the individual specimen, finish and certification with our team.",
+    "current_id": 2,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "2. 2018 GOLD PROOF FIVE POUNDS (£5) FOUR GENERATIONS OF ROYALTY.jpg"
+      },
+      {
+        "label": "Reverse",
+        "file": "2.2 2018b GOLD PROOF FIVE POUNDS (£5) FOUR GENERATIONS OF ROYALTY.jpg"
+      }
+    ]
+  },
+  "gothic-crown": {
+    "title": "2022 Gothic Crown Masterpiece Edition Two-Ounce Gold Proof Coin",
+    "specification": "Masterpiece Edition, two-ounce gold proof coin, previously listed for 2022.",
+    "current_id": null,
+    "images": []
+  },
+  "gothic-crown-2": {
+    "title": "2022 Gothic Crown Masterpiece Edition One-Ounce Gold Proof Coin",
+    "specification": "Masterpiece Edition, one-ounce gold proof coin, previously listed for 2022.",
+    "current_id": null,
+    "images": []
+  },
+  "gothic-victoria-crown-2": {
+    "title": "2022 Gothic Victoria Crown One-Ounce Gold Proof Coin",
+    "specification": "Masterpiece Collection, one-ounce gold proof coin, previously listed for 2022.",
+    "current_id": null,
+    "images": []
+  },
+  "gothic-victoria-crown-3": {
+    "title": "2022 Masterpiece Gothic Victoria Crown 5oz Gold Proof Coin",
+    "specification": "Selected gold coin issue. Please confirm the individual specimen, finish and certification with our team.",
+    "current_id": 21,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "2022 Masterpiece Gothic Victoria Crown 5oz Gold Proof_Obverse.jpg"
+      },
+      {
+        "label": "Reverse",
+        "file": "2022 Masterpiece Gothic Victoria Crown 5oz Gold Proof_Reverse.jpg"
+      }
+    ]
+  },
+  "james-bond-diamonds-are-forever": {
+    "title": "2021 James Bond 50th Anniversary Diamonds Are Forever 2oz Gold Coin With Diamonds",
+    "specification": "Selected gold coin issue. Please confirm the individual specimen, finish and certification with our team.",
+    "current_id": 42,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "41. James Bond 50th Anniversary Diamonds Are Forever 2021 2oz Gold Coin With Diamonds.png"
+      },
+      {
+        "label": "Reverse",
+        "file": "41.2 James Bond 50th Anniversary Diamonds Are Forever 2021 2oz Gold Coin With Diamonds.png"
+      }
+    ]
+  },
+  "james-bond-pay-attention": {
+    "title": "2020 Gold Proof James Bond Pay Attention £200",
+    "specification": "Selected gold coin issue. Please confirm the individual specimen, finish and certification with our team.",
+    "current_id": 16,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "16. 2020 GOLD PROOF JAMES BOND PAY ATTENTION £200.png"
+      },
+      {
+        "label": "Reverse",
+        "file": "16.2 2020 GOLD PROOF JAMES BOND PAY ATTENTION £200.png"
+      }
+    ]
+  },
+  "japanese-trade-dollar": {
+    "title": "2019 Japanese Trade Dollar 1oz Gold Proof Coin",
+    "specification": "Selected gold coin issue. Please confirm the individual specimen, finish and certification with our team.",
+    "current_id": 9,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "9. 2019 Japanese Trade Dollar 1oz Gold Proof Coin.png"
+      },
+      {
+        "label": "Reverse",
+        "file": "9.2 2019b Japanese Trade Dollar 1oz Gold Proof Coin.png"
+      }
+    ]
+  },
+  "king-henry-vii": {
+    "title": "2022 King Henry VII Five-Ounce Gold Proof Coin",
+    "specification": "Five-ounce gold proof coin, previously listed for 2022.",
+    "current_id": null,
+    "images": []
+  },
+  "laughing-buddha": {
+    "title": "2021 Laughing Buddha One-Ounce Gold Proof Coin",
+    "specification": "One-ounce gold proof coin, previously listed for 2021.",
+    "current_id": null,
+    "images": []
+  },
+  "lunar-year-of-the-rat": {
+    "title": "2020 Lunar Year Of The Rat UK One Ounce Gold Proof Coin",
+    "specification": "Selected gold coin issue. Please confirm the individual specimen, finish and certification with our team.",
+    "current_id": 11,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "11. 2020  Lunar Year of the Rat UK One Ounce Gold Proof Coin.png"
+      },
+      {
+        "label": "Reverse",
+        "file": "11.2 2020b Lunar Year of the Rat UK One Ounce Gold Proof Coin.png"
+      }
+    ]
+  },
+  "maid-marian-myths-and-legends": {
+    "title": "2022 Maid Marian Myths and Legends One-Ounce Gold Coin",
+    "specification": "Myths and Legends collection, one-ounce gold coin, previously listed for 2022.",
+    "current_id": null,
+    "images": []
+  },
+  "modern-chinese-trade-dollar": {
+    "title": "2021 Modern Chinese Trade Dollar 1oz Gold Proof Coin",
+    "specification": "Selected gold coin issue. Please confirm the individual specimen, finish and certification with our team.",
+    "current_id": 29,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "28. 2021 Modern Chinese Trade Dollar 1oz Gold Proof Coin.png"
+      },
+      {
+        "label": "Reverse",
+        "file": "28.2 2021b Modern Chinese Trade Dollar 1oz Gold Proof Coin.png"
+      }
+    ]
+  },
+  "mr-happy": {
+    "title": "2021 Mr. Happy – 50th Anniversary Mr. Men Little Miss UK One Ounce Gold Proof Coin",
+    "specification": "Selected gold coin issue. Please confirm the individual specimen, finish and certification with our team.",
+    "current_id": 30,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "2021 Mr. Happy  50th Anniversary 1oz Gold Proof_Obverse.webp"
+      },
+      {
+        "label": "Reverse",
+        "file": "2021 Mr. Happy 50th Anniversary 1oz Gold Proof_Reverse.webp"
+      }
+    ]
+  },
+  "seymour-panther": {
+    "title": "2022 The Seymour Panther UK 1oz Gold Proof Coin",
+    "specification": "Selected gold coin issue. Please confirm the individual specimen, finish and certification with our team.",
+    "current_id": 47,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "2022 Seymour Panther UK 1oz Gold Proof_Obverse.webp"
+      },
+      {
+        "label": "Reverse",
+        "file": "2022 Seymour Panther UK 1oz Gold Proof_Reverse.jpg"
+      }
+    ]
+  },
+  "st-helena-queens-virtues-victory": {
+    "title": "2021 St Helena Queen’s Virtues Victory 1oz",
+    "specification": "Selected gold coin issue. Please confirm the individual specimen, finish and certification with our team.",
+    "current_id": 35,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "34. 2021 St Helena Queen’s Virtues Victory 1 Oz.png"
+      },
+      {
+        "label": "Reverse",
+        "file": "34.2 2021b St Helena Queen’s Virtues Victory 1 Oz.png"
+      }
+    ]
+  },
+  "peter-rabbit": {
+    "title": "2022 Peter Rabbit One-Ounce Gold Proof Coin",
+    "specification": "One-ounce gold proof coin, previously listed for 2022.",
+    "current_id": null,
+    "images": []
+  },
+  "five-sovereign": {
+    "title": "2020 Five Sovereign Gold Proof Coin",
+    "specification": "2020 five-sovereign gold proof issue.",
+    "current_id": 14,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "14. 2020 Five Sovereign Gold Proof Coin.png"
+      },
+      {
+        "label": "Reverse",
+        "file": "14.2 2020b Five Sovereign Gold Proof Coin.png"
+      }
+    ]
+  },
+  "st-george": {
+    "title": "2021 St George £5 Gold Proof Coin",
+    "specification": "2021 £5 gold proof issue.",
+    "current_id": 25,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "24. 2021 GOLD PROOF £5 POUNDS St George.png"
+      },
+      {
+        "label": "Reverse",
+        "file": "24.2 2021b GOLD PROOF £5 POUNDS St George.png"
+      }
+    ]
+  },
+  "tower-of-london-yeoman-warders": {
+    "title": "2019 Tower of London Yeoman Warders £5 Gold Proof Coin",
+    "specification": "2019 Tower of London collection, gold proof £5.",
+    "current_id": 10,
+    "images": [
+      {
+        "label": "Obverse",
+        "file": "10. 2019 GOLD PROOF FIVE POUNDS YEOMANS WARDERS, TOWER OF LONDON COLLECTION.jpeg"
+      },
+      {
+        "label": "Reverse",
+        "file": "10.2 2019b GOLD PROOF FIVE POUNDS YEOMANS WARDERS, TOWER OF LONDON COLLECTION.png"
+      }
+    ]
+  },
+  "the-platinum-jubilee-of-her-majesty-the-queen-2": {
+    "title": "2022 Platinum Jubilee Two-Ounce Gold Proof Coin",
+    "specification": "Two-ounce gold proof coin, previously listed for 2022.",
+    "current_id": null,
+    "images": []
+  },
+  "the-platinum-jubilee-of-her-majesty-the-queen": {
+    "title": "2022 Platinum Jubilee Gold Proof Piedfort Coin",
+    "specification": "Gold proof piedfort coin, previously listed for 2022.",
+    "current_id": null,
+    "images": []
+  },
+  "victoria-gothic-crown-pattern-edition": {
+    "title": "2022 Victoria Gothic Crown Pattern Edition Gold Proof Coin",
+    "specification": "Masterpiece Collection, Pattern Edition gold proof coin, previously listed for 2022.",
+    "current_id": null,
+    "images": []
+  }
+}

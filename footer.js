@@ -30,19 +30,5 @@
     document.body.appendChild(tickerScript);
   }
 
-  if(document.getElementById('products')){
-    const pairs={
-      '2021 Mr. Happy – 50th Anniversary Mr. Men Little Miss UK One Ounce Gold Proof Coin':['2021 Mr. Happy  50th Anniversary 1oz Gold Proof_Obverse.webp','2021 Mr. Happy 50th Anniversary 1oz Gold Proof_Reverse.webp'],
-      '2022 City Views London UK 1oz Gold Proof Coin':['2022 City Views London UK 1oz Gold Proof_Obverse.jpg','2022 City Views London UK 1oz Gold Proof_Reverse.jpg'],
-      '2022 City Views London UK 2oz Gold Proof Coin':['2022 City Views London UK 2oz Gold Proof_Obverse.webp','2022 City Views London UK 2oz Gold Proof_Reverse.jpg'],
-      '2022 Faerie Queene 1oz Gold Proof Coin':['2022 Faerie Queene 1oz Gold Proof_Obverse.jpg','2022 Faerie Queene 1oz Gold Proof_Reverse.webp'],
-      '2022 The Seymour Panther UK 1oz Gold Proof Coin':['2022 Seymour Panther UK 1oz Gold Proof_Obverse.webp','2022 Seymour Panther UK 1oz Gold Proof_Reverse.jpg'],
-      '2022 The Royal Tudor Beasts The Lion of England UK 2oz Gold Proof Coin':['2022 Lion of England UK 2oz Gold Proof_Obverse.webp','2022 Lion of England UK 2oz Gold Proof_Reverse.jpg'],
-      '2022 Masterpiece Gothic Victoria Crown 5oz Gold Proof Coin':['2022 Masterpiece Gothic Victoria Crown 5oz Gold Proof_Obverse.jpg','2022 Masterpiece Gothic Victoria Crown 5oz Gold Proof_Reverse.jpg'],
-      '2022 Goddess Hera 1oz Gold Proof Coin':['2022 Goddess Hera 1oz Gold Proof_Obverse.jpg','2022 Goddess Hera 1oz Gold Proof_Reverse.jpg']
-    };
-    function wire(card,title,p){if(card.dataset.verifiedPair==='1')return;card.dataset.verifiedPair='1';let visual=card.querySelector('.visual'),img=visual&&visual.querySelector('img');if(!visual)return;if(!img){img=document.createElement('img');visual.prepend(img)}let sides=visual.querySelector('.sides');if(!sides){sides=document.createElement('div');sides.className='sides';visual.appendChild(sides)}sides.innerHTML='<button class="active" type="button">Design</button><button type="button">Portrait</button>';let btn=[...sides.querySelectorAll('button')];function showDesign(){img.src=p[1];img.alt='Design / reverse view of '+title;btn[0].classList.add('active');btn[1].classList.remove('active');visual.dataset.active='design'}function showPortrait(){img.src=p[0];img.alt='Portrait / obverse view of '+title;btn[1].classList.add('active');btn[0].classList.remove('active');visual.dataset.active='portrait'}btn[0].onclick=e=>{e.stopPropagation();showDesign()};btn[1].onclick=e=>{e.stopPropagation();showPortrait()};visual.addEventListener('mouseenter',showPortrait);visual.addEventListener('mouseleave',showDesign);showDesign()}
-    function patch(){let box=document.getElementById('products');if(!box)return;document.querySelectorAll('#products .product').forEach(card=>{let title=card.querySelector('h2')?.textContent.trim(),p=pairs[title];if(p)wire(card,title,p)});if(!box.querySelector('[data-hera-product]')){let card=document.createElement('article');card.className='product';card.dataset.heraProduct='1';card.innerHTML='<div class="visual" data-active="design"><img src="2022 Goddess Hera 1oz Gold Proof_Reverse.jpg" alt="Design / reverse view of 2022 Goddess Hera 1oz Gold Proof Coin"></div><small>2022 · Gold · St Helena</small><h2>2022 Goddess Hera 1oz Gold Proof Coin</h2><p class="price">Price on request</p><p class="desc">A 2022 St Helena Goddess Hera one-ounce gold proof issue. Contact our specialist team for availability, certification and full issue details.</p><button class="buy" onclick="location.href=\'index.html#contact\'">Buy / Enquire</button>';box.appendChild(card);wire(card,'2022 Goddess Hera 1oz Gold Proof Coin',pairs['2022 Goddess Hera 1oz Gold Proof Coin']);}}
-    const mo=new MutationObserver(()=>setTimeout(patch,0));mo.observe(document.getElementById('products'),{childList:true,subtree:true});setTimeout(patch,700);
-  }
+
 })();
