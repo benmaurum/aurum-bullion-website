@@ -1,8 +1,40 @@
 {
-  "updated_at": "2026-10-08T14:34:46.846914+00:00",
+  "updated_at": "2026-10-08T20:41:05.584184+00:00",
   "timezone_display": "Europe/London",
   "target_per_category_per_day": 2,
   "stories": [
+    {
+      "category": "etf",
+      "category_label": "GOLD ETFs",
+      "headline": "Positive ETF Gold Flows Pushed Holdings to a New Record in September - LinkedIn",
+      "source": "LinkedIn",
+      "published_at": "2026-10-08T18:15:09+00:00",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNXzJfeU40TTlybjF6eldNSXZsaG9WajFsRGkyZW5IeW1WWEZrcWUtMUJ0bG5Cajg5WWxKS3hxdklWMWhBUTRsM2pCUUdwcjZGYnp6YkJFMHpZcjJ0bG9HXzdPY3dsbm5Xd0p3anN2MWVoUFlRYWljalJMX0NVUTFTVkpZV3VmQTBTX0Z6T2ZuNUFLeG9Ja0s1R1p5TkhvQQ?oc=5"
+    },
+    {
+      "category": "central",
+      "category_label": "CENTRAL BANKS",
+      "headline": "Bundesbank Bank Chief Says There's a Good Case for Continued Central Bank Gold Buying - LinkedIn",
+      "source": "LinkedIn",
+      "published_at": "2026-10-08T16:16:05+00:00",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNG1OZjFlU2JBQ1YwNlNhbFBSM1RITnNwM1VTd1c4WndvelVnY0tFR09oY1kyMVZ3d3g5cGo5WVE5RGlmZE10NHlGVGNjMzRGOXVMd1FqN1A3c29MX25fMkVaczg5Z0Z0RzBUWHA5MC1PNTVUZUt2eXZocUlfOW9EeHlCaS1zTXpxU0hTMGwwT2phSDVUdVlYelprWXF0TFk?oc=5"
+    },
+    {
+      "category": "rates",
+      "category_label": "ECONOMY & RATES",
+      "headline": "US CPI Preview: September 2026 Forecasts and the Core CPI Outlook - Admirals",
+      "source": "Admirals",
+      "published_at": "2026-10-08T16:10:29+00:00",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTnVERlI0bHRFUGZOa19JY0l4LW44a0QzRmVJbUVWRlJXd0JvcGZMcDJmZ0t0VDBVLXJpLVdXUGtaTUw1dHBnTC1oaG5fRjlKZVFRQUxOQzh0alAyRmFwUW1wZ1ZfX0pFc0hTeFd5Z284MVJPaV8zV1pHN216d08tVmNBdkFrYmhqM2NKN2ZJbU5PNXB5MFIyd2pfNW9BMS1zY29TYmQ5dlNPTXd6b0d2RHZJbHc?oc=5"
+    },
+    {
+      "category": "rates",
+      "category_label": "ECONOMY & RATES",
+      "headline": "Bailey: Governments must help control inflation too - City AM",
+      "source": "City AM",
+      "published_at": "2026-10-08T15:46:52+00:00",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDaV9JTFd6OTd3TkxESC14cF9XaXNiZzFkTXludHJWUTRZWDg4QmNkbFJuOE9ENUwxYVlqQlV0WmJ6WlA2QTNVQmZ1ZDZwc1VGdzR1N0FvZjUwR0JzVVdKRTlWaWZZeTZ6NmFtTFF2blhYX1NiRThRQWVqQnRmcUU?oc=5"
+    },
     {
       "category": "market",
       "category_label": "GOLD MARKET",
@@ -22,18 +54,10 @@
     {
       "category": "central",
       "category_label": "CENTRAL BANKS",
-      "headline": "New Cold War: Why is China buying more gold? Explained - WION",
-      "source": "WION",
-      "published_at": "2026-10-08T11:00:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUWRqUHNhQ3NoYUNZT21aQllGSUo1QkNvTGZLWVk4QXpyRmliSEtXV1NQRGN4cnY5V01QNTVEbEcxQjJSemc3SUhwM3U4UkN2WFk5cjRrX1pYcjBycDhBMHRQN25hOGM4T3FCTTZMb2R6TXZsY012QmM5YkRvOGZUXzJsd0VGaEhXZHVXMWVwSWZjTGUxUlJoZUxXd0XSAaIBQVVfeXFMUEVPeG5kWVdYcFRVMzB6cDFtT1B4TURXaVN6X05FdVpNUW9YNUc0blhyQlhsTEltUzQ0Q3RaM3hwR0NYZEZkYjNIMmdCVDlsYm0yMkIxdE5fYk9ONWxfSlhCZW84bmpBZzM0eEE5VGRwMFZsUGRlUUFpZ1JMQkR0RWkwRjBDb2xzZXRBUzBWQUxJb05qSzVLTU40NGpYU3MtNkZR?oc=5"
-    },
-    {
-      "category": "rates",
-      "category_label": "ECONOMY & RATES",
-      "headline": "FTSE 100 slips below 10,400 as losses deepen - Share Talk",
-      "source": "Share Talk",
-      "published_at": "2026-10-08T10:58:33+00:00",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FczlvX1ZTdzl5bFR1Mm93UTY1U2JxaUNiV042N01Ed1FEdWhmOGlsZWNUTlZESlZRRTV0eTRNTzc2cFJWQmh2OGg2aWgweW14RXdnQ2pBNEZMalBwZHk4VnEzY0NCRU5XV29wTl8wVUhsc3k5d05uVDdHcw?oc=5"
+      "headline": "China’s central bank buys 21 tonnes of gold in September, largest monthly purchase in 3 years - Kitco",
+      "source": "Kitco",
+      "published_at": "2026-10-08T10:19:12+00:00",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVVBNT0VBTXh2QTBwcVMxX3RMMTdjY0hJX1h2R1EtU3BIZHN4WV9GUldTRktqZlpWQTc0RUlQV1JETnVkWW1KUFpSaERvb0VvV212Q2xuYzhJeC1VSWJ2RWJsOHpkWGJnbUxxRFdmUWpIVENrLTBiTXBBOUtmZGVzREFENHFrVEZ0NUpGWkFaLWRtVThvdVd6R0thLUhKV3YyOTlFV2JJR0N5SUZaUW1nWDFjb1JDVk91QVZybg?oc=5"
     },
     {
       "category": "breaking",
@@ -44,28 +68,20 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYmVwdUtOUnRsTVlMSlpjcGR6ZmNKV2RXZmxDZUkyaVVuVmpqbU9raDZGTFpZVUFxNGV0TUhGSUNoZGxfd1hLY1VBSzM3YkRKajVQVEdTUHItZkJFLW1TTFJ4NkZKLXI3WjlCR0Z3dVFsblRTWlV4b1pNSHBCZ21BaEQwZzEtQ0tfRHNQZWdn?oc=5"
     },
     {
-      "category": "rates",
-      "category_label": "ECONOMY & RATES",
-      "headline": "FTSE 100 Dips as Oil Surges, Investors Await BoE Governor's Speech - Global Banking & Finance Review",
-      "source": "Global Banking & Finance Review",
-      "published_at": "2026-10-08T10:03:51+00:00",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd1pCUnptemk5eXJwNnF4U0V5b251RDlzUnJwVHp2TjQ1NE5PRWc0UFB5N3VNWmpnR3JxQkdzcFNaeW5HdFFySDhFV05ZOC01UlF3YnQxaFBBUzdVcGNSNk5yMVpiWE1FMHA3NmZrSThIM21XdFZyOGg3bXlWSHllakQtd0NKaUZDaDlTdGFvVno5eDkyNDJEUDdCeWN5dw?oc=5"
-    },
-    {
-      "category": "etf",
-      "category_label": "GOLD ETFs",
-      "headline": "Gold caught between surging bond yields and rising fiscal concerns - Saxo",
-      "source": "Saxo",
-      "published_at": "2026-10-08T09:45:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdzh1X3BvSjVWMEY4UnhTS3B0TU5iQlNkSDdQeklYdXJ3cF9fLTJOWXRGMzJCdUxjejJ1NDZ4Z1NyMDBVc0hSOWxEcE44VVdEc290dFJRZ0haMkt1MFlmeFdUTHE1dWJ3Znd5VTZZT2NlUWhab1RMLWF3Yk5vTFJYb3dUblktdHhGNmxKdGE3MXpxcHQ5a1JxYUFqU2lrd25DVmwtRkY0cFlDS244cG9nSFIyWEhwTFo3Rm9ENjk3RkdwdjJ2?oc=5"
-    },
-    {
       "category": "geo",
       "category_label": "GEOPOLITICS",
       "headline": "Gold Struggles as Strong Dollar, Fed Outlook Weigh - TradingPedia",
       "source": "TradingPedia",
       "published_at": "2026-10-08T08:34:32+00:00",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNFVfampqMWlnaTJqck1qRTVYRVZoLXZOMzdnVHc1ZWs4MzBYcVFEb3dEakFCQXVVcGYtdGNad3lTdC1qc01qRWY5X3NMLVhDZUhYbE9ISXhlOHVFaFVHbDN4VUpyOTcwQ3hHalZyU01ocjhYWjNYajI2cjE3azRuTHdQa1ZZS01pZFEtNFlHZVNBa0gt?oc=5"
+    },
+    {
+      "category": "breaking",
+      "category_label": "BREAKING NEWS",
+      "headline": "Gold 'hunts' stops under $4,110 support and rebounds: The bias remains neutral/bearish as oil rises - investingLive",
+      "source": "investingLive",
+      "published_at": "2026-10-08T07:20:23+00:00",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUWhaLVFfLTdab3dwcURkeXdrczRMZFZfLW1LTjgxWHNaVEZEcHB3OGJQR2tDNG9ZVE52VWtyTDd2TXd5U2YwcnJ3VV9QWkk3el84TXN0aUxqOHpXZDliN2pzQ2xFVFF4eE54ZGxIZ1FmTkNiQmM5Tk42Q1lNUUxpbHk4YjcwSm50a1l1Y1JMa042OW1XdEszTGx0SEVCUHhzeFNhSy1MUUtWSzNwQ0hHMzdja204MFE1OHMzUklSRjF0RS1PamFRZHBEVzN2ZEk?oc=5"
     },
     {
       "category": "numismatics",
@@ -76,28 +92,12 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS2lHSDkyOGF0QktoYkF1YjlSQ1JCQTlvcnZhSzBWLS1MN0haWWR5SGdIdzBfNm82ZnRkdk9tV05SQlZrbGpFRF94LTJJQUlZcUxBUXJ0TUVqOXlaSy1PY01iQUVfNWFRbWc5TlMtSlZhM0dqSlVmdGJkdzVYVW51Z05OVFZXWFJ1aXlrc185Q1R4a3N3aEFiRjZ4YmxCbnJyWjVnT1M5ZFBHNDBST2FDTjdpeU5oQQ?oc=5"
     },
     {
-      "category": "breaking",
-      "category_label": "BREAKING NEWS",
-      "headline": "Gold Price Forecast: Gold Drops Below $4,100, Could Test $4,000 in Short Term - TradingKey",
-      "source": "TradingKey",
-      "published_at": "2026-10-08T06:48:52+00:00",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZHpmM1htbG5RWnZpcHUzRzM4Nm0wOGVzNkdfdUxYbXo1RUR5NDZ2S1dFMTVQUDRYb2lENGZ2REQ4VGxOdk5OLWttZkV6dTVtdkw5S0REdGx1OWR6ek9CQ0xSc01XU21sTHl5U0FaY3hhaTF2dUZIbzhHTGltdWdRY1g2TTN2SE02dTA5dHdVSjNqRWoyWm83Nmw5VEdfejYtdnkyLXlhYkpjNlN6a2xhWVJfUlBEOGlSdUdtMw?oc=5"
-    },
-    {
       "category": "etf",
       "category_label": "GOLD ETFs",
-      "headline": "Gold ETFs buoyed by strong demand despite price slump - Financial Newswire",
-      "source": "Financial Newswire",
-      "published_at": "2026-10-08T02:26:15+00:00",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZjZONVcxRUhJTmlKMEt6WnNQNE5TN1NNeVhEZ2c5ZldpaUJIbFplODNCYW91U2M1OUJucFlBVzZfWnBOaEtxLWZhSGlfLWFNNlozWDNjek1yMkJ5QWhzbFM1NlZ1Sm00OHo2Q0N2Y3p2M0MxYmpKUXRqTWQyMWdadzJKLVhudGR1em9Pbk0zcXNsak1OZGJFaTRROXI4bjBrUDlZZmJYdw?oc=5"
-    },
-    {
-      "category": "central",
-      "category_label": "CENTRAL BANKS",
-      "headline": "China Just Made Its Biggest Gold Buy in 3 Years, So Why Did the Price Fall? - GoldSilver",
-      "source": "GoldSilver",
-      "published_at": "2026-10-08T01:56:17+00:00",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc1B1NHI3RjgyOXc2LVB2aFg1NXdSYV9vQVhnUnAtaUF2bWhrNVAxWERJLVM2NkxxM1VrWGpLMGxhVldXY092QWpBdXg3cTB0YXVUc01WY0E4ZWRrR2xMZGFkZWZTNXdFVlFJVldaOW9TUFFLZGlUZmpqVUlLT1pHS0Z0aVg3MThEazZMeERzMG16WUVuOGIwY004SEZNZDFnd0YyUEh2eVM2UG9nN1Nr?oc=5"
+      "headline": "Investors Poured $10 Billion Into Gold ETFs. So Why Did Gold Fall 8.5%? - EBC Financial Group",
+      "source": "EBC Financial Group",
+      "published_at": "2026-10-08T06:31:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE93UzJDcExHWkRpS2FBUDdPdW9samxtSGpuQW83bVdiX21SaXlCYnZmR0lnZ1hCNFdsbmg1YjFONXNjeTZqRk9Xai14OXVhT1d4elI2dnlBWjhjcm1IZDlKS1BxZjNkZE5OWnRzT0dCZTRvTFg5R0sw?oc=5"
     },
     {
       "category": "market",
@@ -138,14 +138,6 @@
       "source": "The Times of India",
       "published_at": "2026-10-02T15:28:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxQODZGUzZVVEFEM3h1NXFtc1JiQVhhcUxua0JteVpLcjNMbTlGd0loN01TNGVIQXJLOW9LZkpSdzhaSmtWMnNQbTlsOWx5aUl3N3JwRllnRXFmUkxkaDNWRUlyaEVJTHVCSHBjc2MxR1lvY3Q2M29Pc2lzMEFQOTBGUUREN29uamxpOEpjQlFva1hqUXV6MUFLeVEwUHhCWkxIdkc1VWUzaVVpOUV6ZjVwdlkxMVVhc3ZuT21LcTI3SlBOTmtVQTVwd2F6ZUdCNE9Camd3R3h2NXdmRDhoNjNIR3hkWEttNFZSLXdyV0NWa0NEdGlLOFpueDdOX2d1UU1NMjh3cUJtaVJJUzZhODNzYVR4bGxKSGh5VTRQeVN1cnFTMWtVYlEtODRnMGQzU3NIR0pVUzYxbXVvSWEyN25KX2ZMNmVzOGlBMkJMSkowZ3dHN040MlZTTnBURm9taVlvampSZkg4a05XOG9YVWZ1TUpTTdIB-AJBVV95cUxOVWRWN0dGLVVtanNVaWpKTFBWN2YyM2drYjhIa25ZR1lZTlF5UDkwWVUzX2RaSVJtQjVSV05yeHU2QkhYaXFodHVhVEhmR2FuREp1cjFyZjlvVVhQdmZuMTkxdjBCZ1BOQVVRSGJIb2JScjJOelVCTnVQeVVvM1BtcHlrWlhQUHNtdzF1S0V6eUVYSmxKNWlWbmNHT2xfTldDajNGVmt5Z0FwNzhRMU5uSlA3Qmo0dEx4N2NORTRKOEFjSVVOa0Rfd0l2QldpdzBtc0RKbTJlZDd4X1NadlFEOVRhMVN3V21jRll6SGszRGtzNTRKTXpfVS1xdE1tMXM4eFNzbWhjYkJjTURjamJ5dnR3bEtVQmpmWE53TmJRekFzSEhQRmlIdkI3LXdGVDgyQ1ZXV0lfRjFTMmM4QjAxT2VrTGtHOFZZUXB6dGJzOWtMejF0TkNWM2ZxNjkwMnlrbFVhdWUxY0IzNGkxdzlIWC1KNzJjekJn?oc=5"
-    },
-    {
-      "category": "grading",
-      "category_label": "GRADING",
-      "headline": "Park Avenue Numismatics Names Bob Green Industry Leader - FinancialContent",
-      "source": "FinancialContent",
-      "published_at": "2026-10-01T16:46:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbzBfOTQxakYyMlFDMFU2eFY3RjVidnd0U0pMQ0JhaWpmUENBbkU1aktWa2U5RGQtVUFIcnNwTWIzWTRVS1lIcUMyMnU2TGdzMVJ1UDlMcTJlUVVySElQcl9CS0VLbi1xMUdhMWV6bVc2UmRKYjFISW1UUlExU0RqdzZyMUl5M2ozdnlOODlDUEI0S0RhMllhSmVxc2NOaURsSXdKQTBJTHRXWGFZZ2tqTXR5TmRkSXFmekNOb2Nn?oc=5"
     }
   ]
 }
