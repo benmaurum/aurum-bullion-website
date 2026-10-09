@@ -15,6 +15,8 @@ CATEGORIES = {
   'grading': ('GRADING','NGC PCGS gold coin grading when:7d'),
   'numismatics': ('NUMISMATICS','British gold numismatic coin auction collecting when:7d')
 }
+PREMIUM_SOURCES = {'Financial Times': ('ft.com','market'), 'Bloomberg': ('bloomberg.com','market'), 'Reuters': ('reuters.com','breaking'), 'The Wall Street Journal': ('wsj.com','rates'), 'The Economist': ('economist.com','rates'), 'MINING.COM': ('mining.com','market'), 'Kitco': ('kitco.com','market')}
+SUBSCRIPTION_DOMAINS = ('ft.com','bloomberg.com','wsj.com','economist.com')
 UA='Mozilla/5.0 AurumBullionInsights/1.0'
 
 def clean(s): return re.sub(r'\s+',' ',re.sub(r'<[^>]+>','',s or '')).strip()
@@ -43,6 +45,23 @@ def main():
             stories.append({'category':key,'category_label':label,'headline':title,'source':source,'published_at':dt_iso(pub),'url':link})
             taken+=1
             if taken>=2: break
+    # Publisher-specific headline discovery only. No paywall bypass or article reproduction.
+    for publisher,(domain,category) in PREMIUM_SOURCES.items():
+        try: root=get_feed('site:'+domain+' (gold OR bullion OR central bank OR inflation OR mining) when:7d')
+        except Exception as e:
+            print('publisher',publisher,e); continue
+        taken=0
+        for item in root.findall('.//item'):
+            title=clean(item.findtext('title')); link=clean(item.findtext('link'))
+            source_el=item.find('source'); source=clean(source_el.text if source_el is not None else '') or publisher
+            if not title or not link: continue
+            if domain.split('.')[0].lower() not in source.lower().replace(' ','') and publisher.lower() not in source.lower(): continue
+            norm=re.sub(r'[^a-z0-9]','',title.lower())[:120]
+            if norm in seen: continue
+            seen.add(norm)
+            stories.append({'category':category,'category_label':CATEGORIES[category][0], 'headline':title,'source':source,'published_at':dt_iso(item.findtext('pubDate') or ''),'url':link,'subscription':domain in SUBSCRIPTION_DOMAINS})
+            taken+=1
+            if taken>=3: break
     stories.sort(key=lambda x:x['published_at'],reverse=True)
     out={'updated_at':datetime.now(timezone.utc).isoformat(),'timezone_display':'Europe/London','target_per_category_per_day':2,'stories':stories}
     with open('news.json','w',encoding='utf-8') as f: json.dump(out,f,ensure_ascii=False,indent=2)
