@@ -5,6 +5,8 @@ on:
     paths:
       - '.github/workflows/update-insights.yml'
       - 'scripts/update_news.py'
+      - 'data/market-voice-sources.json'
+      - 'data/market-voice-editorial.json'
   schedule:
     - cron: '15 7 * * *'
     - cron: '15 15 * * *'
