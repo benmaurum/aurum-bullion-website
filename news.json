@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T16:38:44.946217+00:00",
+  "updated_at": "2026-10-09T16:40:36.983713+00:00",
   "timezone_display": "Europe/London",
   "target_per_category_per_day": 2,
   "stories": [
@@ -181,15 +181,6 @@
       "subscription": true
     },
     {
-      "category": "market",
-      "category_label": "GOLD MARKET",
-      "headline": "ECB Officials Took ‘Proporionate’ Step With Last Month’s Hike - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "published_at": "2026-10-08T11:54:38+00:00",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbS1EdGFzSXJRak05QTAzUHFkXzdsME1PV3JPZHE1MDVQdUpLcWs0NWlwaTRCb0RFbktZelo4RTB5a09zS3R1eHFhUEtvWXZWczhVRjhjb1A3c20xM1YxZlI0N3RZRVhzY0pLX0V3VUdxSE1Qbk5wZGEtdWZHNTJ1dDVmTEo5ZUtYbl9PUm1TZ0lHN1h4UVZIOElFUGJSUEFvY3NtOHk3NFJfZnlWNzBz?oc=5",
-      "subscription": true
-    },
-    {
       "category": "breaking",
       "category_label": "BREAKING NEWS",
       "headline": "China defends yuan policy as Europe steps up pressure over trade surplus - Reuters",
@@ -223,6 +214,15 @@
       "source": "Numismatic News",
       "published_at": "2026-10-08T07:01:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS2lHSDkyOGF0QktoYkF1YjlSQ1JCQTlvcnZhSzBWLS1MN0haWWR5SGdIdzBfNm82ZnRkdk9tV05SQlZrbGpFRF94LTJJQUlZcUxBUXJ0TUVqOXlaSy1PY01iQUVfNWFRbWc5TlMtSlZhM0dqSlVmdGJkdzVYVW51Z05OVFZXWFJ1aXlrc185Q1R4a3N3aEFiRjZ4YmxCbnJyWjVnT1M5ZFBHNDBST2FDTjdpeU5oQQ?oc=5"
+    },
+    {
+      "category": "market",
+      "category_label": "GOLD MARKET",
+      "headline": "India Central Bank Lifts Rates for First Time in Near Four Years - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "published_at": "2026-10-07T22:20:05+00:00",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbU1fRGt1aGxxUEJYSUVETDEtdXlNbC0xa1RfYmQzTF9Kd2RzdkhwdnhRNnJ5NGNaT3pWcGlvODZhSlkzc2M4YWJ6amNnZ1FXc2EybDVRekRXckRMdEFVblBXX29BT1I3akQ2OVA4VWczaEZJeDhGcUJVaGJreFZzUno1dmQ3bHlnSmRLemJNZmpNeVpNN3FhVFN3MDJ4LXhVdUdjcExXdXk0dTUzZTA4bjFZYVFWQQ?oc=5",
+      "subscription": true
     },
     {
       "category": "rates",
@@ -311,6 +311,14 @@
       "published_at": "2026-10-05T20:36:44+00:00",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONjdmWFB2ajNsNmJJR1U4MVQ4aUx4Z1gyWmZMeEFLSkRyZ0lRdlFTZFE3LTg1aTlFV0dPdDhxMTdVN280WlhMeHd1WHZ0UFFmMGdwdE9vMmtFQzFPekNRd3lDOW84SUFGVkwxWEdXUjlBU0Qwc0o3ZThGU0U2SnNHbzcteGc?oc=5",
       "subscription": false
+    },
+    {
+      "category": "numismatics",
+      "category_label": "NUMISMATICS",
+      "headline": "AnnounceMints: Supergirl™ Soars to Comic Art Series - Numismatic News",
+      "source": "Numismatic News",
+      "published_at": "2026-10-05T17:44:29+00:00",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVlYwZndNTTNSaDlEY3dlTDlEVDdGbFJrRVZFSE91RENwZHo0eVcwQUJ3bFFSd0ItRklmQ01uVUtVVmVKaURPNDJWMDJxZW1zblNPWXRsSXFPdGFaa0tOTmJVT0E1VFQxSGFqX3N4YU9HbW5Mc2R4azVndk4zZ1lHSzdxRlhZQms?oc=5"
     },
     {
       "category": "mint",
