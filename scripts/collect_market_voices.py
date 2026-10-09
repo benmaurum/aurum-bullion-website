@@ -88,7 +88,8 @@ def main():
     location = os.environ.get('AURUM_INTAKE_PRIVATE_DIR', '')
     location = location or str(Path(__file__).resolve().parent)
     root = Path(location).expanduser().resolve()
-    if not Path(location).is_absolute() or any(p in ('public', 'public_html', 'htdocs', 'www') for p in root.parts):
+    # IONOS uses /home/www as the account root, with /public as document root.
+    if not Path(location).is_absolute() or root == Path('/home/www') or any(p in ('public', 'public_html', 'htdocs') for p in root.parts):
         raise RuntimeError('Use an absolute directory outside the website document root')
     if any((p / '.git').exists() or (p / '.github').exists() for p in (root, *root.parents)):
         raise RuntimeError('Private intake must be outside the source checkout')
