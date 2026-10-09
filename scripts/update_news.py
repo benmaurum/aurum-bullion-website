@@ -16,6 +16,17 @@ CATEGORIES = {
   'numismatics': ('NUMISMATICS','British gold numismatic coin auction collecting when:7d')
 }
 PREMIUM_SOURCES = {'Financial Times': ('ft.com','market'), 'Bloomberg': ('bloomberg.com','market'), 'Reuters': ('reuters.com','breaking'), 'The Wall Street Journal': ('wsj.com','rates'), 'The Economist': ('economist.com','rates'), 'MINING.COM': ('mining.com','market'), 'Kitco': ('kitco.com','market')}
+
+VOICE_SOURCES = {
+  'Bank for International Settlements': 'bis.org',
+  'Bank of England': 'bankofengland.co.uk',
+  'World Gold Council': 'gold.org',
+  'European Central Bank': 'ecb.europa.eu',
+  'International Monetary Fund': 'imf.org',
+  'London Bullion Market Association': 'lbma.org.uk',
+  'Federal Reserve': 'federalreserve.gov',
+}
+VOICE_TERMS = re.compile(r'\\b(gold|bullion|precious metals?|reserves?|monetary policy|inflation|interest rates?|safe.haven|central bank|commodity|commodities|mining)\\b', re.I)
 SUBSCRIPTION_DOMAINS = ('ft.com','bloomberg.com','wsj.com','economist.com')
 UA='Mozilla/5.0 AurumBullionInsights/1.0'
 
@@ -62,8 +73,28 @@ def main():
             stories.append({'category':category,'category_label':CATEGORIES[category][0], 'headline':title,'source':source,'published_at':dt_iso(item.findtext('pubDate') or ''),'url':link,'subscription':domain in SUBSCRIPTION_DOMAINS})
             taken+=1
             if taken>=3: break
+    # Market Voices: selected institutional commentary, separately displayed from breaking news.
+    # Discover only publicly indexed headlines; preserve attribution and link to source.
+    voices=[]; voice_seen=set()
+    for institution,domain in VOICE_SOURCES.items():
+        try: root=get_feed('site:'+domain+' (gold OR bullion OR gold reserves OR monetary policy OR inflation) when:30d')
+        except Exception as e:
+            print('voice',institution,e); continue
+        taken=0
+        for item in root.findall('.//item'):
+            title=clean(item.findtext('title')); link=clean(item.findtext('link'))
+            source_el=item.find('source'); source=clean(source_el.text if source_el is not None else '')
+            if not title or not link or not VOICE_TERMS.search(title): continue
+            if domain.split('.')[0].lower() not in source.lower().replace(' ','') and institution.lower() not in source.lower(): continue
+            norm=re.sub(r'[^a-z0-9]','',title.lower())[:120]
+            if norm in voice_seen: continue
+            voice_seen.add(norm)
+            voices.append({'headline':title,'source':institution,'published_at':dt_iso(item.findtext('pubDate') or ''),'url':link,'type':'Institutional commentary'})
+            taken+=1
+            if taken>=2: break
+    voices.sort(key=lambda x:x['published_at'],reverse=True)
     stories.sort(key=lambda x:x['published_at'],reverse=True)
-    out={'updated_at':datetime.now(timezone.utc).isoformat(),'timezone_display':'Europe/London','target_per_category_per_day':2,'stories':stories}
+    out={'updated_at':datetime.now(timezone.utc).isoformat(),'timezone_display':'Europe/London','target_per_category_per_day':2,'stories':stories,'market_voices':voices[:12]}
     with open('news.json','w',encoding='utf-8') as f: json.dump(out,f,ensure_ascii=False,indent=2)
     print('wrote',len(stories),'stories')
 if __name__=='__main__': main()
