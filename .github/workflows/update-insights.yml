@@ -18,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -29,4 +31,13 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add news.json
           git diff --cached --quiet || git commit -m "Refresh Aurum Insights news feed"
-          git push
+          # Concurrent source-register commits can advance main during collection.
+          # Rebase the generated feed commit onto the latest remote tip before pushing.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; exit 1; }
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 3
+          done
+          echo 'Unable to publish refreshed news after retries' >&2
+          exit 1
