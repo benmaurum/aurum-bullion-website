@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import json, re, urllib.parse, urllib.request, xml.etree.ElementTree as ET
+import json, os, re, urllib.parse, urllib.request, xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
@@ -76,7 +76,12 @@ def main():
     # Market Voices: selected institutional commentary, separately displayed from breaking news.
     # Discover only publicly indexed headlines; preserve attribution and link to source.
     voices=[]; voice_seen=set()
-    for institution,domain in VOICE_SOURCES.items():
+    try:
+        with open('data/market-voice-sources.json',encoding='utf-8') as fh: registered=json.load(fh).get('sources',[])
+    except (OSError,ValueError) as e:
+        print('source registry',e); registered=[]
+    public_sources={entry['name']:entry['domain'] for entry in registered if entry.get('enabled') and entry.get('method')=='public_discovery' and entry.get('domain')}
+    for institution,domain in public_sources.items():
         try: root=get_feed('site:'+domain+' (gold OR bullion OR gold reserves OR monetary policy OR inflation) when:30d')
         except Exception as e:
             print('voice',institution,e); continue
@@ -92,6 +97,22 @@ def main():
             voices.append({'headline':title,'source':institution,'published_at':dt_iso(item.findtext('pubDate') or ''),'url':link,'type':'Institutional commentary'})
             taken+=1
             if taken>=2: break
+    # Editorial intake supports approved links from memberships and social accounts.
+    try:
+        with open('data/market-voice-editorial.json',encoding='utf-8') as fh: submissions=json.load(fh).get('items',[])
+    except (OSError,ValueError) as e:
+        print('editorial intake',e); submissions=[]
+    for entry in submissions:
+        if not entry.get('approved'): continue
+        if not all(entry.get(k) for k in ('headline','source','url','published_at')): continue
+        parsed=urllib.parse.urlparse(entry['url'])
+        if parsed.scheme!='https' or not parsed.netloc: continue
+        norm=re.sub(r'[^a-z0-9]','',entry['headline'].lower())[:120]
+        if norm in voice_seen: continue
+        voice_seen.add(norm)
+        voices.append({'headline':clean(entry['headline']),'source':clean(entry['source']),
+          'published_at':entry['published_at'],'url':entry['url'],
+          'type':clean(entry.get('type','Expert commentary'))})
     voices.sort(key=lambda x:x['published_at'],reverse=True)
     stories.sort(key=lambda x:x['published_at'],reverse=True)
     out={'updated_at':datetime.now(timezone.utc).isoformat(),'timezone_display':'Europe/London','target_per_category_per_day':2,'stories':stories,'market_voices':voices[:12]}
