@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "notes": "Source access must be verified before automated collection. Never store passwords, session cookies, or access tokens in this file.",
+  "notes": "Source access must be verified before automated collection. Never store passwords, session cookies, or access tokens in this file. Corporate-first strategy: official Aurum channels, not personal-account scraping.",
   "sources": [
     {
       "name": "Bank for International Settlements",
@@ -57,7 +57,7 @@
       "access": "corporate_account",
       "method": "editorial_submission",
       "enabled": false,
-      "notes": "No automated scraping; submit original post URL for review. Account subscription alone does not authorise collection."
+      "notes": "Create official Aurum Company Page and obtain admin approval. Public post links may be submitted for editorial review. No scraping or credential storage."
     },
     {
       "name": "Corporate newsletters",
@@ -74,6 +74,14 @@
       "method": "licensed_api",
       "enabled": false,
       "notes": "Enable only after access rights and API licence are verified."
+    },
+    {
+      "name": "Aurum Gold Intelligence",
+      "domain": "aurumbullion.co.uk",
+      "access": "owned",
+      "method": "original_editorial",
+      "enabled": false,
+      "notes": "Enable once editorial review, authorship and compliance controls are in place."
     }
   ]
 }
