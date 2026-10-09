@@ -57,7 +57,8 @@
       "access": "corporate_account",
       "method": "editorial_submission",
       "enabled": false,
-      "notes": "Create official Aurum Company Page and obtain admin approval. Public post links may be submitted for editorial review. No scraping or credential storage."
+      "notes": "Aurum Company Page supplied by administrator; verify Super Admin role and permitted API publishing access. No credential storage or automated scraping.",
+      "company_page": "https://www.linkedin.com/company/aurum-bullion-plc/"
     },
     {
       "name": "Corporate newsletters",
@@ -83,5 +84,7 @@
       "enabled": false,
       "notes": "Enable once editorial review, authorship and compliance controls are in place."
     }
-  ]
+  ],
+  "corporate_contact": "intelligence@aurumbullion.co.uk",
+  "linkedin_company_page": "https://www.linkedin.com/company/aurum-bullion-plc/"
 }
