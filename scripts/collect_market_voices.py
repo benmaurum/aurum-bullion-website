@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 """Read-only newsletter intake. Run privately; never publish its database."""
 import email
+import fcntl
 import imaplib
 import os
 import re
 import sqlite3
 import ssl
+import json
+import stat
 from datetime import datetime, timezone
 from email import policy
 from email.utils import parseaddr
@@ -83,16 +86,33 @@ def main():
     username = os.environ.get('AURUM_IMAP_USERNAME', '')
     password = os.environ.get('AURUM_IMAP_PASSWORD', '')
     location = os.environ.get('AURUM_INTAKE_PRIVATE_DIR', '')
-    if username != 'intelligence@aurumbullion.co.uk' or not password or not location:
-        raise RuntimeError('Configure the intelligence mailbox and private storage environment')
+    location = location or str(Path(__file__).resolve().parent)
     root = Path(location).expanduser().resolve()
     if not Path(location).is_absolute() or any(p in ('public', 'public_html', 'htdocs', 'www') for p in root.parts):
         raise RuntimeError('Use an absolute directory outside the website document root')
-    if Path(__file__).resolve().parents[1] == root or Path(__file__).resolve().parents[1] in root.parents:
+    if any((p / '.git').exists() or (p / '.github').exists() for p in (root, *root.parents)):
         raise RuntimeError('Private intake must be outside the source checkout')
     os.umask(0o077)
     root.mkdir(parents=True, exist_ok=True, mode=0o700)
     os.chmod(root, 0o700)
+    lock = open(root / 'collector.lock', 'a')
+    try:
+        fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError:
+        lock.close()
+        print('Collection already running; skipped.')
+        return
+    # This file is provisioned privately on IONOS, never in the repository.
+    if not password:
+        config_path = root / 'credentials.json'
+        mode = config_path.lstat()
+        if not stat.S_ISREG(mode.st_mode) or stat.S_IMODE(mode.st_mode) & 0o077:
+            raise RuntimeError('Private credentials must have owner-only permissions')
+        config = json.loads(config_path.read_text(encoding='utf-8'))
+        username = config.get('username', '')
+        password = config.get('password', '')
+    if username != 'intelligence@aurumbullion.co.uk' or not password:
+        raise RuntimeError('Configure the intelligence mailbox privately')
     db_path = root / 'market-voices.sqlite3'
     with sqlite3.connect(db_path) as db:
         os.chmod(db_path, 0o600)
@@ -106,6 +126,11 @@ def main():
             client.login(username, password)
             count = collect(client, db)
     print('Pending editorial candidates added:', count)
+    (root / 'last-run.json').write_text(json.dumps({
+        'completed_at': datetime.now(timezone.utc).isoformat(),
+        'candidates_added': count, 'status': 'success'
+    }), encoding='utf-8')
+    lock.close()
 
 
 if __name__ == '__main__':
