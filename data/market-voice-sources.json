@@ -58,7 +58,7 @@
       "method": "editorial_submission",
       "enabled": false,
       "notes": "Aurum Company Page supplied by administrator; verify Super Admin role and permitted API publishing access. No credential storage or automated scraping.",
-      "company_page": "https://www.linkedin.com/company/aurum-bullion-plc/"
+      "company_page": "https://www.linkedin.com/company/aurum-bullion-plc/posts/?viewAsMember=true"
     },
     {
       "name": "Corporate newsletters",
@@ -86,5 +86,5 @@
     }
   ],
   "corporate_contact": "intelligence@aurumbullion.co.uk",
-  "linkedin_company_page": "https://www.linkedin.com/company/aurum-bullion-plc/"
+  "linkedin_company_page": "https://www.linkedin.com/company/aurum-bullion-plc/posts/?viewAsMember=true"
 }
