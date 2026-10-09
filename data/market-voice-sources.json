@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "notes": "Source access must be verified before automated collection. Never store passwords, session cookies, or access tokens in this file.",
+  "sources": [
+    {
+      "name": "Bank for International Settlements",
+      "domain": "bis.org",
+      "access": "public",
+      "method": "public_discovery",
+      "enabled": true
+    },
+    {
+      "name": "Bank of England",
+      "domain": "bankofengland.co.uk",
+      "access": "public",
+      "method": "public_discovery",
+      "enabled": true
+    },
+    {
+      "name": "World Gold Council",
+      "domain": "gold.org",
+      "access": "public",
+      "method": "public_discovery",
+      "enabled": true
+    },
+    {
+      "name": "European Central Bank",
+      "domain": "ecb.europa.eu",
+      "access": "public",
+      "method": "public_discovery",
+      "enabled": true
+    },
+    {
+      "name": "International Monetary Fund",
+      "domain": "imf.org",
+      "access": "public",
+      "method": "public_discovery",
+      "enabled": true
+    },
+    {
+      "name": "London Bullion Market Association",
+      "domain": "lbma.org.uk",
+      "access": "public",
+      "method": "public_discovery",
+      "enabled": true
+    },
+    {
+      "name": "Federal Reserve",
+      "domain": "federalreserve.gov",
+      "access": "public",
+      "method": "public_discovery",
+      "enabled": true
+    },
+    {
+      "name": "LinkedIn",
+      "domain": "linkedin.com",
+      "access": "corporate_account",
+      "method": "editorial_submission",
+      "enabled": false,
+      "notes": "No automated scraping; submit original post URL for review. Account subscription alone does not authorise collection."
+    },
+    {
+      "name": "Corporate newsletters",
+      "domain": "",
+      "access": "free_membership",
+      "method": "approved_feed_or_editorial_submission",
+      "enabled": false,
+      "notes": "Register Aurum where appropriate; configure permitted feeds or authorised newsletter ingestion after consent and access review."
+    },
+    {
+      "name": "Licensed research providers",
+      "domain": "",
+      "access": "subscription",
+      "method": "licensed_api",
+      "enabled": false,
+      "notes": "Enable only after access rights and API licence are verified."
+    }
+  ]
+}
