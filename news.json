@@ -1,8 +1,16 @@
 {
-  "updated_at": "2026-10-09T16:45:52.758418+00:00",
+  "updated_at": "2026-10-09T17:07:42.446733+00:00",
   "timezone_display": "Europe/London",
   "target_per_category_per_day": 2,
   "stories": [
+    {
+      "category": "etf",
+      "category_label": "GOLD ETFs",
+      "headline": "Gold ETF Flows: September 2026 - Seeking Alpha",
+      "source": "Seeking Alpha",
+      "published_at": "2026-10-09T15:18:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAtTHdMS3ZoVWN1ZTllc2xHSWNOemxKMnI5S2dpdmZicUlNeVczTFJ5NGRQOG5yVVM5Y3FqMmxqZ3B0ZGowTDNvSXpVU2JDQXAzby04MU5ad2M4VXhJMHktR29feFRLdDB2WkdRRzlMRWNJaFplMnBUaEVB?oc=5"
+    },
     {
       "category": "geo",
       "category_label": "GEOPOLITICS",
@@ -137,14 +145,6 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkeWloTXQ2bDF1aU0wQ1V0dlUxVUNja1RmZXZjZ25ESGthRmNPdkV4UERSeUtkc1RET0RISjNyU2VNNWthNGY4REN3UmVMNTVjVGtxdENPRDNaQXZGUnJoVmhhb3Y5d283aFhrWGRfS1Q4QQ?oc=5"
     },
     {
-      "category": "etf",
-      "category_label": "GOLD ETFs",
-      "headline": "Positive ETF Gold flows pushed holdings to a new record in September - FXStreet",
-      "source": "FXStreet",
-      "published_at": "2026-10-08T20:45:06+00:00",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNckR3VWRjaU1EUzlPY0s0RnVCcjRySm1MS2VjZFJSR3B3aXVZd2d5dmhmd19TLVNBOG9sRWdId1U1RnpoOUFDMkdhN1hyektIejRMaU4xYlBDdnZBRlBIajUwRXprUURLWUdKMlNrdVl4TERaVzJXSnRTMnpUanNxM19lT1Z6dWZqUnFpZUx3aTVKbUhIMmJIeEpYSng0MWZvTkJjRVJITmpsQkJGejZVLTZFZXlhdw?oc=5"
-    },
-    {
       "category": "breaking",
       "category_label": "BREAKING NEWS",
       "headline": "POLL ECB to hike rates again in December as inflation almost doubles 2% target - Reuters",
@@ -181,6 +181,15 @@
       "subscription": true
     },
     {
+      "category": "market",
+      "category_label": "GOLD MARKET",
+      "headline": "ECB Officials Took ‘Proporionate’ Step With Last Month’s Hike - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "published_at": "2026-10-08T11:54:38+00:00",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbS1EdGFzSXJRak05QTAzUHFkXzdsME1PV3JPZHE1MDVQdUpLcWs0NWlwaTRCb0RFbktZelo4RTB5a09zS3R1eHFhUEtvWXZWczhVRjhjb1A3c20xM1YxZlI0N3RZRVhzY0pLX0V3VUdxSE1Qbk5wZGEtdWZHNTJ1dDVmTEo5ZUtYbl9PUm1TZ0lHN1h4UVZIOElFUGJSUEFvY3NtOHk3NFJfZnlWNzBz?oc=5",
+      "subscription": true
+    },
+    {
       "category": "breaking",
       "category_label": "BREAKING NEWS",
       "headline": "China defends yuan policy as Europe steps up pressure over trade surplus - Reuters",
@@ -214,15 +223,6 @@
       "source": "Numismatic News",
       "published_at": "2026-10-08T07:01:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS2lHSDkyOGF0QktoYkF1YjlSQ1JCQTlvcnZhSzBWLS1MN0haWWR5SGdIdzBfNm82ZnRkdk9tV05SQlZrbGpFRF94LTJJQUlZcUxBUXJ0TUVqOXlaSy1PY01iQUVfNWFRbWc5TlMtSlZhM0dqSlVmdGJkdzVYVW51Z05OVFZXWFJ1aXlrc185Q1R4a3N3aEFiRjZ4YmxCbnJyWjVnT1M5ZFBHNDBST2FDTjdpeU5oQQ?oc=5"
-    },
-    {
-      "category": "market",
-      "category_label": "GOLD MARKET",
-      "headline": "India Central Bank Lifts Rates for First Time in Near Four Years - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "published_at": "2026-10-07T22:20:05+00:00",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbU1fRGt1aGxxUEJYSUVETDEtdXlNbC0xa1RfYmQzTF9Kd2RzdkhwdnhRNnJ5NGNaT3pWcGlvODZhSlkzc2M4YWJ6amNnZ1FXc2EybDVRekRXckRMdEFVblBXX29BT1I3akQ2OVA4VWczaEZJeDhGcUJVaGJreFZzUno1dmQ3bHlnSmRLemJNZmpNeVpNN3FhVFN3MDJ4LXhVdUdjcExXdXk0dTUzZTA4bjFZYVFWQQ?oc=5",
-      "subscription": true
     },
     {
       "category": "rates",
