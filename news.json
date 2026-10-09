@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T16:40:36.983713+00:00",
+  "updated_at": "2026-10-09T16:45:52.758418+00:00",
   "timezone_display": "Europe/London",
   "target_per_category_per_day": 2,
   "stories": [
@@ -311,14 +311,6 @@
       "published_at": "2026-10-05T20:36:44+00:00",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONjdmWFB2ajNsNmJJR1U4MVQ4aUx4Z1gyWmZMeEFLSkRyZ0lRdlFTZFE3LTg1aTlFV0dPdDhxMTdVN280WlhMeHd1WHZ0UFFmMGdwdE9vMmtFQzFPekNRd3lDOW84SUFGVkwxWEdXUjlBU0Qwc0o3ZThGU0U2SnNHbzcteGc?oc=5",
       "subscription": false
-    },
-    {
-      "category": "numismatics",
-      "category_label": "NUMISMATICS",
-      "headline": "AnnounceMints: Supergirl™ Soars to Comic Art Series - Numismatic News",
-      "source": "Numismatic News",
-      "published_at": "2026-10-05T17:44:29+00:00",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVlYwZndNTTNSaDlEY3dlTDlEVDdGbFJrRVZFSE91RENwZHo0eVcwQUJ3bFFSd0ItRklmQ01uVUtVVmVKaURPNDJWMDJxZW1zblNPWXRsSXFPdGFaa0tOTmJVT0E1VFQxSGFqX3N4YU9HbW5Mc2R4azVndk4zZ1lHSzdxRlhZQms?oc=5"
     },
     {
       "category": "mint",
