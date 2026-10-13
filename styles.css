@@ -51,3 +51,8 @@ body .spread .coin-pair-frame{border:0!important;padding:0!important;background:
 header .brand{height:100%!important;min-width:0!important;overflow:visible!important}
 header .brand img{width:auto!important;height:calc(100% - 4px)!important;max-height:calc(100% - 4px)!important;max-width:100%!important;object-fit:contain!important;object-position:left center!important;display:block!important}
 @media(max-width:560px){header .brand img{width:auto!important;height:calc(100% - 4px)!important;max-height:calc(100% - 4px)!important}}
+
+/* Homepage curated-story cards: the current HTML uses curated-story-card, not curated-coin-card. */
+.collections .curated-story-card{min-width:0!important;overflow:hidden!important}
+.collections .curated-story-card .visual{height:250px!important;display:grid!important;place-items:center!important;overflow:hidden!important;background:#fff!important}
+.collections .curated-story-card .visual img{display:block!important;width:calc(100% - 18px)!important;max-width:220px!important;height:220px!important;max-height:220px!important;object-fit:contain!important;object-position:center!important;transform:none!important;mix-blend-mode:multiply!important}
