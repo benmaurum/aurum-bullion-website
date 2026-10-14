@@ -1,8 +1,201 @@
 {
-  "updated_at": "2026-10-13T20:39:08.918367+00:00",
+  "updated_at": "2026-10-14T12:52:40.893847+00:00",
   "timezone_display": "Europe/London",
   "target_per_category_per_day": 2,
   "stories": [
+    {
+      "category": "breaking",
+      "category_label": "BREAKING NEWS",
+      "headline": "Gold down 1.5% as US inflation rises more than expected - Breakingthenews.net",
+      "source": "Breakingthenews.net",
+      "published_at": "2026-10-14T12:47:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUXZqT3RncXV3TGtIZ0VlR1BPZkNQVDVFc1NKYzdxbzBSaG9oMUpGaEJBOGVJekRKT2YzX09RejdYQm9xUWVaV29DaU1yci1SNGhSanRtdkxiZlgtYVVVWmxraXZrTnJ0ZmlTTWRoc1ZCUFRadk4zcDdVQ2o0VkVIdUlUQU1KcXJLYnNhT3JpaWk2Z2hoZkV1ak5UWG1SN1Vq?oc=5"
+    },
+    {
+      "category": "mint",
+      "category_label": "ROYAL MINT",
+      "headline": "‘Hidden’ gold coin waiting to be found in Royal Mint’s Snowman advent calendar - Belfast Telegraph",
+      "source": "Belfast Telegraph",
+      "published_at": "2026-10-14T12:12:09+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQTNKZ2VOckJOcmlWMWlQTFlWelBZbmRNZUtRNHZncG13TVE5QzNDSE5ybTdXbmlhRFNzTXZIN2d5Z3pZOXhpN3RNQ2ZNcFpMalFlTjhlMEN2T3NXaWYxQ3o2M2N4aHVQR0ZJVEJQY0tuQ2hEaFZQZkdHSThmNW5QV0lhTmluQmYzczRERG1odVNrakRNcC1Yb0NaVER3emlUMzY2LTdSVlNycHR2eDdLTVhienh5a1d0dW5DWlZ4LTV1dWtVYU4xVUQ4Sl9sTnlvTWV5bnZRbEpUTTlEVWRJ?oc=5"
+    },
+    {
+      "category": "mint",
+      "category_label": "ROYAL MINT",
+      "headline": "‘Hidden’ gold coin waiting to be found in Royal Mint’s Snowman advent calendar - Stowmarket Mercury",
+      "source": "Stowmarket Mercury",
+      "published_at": "2026-10-14T11:52:18+00:00",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQX0RIVHJMV0g1cFVPT1JsZ0YzYlhSVkM0bnN6R3VYSHYwOWtxZXAtTzVLUExJbjhFX2N0b1FVOExOT0xkTnlERjIxUE0ycmJNVk9hLWpmMG9yVVdPZXI5WU14MXlTbm1UTjgxQzJoRF9uUmJBVnJmX1hpOGtuSm9IaFQ1WEdOUk1UYktvcGZRajN4OXZabEdSLWdnN0ZsQ0l0QWktSVlpNVg3ZklZc3BKc1JiUzdIS2NLTG9DenFkVWhKdktIdXZHOWRKNjZDVlU?oc=5"
+    },
+    {
+      "category": "rates",
+      "category_label": "ECONOMY & RATES",
+      "headline": "FTSE 100 rises as interest rate hopes lift UK stocks ahead of US inflation data - Share Talk",
+      "source": "Share Talk",
+      "published_at": "2026-10-14T11:35:39+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdHFHektKOFpfbDJURWU5Ni1ReXlEQzBidGV4QW1sYjUxa01nSzh4aXI0WXpHaHNXbkdNbFUwOC1ueTM1UHRFSHlqVlVSTTRaa1pOTjEyQXdsWFFUdENFc0FKYlBtQ1ZXanVoSkc0SlhHdGFVX1FlWDVzWDV0LU5EX1hfZUxmNE5GOHVyQlpaYmZLb2s4cXNHakJpSXI1ekl2STBvRlJZQmtLa2M?oc=5"
+    },
+    {
+      "category": "geo",
+      "category_label": "GEOPOLITICS",
+      "headline": "Gold price today, Wednesday, October 14, 2026: Gold prices losing ground ahead of inflation data - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "published_at": "2026-10-14T11:10:58+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOaDY1cDVETUVQa3FWTVV2c0I3TmlEa2pHeDI5UTNTLV9LenlvNE1jbmEydHdUdkMzQUMyelFiVUFnSmcxWDlPZ0lJOU80ei04YUV6U0lfUG5WdjVveXdkd0ZxaEMyQ1Bod3pmdHp3UVZYVkJxTldTNXkzOHphbktzdU43eldGWGZUS2s2Vzg1RUF6aDYteksxMWczcTZmMDY1UVNZZU1NY3NtTzRmaHB5N01SSHFsS0c5SDlMQkk1dGNFMS1tc3RjM2Q4d3hBdzFHNUJDbEJvSnZ2QkNiRlN6bTVHQWF0VEpuTmdlZnNHcXRCSUpSR2lVQlVLeGs?oc=5"
+    },
+    {
+      "category": "etf",
+      "category_label": "GOLD ETFs",
+      "headline": "Gold: hedge funds cut longs 24% while ETFs hit a record for COMEX:GC1! by Nightbricks - TradingView",
+      "source": "TradingView",
+      "published_at": "2026-10-14T10:52:34+00:00",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOFJnbmlQQmlDRVk4LXVTVUhYSEdnSlBJaml5X0QyMWxfSnNoXzhRUTdOZERlejcwZkxvWERLcUttVFQ2MkxYcXJMTFk3d3pYcHBGRmViNzNfV3ZQUWd0MFVaVnp1ZllaSUptbEx6Sms0dUY5aDI5VUIwaVZHY1VEUmVTYWxvZVo0R1NrLTQ0V0d2a2FLaTBjeXVmSmd4MWJrY2N1WA?oc=5"
+    },
+    {
+      "category": "market",
+      "category_label": "GOLD MARKET",
+      "headline": "Singapore Holds Monetary Policy as Economy Expands 5.4% on AI - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "published_at": "2026-10-14T09:31:26+00:00",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS1lhSHN3c3NCZ0htanVDMUVZRFNnckkwYVV6VVU1ZFpqN1Bmak9HcHRIV0p5bWM1Y3BKLWgwTk96X25WTExxWm1yS08wdWFYamVvdE1TZUUxQ1NhMjBQb05DMldSd045aWFLa3hGTUZBc09LWTZZVUFQY0N3YlhHZXozczRkdVNiMGxMLUhYN3lMZTRRUFJ2akVZOV9mRGNPWS11OW1NdXZOUUhxUmVRNQ?oc=5",
+      "subscription": true
+    },
+    {
+      "category": "market",
+      "category_label": "GOLD MARKET",
+      "headline": "Gold Steady as Fed Official’s Remarks Temper Rate-Hike Bets - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "published_at": "2026-10-14T09:16:57+00:00",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQazViUHl2SmRiSUdDb0dNelo2Y2JjdkNLOG40Q0FpMnFBZ1JPNUNBc3pMeGlWbE5CQlUwcEVJWE93WmlJRkZTbzllQ1pfNV9HYXVHLUV2YVdkWW1TMWVJTElsNklvSzVYdTZPXzhIV0JHdHBCQzhhcklUSHhQaTFXUUNjNVlZTVZQNWd0UHM5LTlwRmpobUdiR1RiWDhTYUNTUGloY256S1l2blk0M0JZ?oc=5",
+      "subscription": true
+    },
+    {
+      "category": "geo",
+      "category_label": "GEOPOLITICS",
+      "headline": "Gold Price Forecast 14/10: BofA Predicts US$5,000 In Mid-2027 Then Retreat - Exchange Rates UK",
+      "source": "Exchange Rates UK",
+      "published_at": "2026-10-14T09:15:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZy1CLVFsZHhKc1RONUZ6bkpILWZFUTRjcGdfZnNQQXQ1bVZ3MmVNdU0wUzVGSTBySDFtNTZNQi1UaWUydFZ1WGI0cmtvUWl2Umk2LXZUbUVpZ2RIRkd6R1lnV0NObEFjdHB0eFVHenFpbXdKdWE3Rnk4a3hsMndlRTFKZDVHU0o5S0dnQ1BaVEVnb1JpaGpBSWNYQ3ZaQnVyLVdxSFlpTk5rT1IyWFNrODlQaERPWms5bTFsMWFlT0pmX1BWUXZ3VUpwNjFxZw?oc=5"
+    },
+    {
+      "category": "breaking",
+      "category_label": "BREAKING NEWS",
+      "headline": "KEFI Minerals Plc (KEFI.L) stock price, news, quote and history - Yahoo Finance UK",
+      "source": "Yahoo Finance UK",
+      "published_at": "2026-10-14T08:59:57+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1jcUc0dE5zdWFBNWtHOGZ1WGxHT0FnMjVrUGI4WjBtMjdnT2otdmpYMzkyeTY3YjVhWXBFel81T3ZoUXdvX3hXRG5GcEY5UUhidWlONg?oc=5"
+    },
+    {
+      "category": "rates",
+      "category_label": "ECONOMY & RATES",
+      "headline": "Bank of France Making Rates Decisions Meeting by Meeting, Says Governor - WSJ",
+      "source": "WSJ",
+      "published_at": "2026-10-14T08:30:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOLWFwbGJ5OVZCYTRmOE1jc2JwMnNxSmJsWWVaZ2hUdEIybXBYR2JVRDFxRWtyWmxaeDE3S01vWlJjTTBBVlhUM2t5RWJOWFpPN0RmVHlPMlg2d0k0WFVQY1dzdG9Ga195MW9hQjlMRzdjS3NtZl9CcjRWb0NSOXFrbTFHbnBydmpqYU0tXzRFVWlLSEVYZUo5N2VIUzVxY2YzOTgwdWdpbHZLV2NCNlQzQklxNlJrVC1IdFE?oc=5",
+      "subscription": true
+    },
+    {
+      "category": "central",
+      "category_label": "CENTRAL BANKS",
+      "headline": "Does $8,000 gold price target look too optimistic? - The Armchair Trader",
+      "source": "The Armchair Trader",
+      "published_at": "2026-10-14T08:26:29+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONlBiYXZvQ2dVaHFvNGhNeGZHb2JGWVIxNVNmVVFHM2tQZmhDVjZBZXVDUlNBd2NGSU54VG5oUnFfNTFkV05yU3l4QnczckdOQnB3djJHQ3VBSFRTRGRHVzVQY1BiRmd3eThvRTlUZDN3bFNfRzNnbmp1QXphNG9jM3l6em9IQ0Rsekl3eTU1RVJzS21kS3NfVjZ4TXRBVmVXWDAw?oc=5"
+    },
+    {
+      "category": "market",
+      "category_label": "GOLD MARKET",
+      "headline": "Silver Price Today | Price of Silver Per Ounce | 24 Hour Spot Chart - Kitco",
+      "source": "Kitco",
+      "published_at": "2026-10-14T07:54:43+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8yMEZVZlBMcVNiamZhXy0zc09ncWhlZDByYTFoUnhVWTBZUExUVXdKYzFGNkUzdGg5cG9EUXZUVXJuaVRITHE1bnhtbw?oc=5"
+    },
+    {
+      "category": "market",
+      "category_label": "GOLD MARKET",
+      "headline": "Gold Fields mounts charm offensive to woo Northern Star investors - Financial Times",
+      "source": "Financial Times",
+      "published_at": "2026-10-14T07:40:50+00:00",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQd0twd3NocnRYaUQ1NGRjT3FSTUZWVkxPUFRfYWhyT3JpTC1Od3lMUTcyQ3YxclNSV0thRGZ3OWFEMHRvUC1PMWllSmk1YXlyLUFLSmQ0OTkyTjhSQmFwZ2pXYVIwWE5oN3doYzNJQXRfZHR3ZXFRT0g2Wlp6aXVjdUxjZVE?oc=5",
+      "subscription": true
+    },
+    {
+      "category": "rates",
+      "category_label": "ECONOMY & RATES",
+      "headline": "BOE’s Pill ‘Skeptical’ Four Rate Rises Needed to Tame Inflation - WSJ",
+      "source": "WSJ",
+      "published_at": "2026-10-14T07:25:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQjBWaENKOG1ZWlJfeF8yMzMzVS1RR2V6ajRCbkh0V2tzWVRjUDc3SDVRYXNycm1yalVCVElET3dVNzBwMk40bVY2cGQ0VXlmMnNROTh6WVBSd3hSVmUxVmo3dlVLUzBNOEV2cnpXSDdubVphQTN2M2RkMDltQnRKVUFld3A5N1ZQalRIMzNqUGtqWWxwc3FaVGktVDZ3Szg?oc=5"
+    },
+    {
+      "category": "numismatics",
+      "category_label": "NUMISMATICS",
+      "headline": "5 Rare U.S. coins just sold for more than $1 million each — here’s why collectors paid so much - Yahoo Creators",
+      "source": "Yahoo Creators",
+      "published_at": "2026-10-14T04:40:22+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTXVRM3ZTYXZSR1l3QmdoUnY5bGdEZkNMRHpsUU91ZUczdjVkV1I1M1FkaTFOUEY2dC1LOGM2c0psQkNEWXZUUURsWmhjcnBUWUhEQ0tQd2NhaEg1RUVzMmJJU1pNdS1oV2s2RzFSU01RbmVWMG05akNqRlBHWDlDUS04enRLeDMxU2FzcUNXdVIydjlMZFZDMVJxMmlhRmFYcUtIWV9vZnh6dWIyTTVPUEN6MnZuZnVlS2ZydXpEMHVDanNvWEpDRnRwRmZHTzFXVE9VUVFwM3RCMXBSMEw4dw?oc=5"
+    },
+    {
+      "category": "breaking",
+      "category_label": "BREAKING NEWS",
+      "headline": "Asia must guard against another financial crisis, Philippines central bank chief says - Reuters",
+      "source": "Reuters",
+      "published_at": "2026-10-14T04:06:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYkt3dUhCWXQyc0VDX1BFRUJGS2phdlpsOVpXa1dxR1QyWUVCaVllM0Z2NlNNSFMtNmg3NFBnR0NyZGF2V2Q3dDludTQxeTdaS0ZtUjg5b3hfYkdMQXg3ZTZQS3JlNkNBbzFEWE53Q1NVbHBoeENjNGt3R2ZHaU1JU0F2eDAyQ0MwQ0RQWGlJMHRXQzI1WVlBbDRlUVpLUkZVWHFndmpFM19oWFl5WmUzemNiVDVwcXlvM2x4c1JITW9WR2xac0d2X0M4aWQ4aUk?oc=5",
+      "subscription": false
+    },
+    {
+      "category": "etf",
+      "category_label": "GOLD ETFs",
+      "headline": "Why Gold ETF Inflows Surged Even as the Metal’s Price Fell - The Daily Upside",
+      "source": "The Daily Upside",
+      "published_at": "2026-10-14T04:04:43+00:00",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSGxGcUdianJDOHBZdlZCcnFPSkVGTUVzMVZJZlBOMHlHaTdvMXRfcGhreXc2aHA4Sk1vandpeEdwYm9kUTQ2MnpDblRoUEdjZUtEUldCOVhkOThDbWp3dGFjVlRmNWJrcTV6U0NydUpnOUZoa2RrOU1zNWRrTG8wVnVEYWF1WllYM1RjZ0RGOU5SMkRvUW9ZcThVbmg0eEZnSnVESUFiVmRKc0VGLTFmXw?oc=5"
+    },
+    {
+      "category": "market",
+      "category_label": "GOLD MARKET",
+      "headline": "Silver’s industrial demand, mining dynamics and free float mean price rally might not impact supply until it overwhelms it – Sprott’s Zhu - Kitco",
+      "source": "Kitco",
+      "published_at": "2026-10-14T03:32:39+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOHlkaG1KcEVNMXpMNDBIaWRaLWJtby0ycS11ZnFfMEJzLUFtcV9ycDRneUlqOEN1SU5nbTBRc2NmYWVLTGdfdE5SWXNYT2hEUU5EZFBvNm9tLUozRVJCY3RHS1hDaWJvT2FVcF9QVkEtZWpRZ1BJak15dWhvLUhmdmNRR3RnS1YxWElwZWZXNWFQbnRJVmRlOWVoaW56RjliSFE2X1BNYVNUUFZrMmdnTGVDbEQzM0pvNWFr?oc=5",
+      "subscription": false
+    },
+    {
+      "category": "central",
+      "category_label": "CENTRAL BANKS",
+      "headline": "‘Single-asset portfolio’: Kazakhstan plans gold sales as holdings reach 78% of reserves - Kitco",
+      "source": "Kitco",
+      "published_at": "2026-10-14T03:20:34+00:00",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOenFCUzlpUWVOMVAwTk9BUU5YM1ZhWGVuY3BpR2pkQzR5SlcySEtKSm4zRVNSZ0FkUzlOUXBrbG05Y2Y5N1NxZ0JpOEQwMGhJUVZ3dGJTTHdBYkljLWNlcm5CTFdyT0t1MEJpd3lxbkJRX1I1MGNyd2NTQ0ZKV2lWSUtVbkIweUpCbmVhbXJIbVVFbThGQm5YUkxKVS1vbHlQM3cySmxCbl9mYTlMSGhpc1hYajE?oc=5"
+    },
+    {
+      "category": "breaking",
+      "category_label": "BREAKING NEWS",
+      "headline": "Gold down for third straight session as markets await US inflation data - Reuters",
+      "source": "Reuters",
+      "published_at": "2026-10-14T03:12:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZkM3NGdUajlORC1ZZjBNcFZtNjYwa2JRaFczS1V4OVRORGhzZG1NUGxaY3ppRjdfQlFvUmREakJQM1RGaDNZZmZFMnJrY2Rtemc2Z1dBY1pPRy1ZbnBJVzNfTG1MMGJ5TXY5VzFpaDd6UENqd1pUOVdlTm1sS241QkFzNm1kdDJXTjl5emhLV200WUI1QVh4RQ?oc=5",
+      "subscription": false
+    },
+    {
+      "category": "market",
+      "category_label": "GOLD MARKET",
+      "headline": "India’s Rupee Rescue Is Getting Desperate - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "published_at": "2026-10-13T23:30:50+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNb29mN1dZb05qX3laSm9fcEVrX2xZYk13OHdsOXJiazJhMTRFcjNPRTlERHIzdERtbm1OMnV6TTI0WWNaWHJDRnlfNXd4eXRVLXF4ZjNhaWxkSXZuNV9RRy1ncWFJWlU2TjdrQ2xmN1VReXZlRVN6cVdQZjJ6Sk9WUTRkdmIyYlg4OWZjWkJtMTktNmdaWERKWlhEOTFpbU5Vb0dxNHdSdEpBVnRIZ09lM3NXbw?oc=5",
+      "subscription": true
+    },
+    {
+      "category": "market",
+      "category_label": "GOLD MARKET",
+      "headline": "JPMorgan names critical minerals chief for $1.5T push - Mining.com",
+      "source": "Mining.com",
+      "published_at": "2026-10-13T18:01:11+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOb09QYUlBNVlNX0lXMGJZNC04VVNEdnhPNm1uaTBCcGJoeTJJeWJ0WDRpM2V1TGoxa3lWcV9GQ2hqbzZtVGFpWlhXOFdvNXQ4MGlSTGlraUNWczd4cUZCWXB5OVRLV0hzV2xoR2hyRzYyS01od3hLYlN0RlVZcjgyODdn?oc=5",
+      "subscription": false
+    },
     {
       "category": "coins",
       "category_label": "BRITISH COINS",
@@ -12,28 +205,12 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVUdzM0JVNjloQjEzdHUzQXYzX0ZFaTZmMzN1d2ladDZnNFV1NXUyc2MyaXpUT1l5WWdNWmRpT3laNGUtWThTXzA3Ql93YzZaVWEwTWxSVFNtTGNYb2ZjQjQ4cUcxVlBFTFBhemtqVEZFUF9DYVo4UWEyZG9zTktUT01kTjA?oc=5"
     },
     {
-      "category": "breaking",
-      "category_label": "BREAKING NEWS",
-      "headline": "Analyst spots an eerie repeat for gold's biggest rival - TheStreet",
-      "source": "TheStreet",
-      "published_at": "2026-10-13T17:16:43+00:00",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZ1BzY1ZibEVmQmlkd2R6SW43R0gzbXlwYXoxNTV4TTcwSnhQdG9QYlZGMTBCdXp3bVpwX0VuZ3BMRUx6MkdWVDNjelk2RFkzaXJEajd1Sk42aHJIM0FmSVZCS1ppd3hJX3J4Wkhzb3ZmdjhWTlp1LXBCeW5ydGVMb1hJTncxVUd5NHlpVkRNa3I3Z3JTY0hGYzVR?oc=5"
-    },
-    {
       "category": "grading",
       "category_label": "GRADING",
       "headline": "Historic 1792 Half Disme Sets $2.93 Million Record, Leads Heritage’s $19 Million-Plus GACC Auctions - Numismatic News",
       "source": "Numismatic News",
       "published_at": "2026-10-13T17:11:44+00:00",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZTYzaWY1cjZBaVIwcWlnRXJUeDktZlBOOW4xSnljSEgtZWlMSHY2Z054WlAzN0F5Wm1xRGJZaWlabXFEMkRmYWVWMm9WRUZMRTlYQ1B1UTlhNXU0V2x2MlJhNW9GMFdtd2s2TDBnRGVuU2xLeFJFSW5yamVnLWZmQjY3SXdFb1pnMWd6OFBISkdJZkZxa0Vrc2tfOGlaOThuV1BrajltSGxHNXNyclF3bERsZHc3S1B6LW9SMWFIMncyQVY5?oc=5"
-    },
-    {
-      "category": "central",
-      "category_label": "CENTRAL BANKS",
-      "headline": "‘Single-asset portfolio’: Kazakhstan plans gold sales as holdings reach 78% of reserves - Kitco",
-      "source": "Kitco",
-      "published_at": "2026-10-13T15:53:35+00:00",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOenFCUzlpUWVOMVAwTk9BUU5YM1ZhWGVuY3BpR2pkQzR5SlcySEtKSm4zRVNSZ0FkUzlOUXBrbG05Y2Y5N1NxZ0JpOEQwMGhJUVZ3dGJTTHdBYkljLWNlcm5CTFdyT0t1MEJpd3lxbkJRX1I1MGNyd2NTQ0ZKV2lWSUtVbkIweUpCbmVhbXJIbVVFbThGQm5YUkxKVS1vbHlQM3cySmxCbl9mYTlMSGhpc1hYajE?oc=5"
     },
     {
       "category": "market",
@@ -53,76 +230,12 @@
       "subscription": false
     },
     {
-      "category": "mint",
-      "category_label": "ROYAL MINT",
-      "headline": "Rare Royal Mint 50p coin selling for more than 230 times its face value - Denbighshire Free Press",
-      "source": "Denbighshire Free Press",
-      "published_at": "2026-10-13T13:24:34+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOUpXd3B3eEVmX3dabjJOeWxoaFF4ajFMOTkzclV4Y1JtNmNGYzZMSExOM0p3S0d3cVNWZ21pQUNMM2NwR1d6SUk0ZG4xSGdUZHZmRGU1VEQ0NnRIYVF2SURIUzhWbXBqbnQycEduWnl6ei02Zlp5ZE9rS21NZUpidW4xdDhmdFZiQ2U3eng2ZXlOQjU5X183WHZrTVFWVFFBU01rZDlsRjJuMGd3R3JRTVAyUkdNTjd1TWZsSFpsNmw5dw?oc=5"
-    },
-    {
-      "category": "etf",
-      "category_label": "GOLD ETFs",
-      "headline": "Gold Price Forecast: Central Banks, ETFs and Key Levels - www.equiti.com",
-      "source": "www.equiti.com",
-      "published_at": "2026-10-13T12:21:33+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMUp0WmdldFJvWWY3WTJSNzUtM0dpWHpCRDA2c09TRVI1Y0lHZXlNRm5OdlhnMVdGOFM3WlpQQm5UN1dqRUotNUpTV2pMMTl4am5aRDRkTVA3TG1xcHd2Smp1d0syeUI3aEpucFlMTUFjXzBkUk9qZWhiSG8wRVFyckUtZWtqUzdaektYeUpDcV9ZNmNrbzJmaGJWRnVvZmdfWExn?oc=5"
-    },
-    {
-      "category": "central",
-      "category_label": "CENTRAL BANKS",
-      "headline": "China Gold Imports 2026 - Spherical Insights",
-      "source": "Spherical Insights",
-      "published_at": "2026-10-13T11:11:39+00:00",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOWmUxV1VjWUh2NjlBby1ZLUhKNUlDMndrNkZyZ05YQWoyWlFRRGtyVVEzS2hvR0R4WmRlSVhYaHhkYmM5SmhUcWFKMkhDVl9Wa3JwWk90R1RMS3JBNWdOUTdkdF8yNnE2OWlLZW1seHJRU093TVhTQl9JTFVxMlA1QmtTa3RkeG95eU9kY24ycGw1MnRvY0VFZThDLXFPV0Y0eGNibWlMaHZGeV9nYmNnbVpsbUhsdE1DQmZuSE5PMlloeTcwQnFLWTNicERaREhXYnpJdGVSa3ZXU3JKb1N2bVZB?oc=5"
-    },
-    {
-      "category": "etf",
-      "category_label": "GOLD ETFs",
-      "headline": "3 bullish Gold views, 3 different reasons: A 45-year chart, record ETF flows and China's stacking - FXStreet",
-      "source": "FXStreet",
-      "published_at": "2026-10-13T10:53:34+00:00",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVEM4dGVWeHhDSzUtakFfcmQxV2NibDlVS3E1M1M4OFFXNmtnUHlGbVpBTXlqQ2VQM2FYMDA2bkR4alpTcjZsNVZLMHpqZEpkMldIWE05eENWRXgyVkJYSUVzR0xMZHZWTGtKV1lMSkZNandNdWtpdlNjZzRVV1doWFFtcGtPTWRlQTBkZE5IQU1iVkZDSVU5djJZbEdWZDVOMENKOFd2UTA1blRkb1hXeTVJc1RCN2JwNnBMZXRQa1RFendzaER3SGtHajFRMFdZOTJRd1dZWQ?oc=5"
-    },
-    {
-      "category": "geo",
-      "category_label": "GEOPOLITICS",
-      "headline": "Gold capped below $4,200 as hawkish Fed signals and Middle East tensions blunt dollar decline - VT Markets",
-      "source": "VT Markets",
-      "published_at": "2026-10-13T10:44:36+00:00",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeFZBLUZGRzgtRXlycmZHVDZad3ptSFV0R19meUR3SllJTkN3Z1BpYngxNUxmUHZ4WkRCVTZkc0RwcWZiZXBXbjI4S2Y5QjMycHVWa0k1MFhDay1qOGJDSlczZFVOTWdFZ3NpOGVVYVpQNE91bkduWDJqbXpIc3NmOVhFV3RxNFFQNXBsaXhMVDlyWk1wQ2ZOdE1iNzRtWFpzQk1EcllfTGFSZUM0dGdmYzZKQmZXa25RWk5qbkd0QjNXUlh4RmozYkI0S09FTUZEMWZB?oc=5"
-    },
-    {
       "category": "grading",
       "category_label": "GRADING",
       "headline": "1792 Half Disme Shatters Record at $2.93 Million as Heritage Auctions Top $19 Million - CoinWeek",
       "source": "CoinWeek",
       "published_at": "2026-10-13T10:01:20+00:00",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaDVmc0JrMTdudWtOd1R3TTRYR3l4TW1sOGoyMDlYT3Q2cmswVzE1eWVmQk9KUGJuZDBpdklWVHpJZl9lUm5RMmdHSWl3UWhoM3pEWFEyN2Yxb2xpQ3BJZHpkQ2JaYU0tSG9KOWM1T1loYzlraGM4eGNZRGw2NmlkNGtlNkFFVE1RZ1dxSzRJc1dDRE9tbjVEaFdIN0ZDaUI5a1UyTUxWbzQ?oc=5"
-    },
-    {
-      "category": "numismatics",
-      "category_label": "NUMISMATICS",
-      "headline": "Same Grade, Four Times the Price: Why CAC Coins Stood Out at September Auctions - CoinWeek",
-      "source": "CoinWeek",
-      "published_at": "2026-10-13T10:00:09+00:00",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMVhWS3RkdWpJY2gzYjZZYzJnNTlZUGZ5TWEyY2FOMmZNMHBGVVpFU3d3VzBoVFJtQTYxaUNFbmdSSDJyblpmZ2N3NTJOZ3ZwbGY0eVlvQVpOVmlXTi0waUJDcTZ3VlhmZ01oM1M2MzJaT0R1UE43ODVsQW1lbmJ1NUJVUUxybS1tMEFiUmhOSDBnczZfYmVsMk1wYjZqeU43?oc=5"
-    },
-    {
-      "category": "rates",
-      "category_label": "ECONOMY & RATES",
-      "headline": "Gold Price and Treasuries: Are Investors Underrating Inflation? - Share Talk",
-      "source": "Share Talk",
-      "published_at": "2026-10-13T09:42:56+00:00",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWmVuT0IzSENSM0h1UkxTZk5YY3cyU2Q2NlZhUnFSR2xZakhhY29YQmJiQVRFbmdmVXNOV1JjRDVrS2R5SExWYkRFSjhfLXJfVnNjdnRTR1ZaZzJQX3UtZlQyWjJHQ2hFMXhvUWpGYUpLelVnaGxhSWVoOVBGOERyMFJUdlI0UHVURnBNWk5uWkxYb3M?oc=5"
-    },
-    {
-      "category": "rates",
-      "category_label": "ECONOMY & RATES",
-      "headline": "Gold Recovers as Oil Prices Ease and Markets Await Key US Inflation Figures - Yahoo Finance UK",
-      "source": "Yahoo Finance UK",
-      "published_at": "2026-10-13T09:42:27+00:00",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWnNXcEFyenVTSzQzYU4zX3JaV0tkLWtJU1JRLUNORHBBR0t1VU5mb0ZuTU0yU0lNUkVzNk1iTEpRLXFDa3RuZWctTGhnV3NuWi14aFhkOHR0MkFIMEdvNHJXUXNId25EeDVBS0dtY3RWNlJWNTExQ3RwLU13NkVLWEpibGQ?oc=5"
     },
     {
       "category": "rates",
@@ -134,63 +247,21 @@
       "subscription": true
     },
     {
-      "category": "breaking",
-      "category_label": "BREAKING NEWS",
-      "headline": "Shafaq News..Gold rises as markets await US inflation data - شفق نيوز",
-      "source": "شفق نيوز",
-      "published_at": "2026-10-13T07:07:25+00:00",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQzZiRVoxQW1yZGdYbjJpdnF1bmRaRWhBb0haSkhXMXBialhDMXF2dk5tNGw1VlNNV0g4dVJndjhNWjVKRDRfV2pTSEd3VUZvY21iaXJKS25LcGFfS1lXaVNtcy1DWjNDMlplQXBqMFNhUzBVNlVhSlFWMmpjVmRuSw?oc=5"
-    },
-    {
-      "category": "market",
-      "category_label": "GOLD MARKET",
-      "headline": "Gold Price Today | Price of Gold Per Ounce | 24 Hour Spot Chart - Kitco",
-      "source": "Kitco",
-      "published_at": "2026-10-13T06:01:16+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBnU2dTNUduLWh4WmxVQy1ndS1jN01abVlCeTNTMnFMbFdmS1d6TnFCekxTZVlXNGtKdnNRN3plT00yZm5LQmh6Rg?oc=5"
-    },
-    {
       "category": "market",
       "category_label": "GOLD MARKET",
       "headline": "How Michael Woodford made modern macro relevant to central bankers - Financial Times",
       "source": "Financial Times",
-      "published_at": "2026-10-13T05:00:09+00:00",
+      "published_at": "2026-10-13T05:00:31+00:00",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBuSmpZa2ZFSEZxQTFWSkctR2N2RnlfNU1IdWtTakppcVM2N0xtak5CRHhjSlZpN1BVZ0UyTTBhMUZoV1ZpT0RZYjFsQmlwRVJva3JuVVFjNFBRVjRGdWllVzQ3TG5JOW51MFpzUFV6Ym0?oc=5",
       "subscription": true
     },
     {
-      "category": "geo",
-      "category_label": "GEOPOLITICS",
-      "headline": "Gold Price Forecast: XAU/USD range play extends amid geopolitics, ahead of US inflation test - FXStreet",
-      "source": "FXStreet",
-      "published_at": "2026-10-13T03:51:02+00:00",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUmxMZ0c1ZVZfSkpzMXpLUlZiV2w5Z0dMcEgwX2JDM1J1eG52NE1NaGxTNkVfS0FqbGFfV0k2cU1kQVMwbnZSZDNTdUZfeVdIdzFvYXZEV2FsdHdvWEZOVFZCTkF6aXRWNlE1RjB6VFlGeU1Ba2szUDAwSmgxcXlVeWJmb1R2eHdaNnQzTV9IbjdqY3d1UEtVRzRYeC03ZXZDWUNtVUpkMzVINmNuZFJCc2U5bGhHdnJ4ak9LM1h6TGFoNGhWQ0dBdHRuV2s3dUdDck1V?oc=5"
-    },
-    {
       "category": "breaking",
       "category_label": "BREAKING NEWS",
-      "headline": "Gold holds steady ahead of US inflation data, Warsh remarks - Reuters",
+      "headline": "Gold subdued ahead of US inflation data, Warsh remarks - Reuters",
       "source": "Reuters",
       "published_at": "2026-10-13T02:23:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRnRSZTl3U0dwUkZRSkNlalhmeF94cE1aaGV4NjNZdll2aENMRDZTWGNTTnhjMS1BQ1hKUG9qc2hKS185eXpWTjFfUnBwN1cwdVNIUllaMnc0Tno2SnFBaXp4RGxMWkd1eFhXR1VTLV9qN25ETlIyeEVLNXNGX2NqZV80SUk5WG5IeEVDNGpRbTRfaVliMk9HVk5vQ0lyVnc?oc=5",
-      "subscription": false
-    },
-    {
-      "category": "market",
-      "category_label": "GOLD MARKET",
-      "headline": "Gold Holds Drop as Middle East Fighting Stokes Inflation Fears - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "published_at": "2026-10-12T23:54:56+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNGxFTlR1SHo4d3B6YnI0bEpxUTNSeE92ZkRWNW45WG5wMDhCcVJqSDdjVDZXWnpEV2xlTWlVbnVxYWJ3Y0V2SGpaVjB0MldSWllRQS1rREVnamFUTGxIWlhTSk0tT3BRUEFkbVVuSWlxa3UxMFRxOS11RXMzR3VvVExCTDM2ZE9DbmN2cnp1XzBFblA1cmo1STBzTGJYLWxhak1Ma2NBMGpsUDJOWU92REt0SQ?oc=5",
-      "subscription": true
-    },
-    {
-      "category": "market",
-      "category_label": "GOLD MARKET",
-      "headline": "Kazakhstan starts gold sales as treasuries burnish dollar appeal - Mining.com",
-      "source": "Mining.com",
-      "published_at": "2026-10-12T21:47:22+00:00",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQ3NkclpNeHZSMGdycU1SWHB0QjJKY2dOQzYyV3hXTUhVT2RoeEt2WXZOM3lpQXlkZVZURXVUN1lVN0tXalpqMnAwcGJKU3RQTTRLTEtPbmJibEFPOTlrbWhMYXFlbVhjNHRnRFZmWmlWazIyM25ZelFvZXh1Z3hEMi1zMGJ0MlB3QUxHU3VxdHBIaXpqZWpR?oc=5",
       "subscription": false
     },
     {
@@ -201,15 +272,6 @@
       "published_at": "2026-10-12T18:26:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNU1NaYzlBbFJ6S05MLUFaVVlCOXhGMjdJcnZMa0JvQ0w4YXl2RjN6RVZadEt5MGMteFIzdTFIcm5sWVhPdW9FSHZjUVpGbWY2cEU5elBhV0h1UF9xaTNydmNTR0NnMnFYel9vU3J2T0Rwa29IVWZRMHEtaG1ERDdiQ2ZFaEp2alBNcUVuaExZenFfM0NYYnR3cHZoLXJadw?oc=5",
       "subscription": true
-    },
-    {
-      "category": "breaking",
-      "category_label": "BREAKING NEWS",
-      "headline": "French third-quarter growth seen at 0.1%, central bank says - Reuters",
-      "source": "Reuters",
-      "published_at": "2026-10-12T18:05:43+00:00",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQjhyYWM3YnRlaXJJd3FmOU84SUVFblpIWWFEbDF1VHJEemtTM2ZfRGk2LXNmLWJnVExEVjl0ckNsb29TbHM2ajJwNHNDLVRyNE1rMlBLSFdabjQ2SHFXQ3dEMVhidGRoVGswUmhvek5maUhvNG4yQk4tMTNVQWRTbTRYNmxiWTNFa0xXR3BfVFZpeTByZnhYTVJ4T1ViZUU?oc=5",
-      "subscription": false
     },
     {
       "category": "market",
@@ -239,24 +301,6 @@
       "subscription": true
     },
     {
-      "category": "breaking",
-      "category_label": "BREAKING NEWS",
-      "headline": "Italy exit from EU budget procedure at risk due to deficit increase, central bank warns - Reuters",
-      "source": "Reuters",
-      "published_at": "2026-10-12T16:01:28+00:00",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSG1aZ1N1NEh3UlRsRXFzMnZZSndqYmp5N0ZKQkNORnVlcE5ZUmY4NWthV1JwaEdfTTllQXJKMU1uSy1zMmQyRjNkRjZqU3UwWGZtTzRnSXJvQkEyR0FPT1ZmZ0tMRHl6ZnAtcVpFLTZRRm5lSHBZd0tnRkt1RGFiMkRROW0wR2o3Y1RQTnVOS0syMEZaU1IzZU9TQkRRalpRUGgyMmwxTkdZSXJzRTUwVndkd2lsbklTc3JGZA?oc=5",
-      "subscription": false
-    },
-    {
-      "category": "market",
-      "category_label": "GOLD MARKET",
-      "headline": "Kazakhstan Starts Gold Sales as Treasuries Burnish Dollar Appeal - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "published_at": "2026-10-12T14:16:46+00:00",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMHVjMXcwT3kzaG5yQXhsbkpwcEZPZmJOQ2VwLWthRGYzclFYNHhpOXNuaVpRbXo3MGNubWVsVFdwcVVhZDlOdWNsOFlKTGEwVXoxM2EwNklRSXhCWHVmeUwyckdBNjd2VDZrZXQyNThiYmxmVjBrUVRIWExBUVdFcE5aNWZZeVQwNWpKLVNacXB1ZzdBUjZuS3VyaTlfcEJ5aWg5TmZmQ2RneVpWU19FNkItTGQyQQ?oc=5",
-      "subscription": true
-    },
-    {
       "category": "market",
       "category_label": "GOLD MARKET",
       "headline": "Gold price needs a dovish Fed or renewed debasement fears to reverse its downtrend – Bank of America - Kitco",
@@ -268,46 +312,10 @@
     {
       "category": "market",
       "category_label": "GOLD MARKET",
-      "headline": "Gold prices struggle to hold early gains as U.S. dollar nears 18-month high, bond yields remain elevated - Kitco AM Report - Kitco",
-      "source": "Kitco",
-      "published_at": "2026-10-12T09:44:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRzdDOE56TDRlSFltbWhHNkpmWm42WEVkYlphdG9vQU9zNXNEbXhaSXBSZnoycjdtbGdNcWg0RWVMcjFPcmo1ekNobHIxVGxwSzNwZFNwTjBkR0Y3d2ZVbWdhYl9IekZXVzBlUXMwdHhEVExSQW1Qb0doVGdKMTNZOXI3UW4tb2NJNjZBUjQ3YTNhcmtvQzU5Y3I1cWtLVlVwNEs5SVNUTjF4cWZqWFM2WHMzSUJ5bnNZTEE?oc=5",
-      "subscription": false
-    },
-    {
-      "category": "market",
-      "category_label": "GOLD MARKET",
-      "headline": "Rising Bond Yields Are No Excuse for Central Bank Inertia - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "published_at": "2026-10-12T09:00:01+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNVpMbUZkX2MwQ2pTUE96a1BDUlNnNnJYdGQ2UW1Nb3RHQ0xMOWVNZDNxMXlHM2JVU2laZVZJMkdsRzFMNkh1Z3g2eDBIN1pLN2hqMGpkZlRTRnJxZ2pfZTJmMjVSSWJ5bVVrOUxGT3U4Z1VDV1pjQ3ItQVpKLXBQaXlHSDZDZm95TEFJOVlBM0s3eVJTNjd3Qy1Dc0RDU21ybzBsTW1wcGNzUGh5TzRRUHp3S1djWkwwVXc?oc=5",
-      "subscription": true
-    },
-    {
-      "category": "rates",
-      "category_label": "ECONOMY & RATES",
-      "headline": "Rupee Jumps After India Central Bank Unveils Currency-Defense Measures - WSJ",
-      "source": "WSJ",
-      "published_at": "2026-10-12T07:18:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObjRfQjhMOXN6M3FfdUtlSWFzaFVpU1JuNjVDdkdTTzJlNkQzRHpfQUdrLW5oNHN0b1c1WXBxWnlRZzRDTXlkT3cwVDdnYVBpR2JoemZXV0toVGZBWmpCeEg0MktXWHFLNGZRdk83NkZzNGw4Y3BrdDdhaEx5Wk5pbGRrQ0JwcmhyWldqUU5tSEwwY0dVcDBrcUxoSmxoeDNFWXo3LXpBcTQxbVVYVGZxVFRJaDlFSmowWGc?oc=5",
-      "subscription": true
-    },
-    {
-      "category": "market",
-      "category_label": "GOLD MARKET",
       "headline": "IMF and World Bank to warn central bankers of a gathering storm - Financial Times",
       "source": "Financial Times",
       "published_at": "2026-10-11T17:15:01+00:00",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPM2tWc2xGT0Voa21HekR4eTZIM3Y0ckRVUFVTTnhDVnhXajk3SnJCODd4enpuUDE0YU80MkVvRmxGNm95YVdlSi1PVzI2MVlJSDZXRTA5UUZ1UnI3aG9YQ0lPN1RrRWZWR2VnemhtM3RnSzViZ0ZTT3FyTzVRZW9GMktjZWs?oc=5",
-      "subscription": true
-    },
-    {
-      "category": "market",
-      "category_label": "GOLD MARKET",
-      "headline": "India’s central bank tries to shore up rupee as it nears record lows - Financial Times",
-      "source": "Financial Times",
-      "published_at": "2026-10-10T11:57:36+00:00",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMC11cWQ1NWZfWG1tRkVXS094TTFCeGtNV3daVHBib09DWEFKZFF0a28wQlNBWXR4RnlyTUY0djM2TEF4TlZ1VDA5U0RmRnlaQlQ3S2prSTJibWc4LWstc1BnYkRFNHY4aDZxRjV0dWpMWGxoVUUxYU1qU2Iwa29YbnhKaFo?oc=5",
       "subscription": true
     },
     {
@@ -335,14 +343,6 @@
       "source": "Numismatic News",
       "published_at": "2026-10-08T07:01:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS2lHSDkyOGF0QktoYkF1YjlSQ1JCQTlvcnZhSzBWLS1MN0haWWR5SGdIdzBfNm82ZnRkdk9tV05SQlZrbGpFRF94LTJJQUlZcUxBUXJ0TUVqOXlaSy1PY01iQUVfNWFRbWc5TlMtSlZhM0dqSlVmdGJkdzVYVW51Z05OVFZXWFJ1aXlrc185Q1R4a3N3aEFiRjZ4YmxCbnJyWjVnT1M5ZFBHNDBST2FDTjdpeU5oQQ?oc=5"
-    },
-    {
-      "category": "mint",
-      "category_label": "ROYAL MINT",
-      "headline": "Check your change as rare Royal Mint 20p coin sells for 224 times face value - Telegraph and Argus",
-      "source": "Telegraph and Argus",
-      "published_at": "2026-10-07T08:38:15+00:00",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQU3RNaFR5Q2pXZVdDTnhSS1lCcG83NkFhYWtXRTZRQUVQdGtzVnA5VXpaLUN4YS1IbnRjaGgzVmdDM0ExWTRudUVTMDNTZXBlLXZaX29PWUNiY2xISjY2LW1hN1VzTXpwS0tZQnpNZ3FlaVV1Y0h5UW56MjFCM200TjB6SUFsZU05TEFhaExZaHRvU3RoeXRN?oc=5"
     }
   ],
   "market_voices": []
