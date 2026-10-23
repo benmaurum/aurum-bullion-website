@@ -144,6 +144,10 @@ window.AURUM_COIN_IMAGES = {
     [
       "Reverse",
       "2022 Lion of England UK 2oz Gold Proof_Reverse.jpg"
+    ],
+    [
+      "Obverse",
+      "2022 Lion of England UK 2oz Gold Proof_Obverse.webp"
     ]
   ],
   "19": [
@@ -256,7 +260,16 @@ window.AURUM_COIN_IMAGES = {
       "28. 2021 Modern Chinese Trade Dollar 1oz Gold Proof Coin.png"
     ]
   ],
-  "30": [],
+  "30": [
+    [
+      "Reverse",
+      "2021 Mr. Happy 50th Anniversary 1oz Gold Proof_Reverse.webp"
+    ],
+    [
+      "Obverse",
+      "2021 Mr. Happy  50th Anniversary 1oz Gold Proof_Obverse.webp"
+    ]
+  ],
   "31": [
     [
       "Reverse",
