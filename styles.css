@@ -56,3 +56,16 @@ header .brand img{width:auto!important;height:calc(100% - 4px)!important;max-hei
 .collections .curated-story-card{min-width:0!important;overflow:hidden!important}
 .collections .curated-story-card .visual{height:250px!important;display:grid!important;place-items:center!important;overflow:hidden!important;background:#fff!important}
 .collections .curated-story-card .visual img{display:block!important;width:calc(100% - 18px)!important;max-width:220px!important;height:220px!important;max-height:220px!important;object-fit:contain!important;object-position:center!important;transform:none!important;mix-blend-mode:multiply!important}
+
+/* Aurum curated cards: prevent the Tudor Beasts height exception clipping the image. */
+.collections .curated-story-card.curated-coin-card .curated-image-box img{
+  display:block!important;
+  width:calc(100% - 18px)!important;
+  max-width:220px!important;
+  height:220px!important;
+  min-height:0!important;
+  max-height:220px!important;
+  object-fit:contain!important;
+  object-position:center!important;
+  transform:none!important;
+}
