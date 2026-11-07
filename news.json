@@ -1,8 +1,16 @@
 {
-  "updated_at": "2026-11-07T14:01:35.684409+00:00",
+  "updated_at": "2026-11-07T19:24:01.565044+00:00",
   "timezone_display": "Europe/London",
   "target_per_category_per_day": 2,
   "stories": [
+    {
+      "category": "geo",
+      "category_label": "GEOPOLITICS",
+      "headline": "Robert Kiyosaki: Rich Dad Poor Dad and Bitcoin Predictions - CryptoTicker.io",
+      "source": "CryptoTicker.io",
+      "published_at": "2026-11-07T15:52:12+00:00",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE04Mjd3MGpRS0VHMnVDWjc3NzN1eEJMcTlfVmwxQlNoTHNxUHhBcFR1NEpkV1dZa1FTUG9nVWJjSGQ3SHV1NjA2aVh5UnotTFZpUjVkVUtvS2pfa2QyRm1oeDNMd3NGQ1h5QUV3Mi1IeXFjdWVseElfdWFaa1A?oc=5"
+    },
     {
       "category": "market",
       "category_label": "GOLD MARKET",
@@ -14,10 +22,18 @@
     {
       "category": "breaking",
       "category_label": "BREAKING NEWS",
-      "headline": "META_TITLE_QUOTE - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "published_at": "2026-11-07T11:36:29+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAyUjl3TDFqeXJOOE9qNm8tYXNFcUJJREpDdXFNaE9fU0d0d29zN0pkaExFZUZiZENwMVJIOW5UTGVGVmZJRlB0dUJhSEZLUQ?oc=5"
+      "headline": "8 Stylish Ways To Wear Mixed Metal Jewelry For Fall 2026 - Forbes",
+      "source": "Forbes",
+      "published_at": "2026-11-07T13:30:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNzlVRXF3TGVYOXNSRVQxVlh5NnQzOTV3Y29VZFpLXzVDaUxNaE1sb3Z6S1JyNnFwQ3FfNGhrLWw1OXdrYmZxWVpmd3dncXRTdGt6OUlZTjZGMEJPRmozbDlYb2VRbkR4dEpvd3ZMMWZac0RLV19QbVJmMFBYVy1LTHVQZjd4VHVpYXAtdWNFNzBUMHJNUnNkUm5LWFo?oc=5"
+    },
+    {
+      "category": "geo",
+      "category_label": "GEOPOLITICS",
+      "headline": "Gold Discovery Expands 12% as Drilling Hits 42.31 g/t Over 2 Meters - Streetwise Reports",
+      "source": "Streetwise Reports",
+      "published_at": "2026-11-07T11:46:43+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcmswajRYQWpoblljS0M4aTZZUVlVOV81aTBabjQ3YWt6LXFxcUJVVmtXaVF5dTEwSGx6Z2VydVJBWURDNmhvWV90MHNZLXN5NEZDUUxPT0tEMXF1VGZ3R2dIZEF4VzJpNjdSRmFwQXZ2MFE2S0xIbGxGSXNzanlWX2QtWTQ0a1E1enhrZWxEWjFRRHFULU8wYXZmUnNrVkJEcVAxR1dDZjk0VVNoeWtmRkRrd1paRkV5NUF5MnZDazVxQQ?oc=5"
     },
     {
       "category": "rates",
@@ -36,20 +52,21 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOc19DVlZXQ1FaMi1aWDRwLV9mOVV4UmltdkdTMllWd1I5QVdlVWFFNV9SS0tDc3NlNlpGdS0yam5yMi1Hajk1VHFYdWM4blJ3ZnFRdHplcmRERk9RSzhpdTRzVjlMNkJoSDh1aFZCYnhtMUJkVUNYU1F1NlBERWV2bVVzZ19rNnp0UFJ1OTZ1QUJfWDJzb18zNmw3MWxmaE9tSlpXWDh6bjl3elVyNUJ0Z2tsOUZVWEMz?oc=5"
     },
     {
+      "category": "market",
+      "category_label": "GOLD MARKET",
+      "headline": "Czech Premier Blasts Central Bank Rate Hike as ‘Scandalous’ - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "published_at": "2026-11-07T07:31:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObHZGYm10VWZ4YVdFUWRKTDJxLWdwZ0JTSEVyQTZIcDZGU0dXWDNQMlJrU056TUo3QVRnX3hsSkNjbS01Y192R3FMd29PZDF6VTE1ZWpkdlJjdkhHa2VkUjZWNXZfdUFYaGV1QUFuZk5OZU9qR0N4THA5bnFwZ2IzZWFtM0UzVTdBUTZqZmRaQ1RiWHRkb0xDUjdDdWFBdl9qZ1ZYZDZqZHFHRGF3?oc=5",
+      "subscription": true
+    },
+    {
       "category": "central",
       "category_label": "CENTRAL BANKS",
       "headline": "Central Banks Accelerated Gold Buying in Third Quarter - WSJ",
       "source": "WSJ",
       "published_at": "2026-11-07T07:29:41+00:00",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNE5ITWFudmVrYUgyekVzeUp1YkVlYTBkY0pZbTJSUFhraGRFRXdpczRWODFrOUpRRHQwU3VlbmJnNGk1ekV3MUpfOFJoa2liOEEtNEZDSEZQZDlUWENqa1NlaHJjZ25VYTNtMGVDQ2kxa3hJV25pZkxjTUJKandqeUgyUmJCaGpJWU8yaHBMQ2l4M19qRnFPYS1SSEZTMlF6ZFBubmRPMDgxUDFzbmtiaA?oc=5"
-    },
-    {
-      "category": "geo",
-      "category_label": "GEOPOLITICS",
-      "headline": "China's central bank adds 830,000 ounces of gold in October, biggest monthly increase since resuming purchases - BigGo Finance",
-      "source": "BigGo Finance",
-      "published_at": "2026-11-07T07:25:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5uMW9SeUR3cUMza3dIY1RqZTVDakhoYTZteHFCU3hGMVIxUXZleERCUDcyWnNIR2VCaTdlSi1OVV9QLXlrM245NUo1TkRNM0dtZW1iZjRyVElTSXBkOG95a1dwLW12Y2NwaVBId09NME04aUx4amc?oc=5"
     },
     {
       "category": "rates",
@@ -59,6 +76,14 @@
       "published_at": "2026-11-07T06:08:25+00:00",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdkE4aGdIVUE5b214Nmt2UmV6SnMtNDhaeTV5VEpPd2o2MWVBTklmYW1teWxmbDdVSy1NSHlJTHMycjlhZDhwQnAwVlZ0MFkxWS1lWTgxanJGbEVWbjhaaEJWejB2SzhWYVFYZmpSTjJYaXUtOGZlTGZDTWNFR3oxZzROV0lTeW9ZU1hWeV94aDI2TklxMTlHa3lobHU0WjVUT3lPRDBMcDJnckxTQnBOLXl6RjM0M1BVZ1E?oc=5",
       "subscription": true
+    },
+    {
+      "category": "etf",
+      "category_label": "GOLD ETFs",
+      "headline": "Gold ETF Inflows Rise as Yields Limit Gold Price Recovery - www.equiti.com",
+      "source": "www.equiti.com",
+      "published_at": "2026-11-07T04:18:04+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVG9Ed0NHRy1ZUE5hSDVPS1hfZ2hsWVVuVll1UmpLcnFnTkVDaGZIMlE2LU9WMVRLZVhFbmVMTXN5Y1dGdXFGRGEzZ3pEaGVsYzlQby1Jck1DZkpWLUFBX1hDRWRoeV93eWQ2WjhidDVNbVllS01LcXYyZENzRGdPamN4YW5wOEJjUGNvUjlWMmM0ZXg4azMzc1FrbjNKaDN4cnc?oc=5"
     },
     {
       "category": "rates",
@@ -129,12 +154,13 @@
       "subscription": true
     },
     {
-      "category": "geo",
-      "category_label": "GEOPOLITICS",
+      "category": "market",
+      "category_label": "GOLD MARKET",
       "headline": "World embraces gold while US resists shift, advisor says - Mining.com",
       "source": "Mining.com",
       "published_at": "2026-11-06T15:34:42+00:00",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOS1R5cEx1VXNhVDNBOXUyWWdPVkY1djk4aFByWjZyVU95eFRkU2Rka25pbDdvNUd5Zk5uSXp4MV9CaVBPb1NUWjVrZWFJSmdMa1h3dVVRT3E3Z19HUHJPclBwS0dhaVNMSXFPUzNzNEwzZWlxVEtWSkc4LUUtQ1duRmdWblNHQQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOS1R5cEx1VXNhVDNBOXUyWWdPVkY1djk4aFByWjZyVU95eFRkU2Rka25pbDdvNUd5Zk5uSXp4MV9CaVBPb1NUWjVrZWFJSmdMa1h3dVVRT3E3Z19HUHJPclBwS0dhaVNMSXFPUzNzNEwzZWlxVEtWSkc4LUUtQ1duRmdWblNHQQ?oc=5",
+      "subscription": false
     },
     {
       "category": "market",
@@ -146,12 +172,13 @@
       "subscription": false
     },
     {
-      "category": "etf",
-      "category_label": "GOLD ETFs",
-      "headline": "Gold ETF Flows: October 2026 - Seeking Alpha",
-      "source": "Seeking Alpha",
-      "published_at": "2026-11-06T14:53:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0wYnBQY25URkxIMlpsMkhWUVJrektiLTNLSzFycGY1Y3dIa0xIU3pvWmhuUXlOeTVJbzItTnFzSGxockFmb295YUpSRUJYNDZMRFQ2VkdFSzQyWVoyNnF5R3NaODhvTGVBLTh3YmJmRmRITkdjTXE4?oc=5"
+      "category": "breaking",
+      "category_label": "BREAKING NEWS",
+      "headline": "Spain nominates former central bank head De Cos for ECB presidency, deputy PM says - Reuters",
+      "source": "Reuters",
+      "published_at": "2026-11-06T14:29:43+00:00",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZEF5eVkyWXowNTFrSWY0bVZrTzNjMXQ0NWFhQm41ZmlPN3BlVVdUN2hjS0xkczJ2N3JRYUxEUl9NRHVMekptdHp3eDNrQWJuYVZ4UHljZnlTc2gtRlVEcnZIbElkeS1jR1pQUVc3UVVwWE5tcW5oQm5FRWEtSDZBYkpYRzZWbTNCSV9rNGJaSFA0aWtONkxXbDdNemVFbUhMbDRWMlQ3aFVZdk42ajM0T181bGNJazVHYTFlUzRGeGgtU1hN?oc=5",
+      "subscription": false
     },
     {
       "category": "market",
@@ -187,24 +214,6 @@
       "source": "Mining.com",
       "published_at": "2026-11-05T18:19:44+00:00",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVXZIcnhzNHBhRi1ES3dPOUVBRmdsRFZTajNDZzN0STNyamVIYmlZN01sa2ZIYWVscU9MTXdsSHYzaTNaZFhkN0ktaFZTV19sckRlVm5pQ2ZtbEJ4NDRGZmxZQmxkSG8yWl9xR0tyTExMalgwd2I3RjAwLXVoaGlWQkhoZ1FycTdYbUFR?oc=5",
-      "subscription": false
-    },
-    {
-      "category": "market",
-      "category_label": "GOLD MARKET",
-      "headline": "Poland central bank chief leaves door open to more gold buying after hitting 700-ton target - Mining.com",
-      "source": "Mining.com",
-      "published_at": "2026-11-05T17:10:57+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTEZzRVQ5SEpCdW82ZDJDNE5UbUt4bGNiSU45bnB2ckUxa19ZREpQQV9fWEdrZzlfU3JKQWJKZ05FRmE3STdJRlFIZlljdTdGaGZDQ2MzcFBMZTdkWldEWDNsczlSb2Z3N1VlbkpJWV9rU2NqVDJaZmFRNC1DV1hDbDdLanhIYmxaS0FrbjJZTm1KR2ctTGVucWZRWS03OFJta2dvOGhsUmhBOXdVNHpsRlIxaG5OV0JlbnFv?oc=5",
-      "subscription": false
-    },
-    {
-      "category": "breaking",
-      "category_label": "BREAKING NEWS",
-      "headline": "Paraguay's Peña resigns as bank collapse triggers political crisis - Reuters",
-      "source": "Reuters",
-      "published_at": "2026-11-05T16:22:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWGc3WWZCT3BZUUFMY3E0VW43Z244SWNKVUk4NS1RZ1RHVGVSdG1RSVNKVjFaZGdlQjktT2JvcElpNEVvMllaNTdIbWRMdmdQZ1F3RjZwMThjcVU5X1pYY20wajc0MzIyenBHX3MtaEVRRnpRTC16TWdITnA4QWZxcFhtNHh0UlR0YlZ2UkVqUmF4YXZWejdWY2xsZ0c2bm5oWUNiczZnWms4NHo2eHctcHJKSHJEMmNDQmtZ?oc=5",
       "subscription": false
     },
     {
@@ -317,15 +326,6 @@
       "source": "CoinWeek",
       "published_at": "2026-11-03T12:00:30+00:00",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbUNyaVk3SnFXNnYwdzJNWTNkWVk4VzFuOUVjTTlVdldVOEdwZXNJVERSSi1YblREYjVwcS1POXBDeG1nd0gtZFUweWJYalE2ekhxT0IwSm1uTGRHS1ptQUw1X1FpX2M4OVF5di10QmlRVVRHZFQ1TTJrdEJpR3NmQzZsb05heDZCbFVwbGpNQQ?oc=5"
-    },
-    {
-      "category": "market",
-      "category_label": "GOLD MARKET",
-      "headline": "Central Banks Buy Gold at Fastest Pace Since 2024, WGC Says - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "published_at": "2026-11-03T06:00:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVTAzMER5NjBXcnVJSzN5SnlMT2R3WDc5TmI1bHk0clB1QXc2bVluV2xmUzB1SmZ0bGM0bm0xQlNUQnE4eGxGdHZYZDJudy10bjVaNjFTeXphNjVCVHFuY2NPRGtDeXBSV0d6czdjcEFzYlp2SjJpUUZXZkp4VDJtNE9tYkZSQ3lnNUpGZVhzbjJiZEZ0bHRNSHU2VFJERm9mbWtmTk1VRXFtcDNlVFhZdlExR0hmd0xpVDZIb0ZnTnBKdw?oc=5",
-      "subscription": true
     },
     {
       "category": "market",
