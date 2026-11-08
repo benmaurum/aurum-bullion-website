@@ -1,8 +1,40 @@
 {
-  "updated_at": "2026-11-08T14:17:29.351381+00:00",
+  "updated_at": "2026-11-08T19:38:39.326074+00:00",
   "timezone_display": "Europe/London",
   "target_per_category_per_day": 2,
   "stories": [
+    {
+      "category": "central",
+      "category_label": "CENTRAL BANKS",
+      "headline": "China’s central bank extends gold-buying streak to 24th month - Mining.com.au",
+      "source": "Mining.com.au",
+      "published_at": "2026-11-08T18:27:47+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOV2JmTnp0Zm95b0Y2UFYzYWV0RGJKQU41aWtPbjQ1cEhtS0h4VHJXMFJxenZoSm0yYlpuNWRub1pIdXE4eXZTVDFvcTBjQ3FiaG5hZ0V4cXhWRWpoV1RRX25sMUl4aTF5SXNVZU9Ia19VT1NVaTVIWkFXOEtrWjNoeHZrSm9yMHh4Z0xz?oc=5"
+    },
+    {
+      "category": "rates",
+      "category_label": "ECONOMY & RATES",
+      "headline": "FTSE 100 Weekly Review: FTSE 100 Slips to 10,673.94 After the Bank of England Hike and a Global AI Rout - BBN Times",
+      "source": "BBN Times",
+      "published_at": "2026-11-08T17:32:10+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNWdKblJZUW81U2lvRC1DYy13dDUyd1o1azZDTlpNclFlMmNib2xHRDd4aXNISEJZNkgyNGlmd3hOS2R0ZnVZVk4zcUlTbHVlb3ZKTGszVWVPektlNnBMbWd5eTUybFFyNnowZ1JwcUd0X3ZFZ0FrdHpGOG5zS1FpZkROVC1xQlhTQTVUVzZtcHY1OWl4eXQza1ZWNjRxdkNLQUlqNHJLSWZuaUxLcjhuaEwtSUZtbTRoOEFhLW4zT0gza1g4a1FOZ3BsaE9sTnVrdTJZ?oc=5"
+    },
+    {
+      "category": "market",
+      "category_label": "GOLD MARKET",
+      "headline": "Gold prices drop - VnExpress International",
+      "source": "VnExpress International",
+      "published_at": "2026-11-08T15:19:15+00:00",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaUxvRTFncUxrbFRWNVA5ZmtrLXN1LThOV05pbGRSazN3YlZVeFFxMk1VWG9LbEF4di1zS2dQQ0YxeVhtaHFVWm1NVlgwcEw2ZmJYOThZYTR5WlMwVV8ySVY5TjNJN0ZJZktHQ184RlpwcHY2LVJyeXRIZmFqN3g0Tw?oc=5"
+    },
+    {
+      "category": "breaking",
+      "category_label": "BREAKING NEWS",
+      "headline": "Americas Gold And Silver (TSX:USA) Stock Still Looks Undervalued On Its Sales Base - Yahoo Finance Singapore",
+      "source": "Yahoo Finance Singapore",
+      "published_at": "2026-11-08T15:09:36+00:00",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdXY4dzE2dVBraFg5YzI1UnljUVNCRDkwS21PZkliQW15ZmVvRDVzdHdSTTFvZ3N4ZlJEWU9sODZybHFjQVBNbXZTMWNrc1NfUnJUNUFKRXMzV0ZndHlHSzBTbTlXVWwySUxtTG03b19sbHdkZ2ItRFJPQlJjeHZIWEFINA?oc=5"
+    },
     {
       "category": "geo",
       "category_label": "GEOPOLITICS",
@@ -10,6 +42,14 @@
       "source": "TheStreet",
       "published_at": "2026-11-08T13:17:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5NR2hUOGNrazBVU1R1LVVONG5uWWlNN0dHeV9JUEFWVk1iZzdqY2RsbkIwNU5nNmJkeG5NMVZUbDJwVnB5Vk1EZG51YVI3UHZHSmxrXzdaSHVjankyR3dudm41X0F3NDkzeGlqMDlNTjhnZWRmeU5Z?oc=5"
+    },
+    {
+      "category": "breaking",
+      "category_label": "BREAKING NEWS",
+      "headline": "Cornwall artist who put camel in eye of needle plans exhibition - BBC",
+      "source": "BBC",
+      "published_at": "2026-11-08T12:17:16+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FMVRETnRwdnlKMTRhTWdQRkRiMEl2OUdIcTdXZHNFcnd3c2NmbEJoMWI5YVdmeWl3VGRXQ2FnSHJJeGJELVBTTFNRVm5JVkpaYkpCYWVsS1hLeEhoV0E?oc=5"
     },
     {
       "category": "market",
@@ -28,6 +68,14 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcWxMbWY5TmVNclpsdGpjTGQ4cnJXYjl1bUhNYnh0ZUxsMGhJWG1lYkx3aGhMMEJSaFE4MmxGRW94bkVHTEhWMy01UGJWV09YbzdsN3BuZWhyTU1wLVNES1l1bGlndHdHdm9GaWM2MnQtN05MQjdpcHRNVTUyRkNERDFZZUE5SWJMUHc?oc=5"
     },
     {
+      "category": "geo",
+      "category_label": "GEOPOLITICS",
+      "headline": "Gold, Silver Outlook Hinges On US-Iran Tensions, Global Inflation Data Next Week: Analysts - NDTV Profit",
+      "source": "NDTV Profit",
+      "published_at": "2026-11-08T10:11:39+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUllCbTZYcmROdEEzd0tWMHdPVzVUU2FpNm00SEo4RU1hOHAxNE1IUTdPOEp0T2paOUlybExXcVRtUE5kaHM5ZDFQQ3VHZlFvdGZoX29TTTBIV25wT3RDaDJJN1ZmdTNOWUJ1dDAwbzNjcVh1bVZ3bExkVHBTZU9CM29heUpyUEhQaEtLUFFkcDhLWlVFVEtHT3RjT3NjTDcyRjkxQkIxellweWZlSTlJaFhmNzlnSWpqQ2dBY0V0ZGlod0pqa2xpRGNxSdIB0wFBVV95cUxPWGtrdGZKR0ZFeG5UdUltb3N4ZmlnOU1pd09falI0NFB3X293UWlWTkVnUnYzYm91bHhSSkhEUmtvS0EwLXJScjlMdzc1WWNMTkxjTzY1LVc0MkJyd296bG5zTGdtSi0yVlRQajdWaG9icEFFZ0NpZXVuZTNnbGtacV93UDRmQnRxaVdzUUZGSTRVVFR5dGM5SXp2S3lXeTMxOTM1Q04tb0lpaC10TE9zM1NYd2lWSmtWcDJoOC1wSkZhUXA4M3JRcGhVZENrbW9ZLWNV?oc=5"
+    },
+    {
       "category": "etf",
       "category_label": "GOLD ETFs",
       "headline": "Nippon India ETF Gold BeES Leads India's Gold ETF Flows - Multibagg AI",
@@ -38,50 +86,10 @@
     {
       "category": "rates",
       "category_label": "ECONOMY & RATES",
-      "headline": "Weekly Outlook | China and U.S. CPI figures to be released one after another! CoreWeave, SMIC, and others will release their earnings reports in succession; Anthropic could kick off its IPO roadshow as early as the week of November 9. - 富途牛牛",
-      "source": "富途牛牛",
-      "published_at": "2026-11-08T09:42:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSFVGNVNHeHFFSGduUFFBQU9kampIOHBjNlk4Nkdyb0M4ek0tM2g2bTFpQ01mcFM1eWExRzhVdDFyc01SZ2hodnRIdDdFQVAwdXYycElHaTNKZ0lIdFV2Mll4SG5DandBWlJMZmdYOG8ycTJmX3lReTN1VExaMjI3anpwLUdxM2JvUUp1Q3UyOTZ3c0EyZW9lbkNRZFBrdw?oc=5"
-    },
-    {
-      "category": "rates",
-      "category_label": "ECONOMY & RATES",
       "headline": "Gold Drops Over 1% on Higher Oil Prices; US Payrolls Data in Focus - ASHARQ AL-AWSAT English",
       "source": "ASHARQ AL-AWSAT English",
       "published_at": "2026-11-08T08:08:58+00:00",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUDM2SDVFR1NxS2VSbF9qUmVMTTRfUlNKcDd1S0g2Yl82SUkydDhGS0w0ejF6bkdfaVppZFdtdzhTWmdIVGo1TDB2Mmgyc01DSEx0bFBJalFZSTI5LUh5ZUdwWFhlRjVOeVY2aEoyZHlRZVdYZlF3bEpENXdERk1ZLS1XWU95QTM1UUQtVUZFQzh2cWZOMzJsUjFqa0wxcE85MGhnZw?oc=5"
-    },
-    {
-      "category": "geo",
-      "category_label": "GEOPOLITICS",
-      "headline": "Gold, Silver Outlook: US-Iran Tensions, Inflation Data Key - Rediff MoneyWiz",
-      "source": "Rediff MoneyWiz",
-      "published_at": "2026-11-08T06:17:28+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUDk4aGEyOUJ1T1N5OG4yaXpWa2lJeHJTVTA2b01tcFVIU0pKMEtNVTRuYzRFYnJQTXRzbTFJMGMxVlZidjNCQTJNYXFjTXA2V0M1Q3k2NUdCZ2xfbFhhTW5HMG15U1ZPS2hLT1Ytay0wMlJSS0RqRmctM1IyclRxQzBPTWItT1JMMFJGdTNDSGF5RGhIVzFiaWlhX0FVNElPNURwN21sUXFUSjTSAbABQVVfeXFMUHIweUhyalpEMzBUXzRBZlNQVGFOcUJIaTNaSWpyTkxxNDVQLTZ0U19OTXNpTFQ0V3VQZ3BJc0VoTkN4VnF1dmpOc3V2UXNqLUY1QmthcHA4b0xULUFoWXVhUmZiOHc0QWg5cm5jZ1dtb3NCSDJXcWZhdXd0TjNVcVlUVXVlWjNOVDdBbVZYb0txLWZIQ29YMDdRSUZHUnVGZE9fUUo2X2pnUFI5TkpBNTc?oc=5"
-    },
-    {
-      "category": "market",
-      "category_label": "GOLD MARKET",
-      "headline": "Bullion may remain under pressure as markets track US-Iran war, inflation - Business Standard",
-      "source": "Business Standard",
-      "published_at": "2026-11-08T06:17:09+00:00",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNR2xDbjRHR19fS3lpV3FKNnNVSmYtdk4tYVVSSFJvb1lTeTJPTlNJOWJqV3ZfTmowbEZGUjBNSk9aV2JHbjMxRWtmbkhidHk2dlRkQzNoNzB4TDF1Z05WbFc2WkZWcHoxUzMtY1kzbmJtZHhRWnlhd0tfZ0tRWWN2NDZPQUU1SGgzVXlTbEV5dkFfSmNIVEVFRlJwejZMaEdmT2FlanlMLVhibzk5c2hWUndHd3lpWk11RUQtN2RkMzc1Z3JyNS1aZF9LNnhrTVdlV2pFNW4wWFU0Ync5MUpz0gHkAUFVX3lxTE9uRkhMRUloQ2hjYWMzUmZuaXVqa3dXcjFGUjZEbVFJVnNaWlUwS2kya3lubGpuOFdSLWdBQmYtNDNXZ3V5Q2hEdjVvRm5RSEQ0RWVVOWFncXdEdVNlSlp1ZFd4emVCTThjdExJZEtJMGhvSDlfQjZGSWdPWHZFUzFZcE1qaVVXVEh6SFZUUXZQVHJTMS1FUDlzTjVOQ3JCX3liQlNPR0hXQ21MOWttZTRQWS1XUmtqVml5VHE2bHZJRVE0NENKV3o4T3JJLUdtNjBxTXJRb2VvajZkVnFyNlFvVGtmQQ?oc=5"
-    },
-    {
-      "category": "central",
-      "category_label": "CENTRAL BANKS",
-      "headline": "Central bank buying and ETF inflows support gold demand in Q3 2026 - Prop News Time",
-      "source": "Prop News Time",
-      "published_at": "2026-11-08T05:03:53+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObmlIYlJRMGtZbGlLMFFEMExtN3NQeDg2MEJpeVNxQlM4bnhxSkZBWEhjN1lTeFJjTVNvdGJlekNxUnpMYl9DdlBvY2s0cy1KZVNyUjhmSG5DTU1RY3NUemR4YjhIdV84OHlCQ2dHZ3lEMnprYThRaUtxbEhqVTIycmVSaGd3VXB1MkdEV1JFQU9sZENWYXp2NW9ROEVJV2w5SVlrak9sN09VdUtlLWNudWNCbllicnpnU1E?oc=5"
-    },
-    {
-      "category": "breaking",
-      "category_label": "BREAKING NEWS",
-      "headline": "Gold near interim bottom, but World Gold Council says three conditions associated with price recovery ‘already in place’ - Livemint",
-      "source": "Livemint",
-      "published_at": "2026-11-08T04:22:31+00:00",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNQm84a19KQ2w4Y0tjbnU3OFFjeUxCVXBBc1FXRnA1ek5IYXJDSzBmUlFKQmJDZjJ2eEVxNk1fQ2twVDFZYkJIc08taTltZmJXZWd4cURqS2tUaGtSME9WSk9KRXN5em5BV19LcEZLUW1DbUhLSDkxQ0Y2NW4tVGRwbHBVa19BZXZrcmhWSUNCS3A4VmE5Wm5FQmpzY1NnRkxHVTlSMVRNOW9UNk1oRUVxdERYTVFnS1dLSWNLR0thOEVPWEFYZmVQQkluZTBNcERncFFhQ2czSUhGaXBWTldITG45WGpzVUloRWRoYlk1dTdvcUUyXzRqVnpleHp4T2hG0gGGAkFVX3lxTE1DWEVDbFRLVnhXVE9DcVVBWnk5UmRoenBMMFhFLUdrY2RFdXVFenhGaXFpYlc1bmIwU0otZDI3MEpUSDlROWFWVzk0dU1TcjktZ0VIT2pIckVhd2hDSkhIbnpycjFoSVNSMG9jLTB5SEVPVHBwZXpQWW5tTlZYTGtCT2x2b29WYnpVRHZJQnVjRnlLNG5FalV0clFxUjlhTzZ4RHJpaW5DRXZEY1N1UjZlLXVBX24zUmY0dEJIUENpNXM1UFBMM2hIbmU2VXZ3aTEyRnU3VlNLeGIwYXdDOXNWazVGME4zZUNqNGpRTWY5UzdLNHhSNFZsX3dCMWRleDdFNUpTU3c?oc=5"
     },
     {
       "category": "etf",
@@ -92,12 +100,13 @@
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4wY2pNX2V4LVlMUFA3bXI2RVhMWXYtdTJtb095aDJGWWhhVnhFcUhOdVF3TkdzZzh0aDhXbzRHa3hKZF9GdmZfb2JaazMwUjZNZWU3aHoxUHNxNnNrcTVZYXFJeWZMX1lJc0w4Vi1EaUd4NnpENHlqbVpEU0FSQQ?oc=5"
     },
     {
-      "category": "breaking",
-      "category_label": "BREAKING NEWS",
-      "headline": "Why gold is losing its shine: Goldman breaks down the recent sell-off - Investing.com",
-      "source": "Investing.com",
-      "published_at": "2026-11-07T20:03:17+00:00",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRHg3U3ZhYnJiM2NyLWZTcldjMkpJaF9IcHVEU3BacGxjbkVOZ0dubXBieEhHdWU4NmJYMWlhNm5xMm5LSmlCTDN6eGhmN1VfejNqWWpyYkhhaDllRDA5a3BKbU9NM25DalhqMnktcENLNFNxb3VYRFEtN21VUlIzanAyYVZscTF4aC1Uek1FbGlNWHF0TlRzUzFVbFVyN0pWczNlNjlGdkxzTTM0UUNsUTh3VUtOZ19vWVRZMG53MXg?oc=5"
+      "category": "market",
+      "category_label": "GOLD MARKET",
+      "headline": "ECB’s Lagarde Says Inflation Likely to Stay High in Near Future - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "published_at": "2026-11-07T14:52:20+00:00",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTjNxNHB3bnV6QkhJdWVmNHZpeTVVUVVqRG5vV0MwdHVzdE41TWtFd2lJcGlLNTh3ZzhDZ2tFQkVOakVkcm5xcndlanN1UnIyQ3V1bnVPZldQSW11OVFfWjZuMFZfS192bmVNLUR0cl8waHFuZ1hmWUdQNlpKc0xuVXl5MGF6aHVJVXh0ckhSQmJiOFBzTDViQTR0NmlKNmhzNFhNa2xvS2VqbDRyWWRybW1jN3o?oc=5",
+      "subscription": true
     },
     {
       "category": "market",
@@ -111,17 +120,17 @@
     {
       "category": "market",
       "category_label": "GOLD MARKET",
-      "headline": "Czech Premier Blasts Central Bank Rate Hike as ‘Scandalous’ - Bloomberg",
-      "source": "Bloomberg",
-      "published_at": "2026-11-07T07:31:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObHZGYm10VWZ4YVdFUWRKTDJxLWdwZ0JTSEVyQTZIcDZGU0dXWDNQMlJrU056TUo3QVRnX3hsSkNjbS01Y192R3FMd29PZDF6VTE1ZWpkdlJjdkhHa2VkUjZWNXZfdUFYaGV1QUFuZk5OZU9qR0N4THA5bnFwZ2IzZWFtM0UzVTdBUTZqZmRaQ1RiWHRkb0xDUjdDdWFBdl9qZ1ZYZDZqZHFHRGF3?oc=5",
+      "headline": "China Extends Gold-Buying Streak to Two Years as Prices Drop - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "published_at": "2026-11-07T03:32:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQVdJdkgwZnBIUEhYS0ZGcUpvYVFmWW5tVlZqVFlRSkJuOWUyU3Z2Zi1sZ3F1S3BuMmFrSUtuSDhDbWkzWS1lM2Q0OE14WTVkaEk0SnZMOExTRDFUV3h1dUNvejhVTkRmdjVLb1VKUU40ZlliTTVXenVaN3M5ZEpoZVFqMW9WemRDWGV2YmNCeGpVci0zU2p4a0xhRUhYaDB4ZC13bHNISUdOc3J2RUNKUg?oc=5",
       "subscription": true
     },
     {
       "category": "market",
       "category_label": "GOLD MARKET",
-      "headline": "How a Bank Scandal Is Taking Down Trump’s Ally in Paraguay - Bloomberg",
-      "source": "Bloomberg",
+      "headline": "How a Bank Scandal Is Taking Down Trump’s Ally in Paraguay - Bloomberg.com",
+      "source": "Bloomberg.com",
       "published_at": "2026-11-07T00:32:00+00:00",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWjlZNndUUWszSWpsTnNaZXdjZXF4Y1ZSNzhWT083RERweFdKMUFpX2NNRFhSUnozeFk4VElJdHM3Z3V0U3JEU1d4U19ZVmN2Z3RGYnVoaXZrR3JyWmpCV05FVkpmTDU1NnpHUVp2RlRTbThMb1hFdVU5X2VFbW5JWmNlOTBXam9Ga1Y0RFlwMUF6ODZUY0Riby1aeXB4U18wUzhXRENwQmhTNWRHYk9KSFJ3?oc=5",
       "subscription": true
@@ -138,10 +147,10 @@
     {
       "category": "market",
       "category_label": "GOLD MARKET",
-      "headline": "DLA commits $2 billion to acquire critical materials for National Defense Stockpile - Mining.com",
+      "headline": "Canadian Uranium eyes acquisitions as Rook II exploration takes shape - Mining.com",
       "source": "Mining.com",
-      "published_at": "2026-11-06T23:35:53+00:00",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU0dfSF9ucDVtN2V0X3B2SzR6RUVQSGVUUmMyUUo5cFNPN0pvVWY1NzJ1eUdiaHRGUl9SRzctV1hQUmZSTXhFaVNXUThjcWhXbWpJN3gtdTRtR2ZxS3dQSnlQNDMzay00aXJhU3UyN1VEVnplM0NEWF9BajluLURTbXJkTENRRUNCTUl2TmFSNGctRlNzQ2pneUVqUVcxZ1EtYzkyS0lVQXh1Z0wwblE?oc=5",
+      "published_at": "2026-11-06T22:55:43+00:00",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPREVlbGF2VEhocVBseEJCUnNQTDMwblhjZU0yMzEzeVFHdWNqWTZjQkFUUGpQMlZxSm1VSjdTYXQwUkhMOXBYRDVjbi0tQVJGSy1vZm5VS3cyRjg5LVNFbkNMM3h5R196UEh3UnpOS1EwX0J3Zk1nVHJScjhoV2U1aWE1X19IbUROc1ZEUV8tNXptekFuQjdzcQ?oc=5",
       "subscription": false
     },
     {
@@ -174,20 +183,20 @@
     {
       "category": "market",
       "category_label": "GOLD MARKET",
-      "headline": "ECB Considers Review of Banks’ Data Center Lending as Fears Rise - Bloomberg",
-      "source": "Bloomberg",
-      "published_at": "2026-11-06T15:35:23+00:00",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOXB2bzhtMkZMTXFJMURqRnJwdUNoLU1BQy1jUDVQcC1uS1NaME5VekJnWHVXeFdOVW1OdFRSN2VGT05nUXFnVkdvVDFoRVYzMlhYUW5KczFpRF9UaVE2bUtQOTBmZ1hOLW5nSlFXNmhsbEpKUDd2RUNSYlQ1Q0RJTDNUdzVDLUpWMm5ueXpYOF8tenM1MUF0MU1mTDVXN2tCM1NkdXNYVVVObFBuNFpoUmZBUTc?oc=5",
-      "subscription": true
-    },
-    {
-      "category": "market",
-      "category_label": "GOLD MARKET",
       "headline": "World embraces gold while US resists shift, advisor says - Mining.com",
       "source": "Mining.com",
       "published_at": "2026-11-06T15:34:42+00:00",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOS1R5cEx1VXNhVDNBOXUyWWdPVkY1djk4aFByWjZyVU95eFRkU2Rka25pbDdvNUd5Zk5uSXp4MV9CaVBPb1NUWjVrZWFJSmdMa1h3dVVRT3E3Z19HUHJPclBwS0dhaVNMSXFPUzNzNEwzZWlxVEtWSkc4LUUtQ1duRmdWblNHQQ?oc=5",
       "subscription": false
+    },
+    {
+      "category": "rates",
+      "category_label": "ECONOMY & RATES",
+      "headline": "Norway’s Oil Fund Reaches $224.5 Million Settlement With KPMG Over SVB Collapse - WSJ",
+      "source": "WSJ",
+      "published_at": "2026-11-06T15:05:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWkwzMTR6aWJJa296aWkzSW5jNjVBbkVsTXNVdUFnQzk2ZFFrX3NFSHUtN2k5N05pbWZPUzNIOTg0YkhBNVQxS0pfZkUwUngyMkZTd3hTc09JRkxKWThhSGk4QVNWMjlMNTRzeEVDUXRGWXZZWTFXNEx6SXp0N1BkdERTWjdGTE1KZnNEMUtIb3lLZHVXVTlNUHo5UEJDLXJiUFZTTE56RzBIMTJ5dUVSLTg3RzRIMEJXOHZONTVKU0VqbWpkeGpiNnJDNnJDTDhCQndN?oc=5",
+      "subscription": true
     },
     {
       "category": "market",
@@ -241,15 +250,6 @@
       "source": "The Economist",
       "published_at": "2026-11-05T13:58:17+00:00",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBUSWhYcG42aWFZdkRsUnBXRm9fRklLVHcxTF9ZT1ltVjBtMU1qMlIwOUM4RnRrU3l5UHViX1hnSmt5dVVybE5qamlscmRVZXk1Z2lheV9pdm5xbGVrY1h4RlNfWnB0Vkg4U1o1V2FtRjNpOVk?oc=5",
-      "subscription": true
-    },
-    {
-      "category": "rates",
-      "category_label": "ECONOMY & RATES",
-      "headline": "Bank of England Raises Rates for First Time Since Start of Iran War - WSJ",
-      "source": "WSJ",
-      "published_at": "2026-11-05T13:26:00+00:00",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTWxNSDBnNUpaa2lla2pMTld5RWlaTG1JWFZQaGFZeV9BWnA4LWFXV0NIUFVhUkFZemNGTUVfLXVFUUtOaVNFSXpZU19NVEFvbjU0djdzdXg4cDEzQ2IyWkQxZ1o0YjZzOFNkaUlvc095aTVYYWhnWUtXYWt0YktTcm4yZ1ZDUXJ4N2F2N0w3QjBwSmVYdDRISzhyZE1ldkRRdDh4U2p1QzhtQ3E1X0RHZmVySDRVNWVlXzl3SA?oc=5",
       "subscription": true
     },
     {
